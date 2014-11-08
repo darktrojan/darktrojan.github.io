@@ -122,11 +122,11 @@ footer a {
   text-decoration: underline;
 }
 
-em {
+em, i {
   font-style: italic;
 }
 
-strong {
+strong, b {
   font-weight: bold;
 }
 
