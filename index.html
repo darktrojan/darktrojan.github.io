@@ -20,30 +20,46 @@
           div#icons {
             text-align: center;
           }
-          div#icons > a {
+          div#icons > p > a {
             display: inline-block;
             vertical-align: top;
             width: 128px;
             padding: 1em;
             text-align: center;
           }
-          div#icons > a > img {
+          div#icons > p > a > img {
             padding: 0;
             border: 0;
             margin: 0 0 0.5em;
             box-shadow: none;
             vertical-align: middle;
+          }
+          div#icons > p#addons1 > a > img {
             height: 128px;
             width: 128px;
+          }
+          div#icons > p#addons2 > a > img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 64px;
+            width: 64px;
           }
         </style>
         <div id="icons">
           <h2 id="page_title">I Make Add-Ons</h2>
           <p>Here are some of them:</p>
-          <a href="newtabtools/"><img src="images/newtabtools128.png" />New Tab Tools</a>
-          <a href="openwith/"><img src="images/openwith128.png" />Open With</a>
-          <a href="shrunked/"><img src="images/shrunked128.png" />Shrunked Image Resizer</a>
-          <a href="badge/"><img src="images/badge128.png" />Tab Badge</a>
+          <p id="addons1">
+            <a href="newtabtools/"><img src="images/newtabtools128.png" />New Tab Tools</a>
+            <a href="openwith/"><img src="images/openwith128.png" />Open With</a>
+            <a href="shrunked/"><img src="images/shrunked128.png" />Shrunked Image Resizer</a>
+            <a href="badge/"><img src="images/badge128.png" />Tab Badge</a>
+          </p>
+          <p id="addons2">
+            <a href="https://github.com/darktrojan/buttonsback"><img src="images/addon64.png" />Buttons Back</a>
+            <a href="https://github.com/darktrojan/cookietime"><img src="images/cookietime64.png" />Cookie Time</a>
+            <a href="https://github.com/darktrojan/menufilter"><img src="images/menufilter64.png" />Menu Filter</a>
+          </p>
         </div>
       </section>
     </div>
