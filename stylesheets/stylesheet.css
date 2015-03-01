@@ -15,7 +15,6 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
@@ -35,11 +34,6 @@ footer, header, hgroup, menu, nav, section {
 
 ol, ul {
   list-style: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 /*******************************************************************************
@@ -145,13 +139,15 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
-p img {
+p img,
+td img {
   display: inline;
   margin: 0;
   padding: 0;
   vertical-align: middle;
   text-align: center;
   border: none;
+  box-shadow: none;
 }
 
 pre, code {
@@ -222,24 +218,6 @@ dl p {
   padding-left: 20px;
   font-style: italic;
 }
-
-table {
-  border: 1px solid #373737;
-  margin-bottom: 20px;
-  text-align: left;
- }
-
-th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 10px;
-  background: #373737;
-  color: #fff;
- }
-
-td {
-  padding: 10px;
-  border: 1px solid #373737;
- }
 
 form {
   background: #f2f2f2;
