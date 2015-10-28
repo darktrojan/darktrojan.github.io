@@ -255,6 +255,19 @@ Full-Width Styles
     vertical-align: top;
     margin-left: 20px;
   }
+
+  #main_left_equal {
+    width: 660px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #main_right_equal {
+    width: 660px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+  }
 }
 
 #forkme_banner {
