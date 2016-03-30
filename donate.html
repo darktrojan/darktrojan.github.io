@@ -4,13 +4,13 @@
     <meta charset='utf-8' />
     <meta name="description" content="DarkTrojan" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>DarkTrojan</title>
+    <title>Donate to DarkTrojan</title>
   </head>
 
   <body>
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <h1><img src="images/header-wide.png" width="573" height="110" alt="DarkTrojan" /></h1>
+          <h1><a href="/"><img src="images/header-wide.png" width="573" height="110" alt="DarkTrojan" /></a></h1>
         </header>
     </div>
 
@@ -18,10 +18,22 @@
       <section id="main_content" class="inner">
         <style type="text/css" scoped>
 
-form {
-  margin: 0;
-  padding: 0;
+#main_content {
   text-align: center;
+}
+form {
+  width: 28em;
+  margin: 1em auto;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  border-radius: 2px;
+}
+form p:first-of-type {
+  margin-top: 0;
+}
+form p:last-of-type {
+  margin-bottom: 0;
 }
 label {
   display: inline-block;
@@ -42,6 +54,7 @@ input[type="radio"] {
 
         </style>
         <h2 id="page_title">Thanks for donating!</h2>
+        <p>Your donation helps me to continue making stuff better.</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_donations" />
           <input type="hidden" name="business" value="paypal@darktrojan.net" />
@@ -67,8 +80,9 @@ input[type="radio"] {
             <label><input type="radio" id="amount2" name="amount" value="20.00" onclick="amountClicked();" required />$20.00</label>
             <label><input type="radio" id="amount3" name="amount" value="" onclick="otherClicked();" required />$<input size="4" id="amountInput" disabled required pattern="\d+(\.\d+)?" onkeydown="otherKeyDown(event);" oninput="otherInput();" onblur="otherBlur();" /></label>
           </p>
-          <p><button type="submit">Donate</button> by PayPal, Mastercard or Visa</p>
+          <p><button type="submit">Donate</button> by PayPal or credit card</p>
         </form>
+        <p>If you'd prefer to donate BitCoin, use this address: <code>1MgmXssGd1P8gpXGda5E7ndh9G9Ta4nCsf</code></p>
         <script type="text/javascript">
 
 var hash = location.hash.replace(/^.*for=/, '').replace(/&.*$/, '');
@@ -161,7 +175,7 @@ function otherKeyDown(event) {
       if (event.key == '.' && amount.value.indexOf('.') < 0 && decimals) {
         return;
       }
-      console.log(event);
+      // console.log(event);
       event.preventDefault();
     }
   } else {
@@ -178,7 +192,7 @@ function otherKeyDown(event) {
         amount.value.indexOf('.') < 0 && decimals) {
       return;
     }
-    console.log(event.code);
+    // console.log(event.code);
     event.preventDefault();
   }
 }
