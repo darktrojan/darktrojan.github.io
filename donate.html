@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta name="description" content="DarkTrojan" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>DarkTrojan</title>
+  </head>
+
+  <body>
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><img src="images/header-wide.png" width="573" height="110" alt="DarkTrojan" /></h1>
+        </header>
+    </div>
+
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <style type="text/css" scoped>
+
+form {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+label {
+  display: inline-block;
+}
+label + label {
+  -moz-margin-start: 1em;
+  -webkit-margin-start: 1em;
+  margin-inline-start: 1em;
+}
+input, select, button {
+  font-size: 16px;
+  font-family: "Myriad Pro", Calibri, Helvetica, Arial, sans-serif;
+}
+input[type="radio"] {
+  margin: 0 0.25em 2px;
+  vertical-align: middle;
+}
+
+        </style>
+        <h2 id="page_title">Thanks for donating!</h2>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_donations" />
+          <input type="hidden" name="business" value="paypal@darktrojan.net" />
+          <input type="hidden" name="item_name" value="Donation" />
+          <input type="hidden" name="no_note" value="1" />
+          <input type="hidden" name="no_shipping" value="1" />
+          <input type="hidden" name="rm" value="1" />
+          <p>
+            Select your currency:
+            <select id="currency_code" name="currency_code" onchange="selectedChanged();">
+              <option value="AUD" data-languages="en-AU" data-symbol="$" data-decimals="2" data-amounts="5,10,20">Australian Dollar (AUD)</option>
+              <option value="GBP" data-languages="cy,en-GB,gd" data-symbol="£" data-decimals="2" data-amounts="5,10,20">British Pound (GBP)</option>
+              <option value="CAD" data-languages="en-CA" data-symbol="$" data-decimals="2" data-amounts="5,10,20">Canadian Dollar (CAD)</option>
+              <option value="EUR" data-languages="ca,de,el,es-ES,et,eu,fi,fr,fy,ga,gl,it,lt,lij,lv,nl,pt-PT,sk,sl" data-symbol="€" data-decimals="2" data-amounts="5,10,20">Euro (EUR)</option>
+              <option value="JPY" data-languages="ja" data-symbol="¥" data-decimals="0" data-amounts="500,1000,2000">Japanese Yen (JPY)</option>
+              <option value="NZD" data-languages="en-NZ,mi" data-symbol="$" data-decimals="2" data-amounts="5,10,20">New Zealand Dollar (NZD)</option>
+              <option value="USD" selected data-languages="en-US" data-symbol="$" data-decimals="2" data-amounts="5,10,20">US Dollar (USD)</option>
+            </select>
+          </p>
+          <p>
+            <label><input type="radio" id="amount0" name="amount" value="5.00" onclick="amountClicked();" required />$5.00</label>
+            <label><input type="radio" id="amount1" name="amount" value="10.00" onclick="amountClicked();" required />$10.00</label>
+            <label><input type="radio" id="amount2" name="amount" value="20.00" onclick="amountClicked();" required />$20.00</label>
+            <label><input type="radio" id="amount3" name="amount" value="" onclick="otherClicked();" required />$<input size="4" id="amountInput" disabled required pattern="\d+(\.\d+)?" onkeydown="otherKeyDown(event);" oninput="otherInput();" onblur="otherBlur();" /></label>
+          </p>
+          <p><button type="submit">Donate</button> by PayPal, Mastercard or Visa</p>
+        </form>
+        <script type="text/javascript">
+
+var hash = location.hash.replace(/^.*for=/, '').replace(/&.*$/, '');
+if (hash) {
+  var replacements = {
+    'newtabtools': 'New Tab Tools',
+    'openwith': 'Open With',
+    'shrunked': 'Shrunked Image Resizer'
+  };
+  hash = replacements[hash];
+  if (hash) {
+    document.querySelector('input[name="item_name"]').value = 'Donation for ' + hash;
+  }
+}
+
+var options = document.getElementsByTagName('option');
+var found = false;
+for (var i = 0; !found && i < navigator.languages.length; i++) {
+  var language = navigator.languages[i];
+  for (var j = 0; j < options.length; j++) {
+    var languages = options[j].dataset.languages.split(',');
+    if (languages.indexOf(language) >= 0) {
+      options[j].selected = true;
+      found = true;
+      break;
+    }
+    if (languages.indexOf(language.replace(/-.*/, '')) >= 0) {
+      options[j].selected = true;
+      found = true;
+      break;
+    }
+  }
+}
+selectedChanged();
+var radio;
+for (var i = 0; i < 3; i++) {
+  radio = document.getElementById('amount' + i);
+  if (radio.checked) {
+    amountClicked();
+  }
+}
+radio = document.getElementById('amount3');
+if (radio.checked) {
+  otherClicked();
+}
+otherInput();
+
+function selectedChanged() {
+  var select = document.getElementById('currency_code');
+  var selected = select.options[select.options.selectedIndex];
+  var symbol = selected.dataset.symbol;
+  var decimals = selected.dataset.decimals;
+  var amounts = selected.dataset.amounts.split(',');
+  var radio;
+
+  for (var i = 0; i < 3; i++) {
+    radio = document.getElementById('amount' + i);
+    var amount = parseInt(amounts[i], 10);
+    radio.value = amount;
+    radio.nextSibling.nodeValue = symbol + amount.toFixed(decimals);
+  }
+
+  radio = document.getElementById('amount3');
+  radio.nextSibling.nodeValue = symbol;
+  otherBlur();
+}
+
+function amountClicked() {
+  var amount = document.getElementById('amountInput');
+  amount.disabled = true;
+}
+
+function otherClicked() {
+  var amount = document.getElementById('amountInput');
+  amount.disabled = false;
+  amount.select();
+}
+
+function otherKeyDown(event) {
+  var amount = document.getElementById('amountInput');
+  var select = document.getElementById('currency_code');
+  var selected = select.options[select.options.selectedIndex];
+  var decimals = selected.dataset.decimals;
+
+  if ('key' in event) {
+    if (!event.ctrlKey && event.key.length == 1) {
+      if (event.key >= '0' && event.key <= '9') {
+        return;
+      }
+      if (event.key == '.' && amount.value.indexOf('.') < 0 && decimals) {
+        return;
+      }
+      console.log(event);
+      event.preventDefault();
+    }
+  } else {
+    if (!event.shiftKey && (
+      (event.code >= 'Digit0' && event.code <= 'Digit9') ||
+      (event.code >= 'Numpad0' && event.code <= 'Numpad9') ||
+      (event.code >= 'ArrowDown' && event.code <= 'ArrowUp') ||
+      (event.code >= 'F1' && event.code <= 'F9') ||
+      ['Backspace', 'Delete', 'Insert', 'Tab', 'Enter', 'Home', 'End'].indexOf(event.code) >= 0
+    )) {
+      return;
+    }
+    if (['Period', 'NumpadDecimal'].indexOf(event.code) >= 0 &&
+        amount.value.indexOf('.') < 0 && decimals) {
+      return;
+    }
+    console.log(event.code);
+    event.preventDefault();
+  }
+}
+
+function otherInput() {
+  var amount = document.getElementById('amountInput');
+  var radio = document.getElementById('amount3');
+  radio.value = parseFloat(amount.value, 10);
+}
+
+function otherBlur() {
+  var select = document.getElementById('currency_code');
+  var selected = select.options[select.options.selectedIndex];
+  var decimals = selected.dataset.decimals;
+  var amount = document.getElementById('amountInput');
+  var radio = document.getElementById('amount3');
+  var value = parseFloat(amount.value, 10);
+  radio.value = amount.value = isNaN(value) ? '' : value.toFixed(decimals);
+}
+
+        </script>
+      </section>
+    </div>
+  </body>
+</html>
