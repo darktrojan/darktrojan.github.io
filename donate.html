@@ -127,7 +127,7 @@ for (var i = 0; i < 4; i++) {
 }
 radio = document.getElementById('amount4');
 if (radio.checked) {
-  otherClicked();
+  otherClicked(true);
 }
 otherInput();
 
@@ -135,7 +135,6 @@ function selectedChanged() {
   var select = document.getElementById('currency_code');
   var selected = select.options[select.options.selectedIndex];
   var symbol = selected.dataset.symbol;
-  var decimals = selected.dataset.decimals;
   var amounts = selected.dataset.amounts.split(',');
   var radio;
 
@@ -143,7 +142,7 @@ function selectedChanged() {
     radio = document.getElementById('amount' + i);
     var amount = parseInt(amounts[i], 10);
     radio.value = amount;
-    radio.nextSibling.nodeValue = symbol + amount.toFixed(decimals);
+    radio.nextSibling.nodeValue = symbol + amount;
   }
 
   radio = document.getElementById('amount4');
@@ -156,10 +155,12 @@ function amountClicked() {
   amount.disabled = true;
 }
 
-function otherClicked() {
+function otherClicked(noSelect) {
   var amount = document.getElementById('amountInput');
   amount.disabled = false;
-  amount.select();
+  if (!noSelect) {
+    amount.select();
+  }
 }
 
 function otherKeyDown(event) {
@@ -211,7 +212,7 @@ function otherBlur() {
   var amount = document.getElementById('amountInput');
   var radio = document.getElementById('amount4');
   var value = parseFloat(amount.value, 10);
-  radio.value = amount.value = isNaN(value) ? '' : value.toFixed(decimals);
+  radio.value = amount.value = isNaN(value) ? '' : value.toFixed(decimals && value % 1 ? decimals : 0);
 }
 
         </script>
