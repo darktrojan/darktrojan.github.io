@@ -96,12 +96,14 @@ input[type="radio"] {
   if (what) {
     document.getElementById('what').textContent = what;
     document.querySelector('input[name="item_name"]').value = 'Donation for ' + what;
+    document.title = 'Donate to ' + what;
   }
 
   var options = document.getElementsByTagName('option');
   var found = false;
-  for (var i = 0; !found && i < navigator.languages.length; i++) {
-    var language = navigator.languages[i];
+  var languages = navigator.languages || [navigator.language];
+  for (var i = 0; !found && i < languages.length; i++) {
+    var language = languages[i];
     for (var j = 0; j < options.length; j++) {
       var languages = options[j].dataset.languages.split(',');
       if (languages.indexOf(language) >= 0) {
