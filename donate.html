@@ -54,7 +54,7 @@ input[type="radio"] {
 
         </style>
         <h2 id="page_title">Thanks for donating!</h2>
-        <p>Your donation helps me to continue making stuff better.</p>
+        <p>Your donation helps me to continue making <span id="what">stuff</span> better.</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_donations" />
           <input type="hidden" name="business" value="paypal@darktrojan.net" />
@@ -86,50 +86,50 @@ input[type="radio"] {
         <p>If you'd prefer to donate BitCoin, use this address: <code>1MgmXssGd1P8gpXGda5E7ndh9G9Ta4nCsf</code></p>
         <script type="text/javascript">
 
-var hash = location.hash.replace(/^.*for=/, '').replace(/&.*$/, '');
-if (hash) {
+(function() {
   var replacements = {
-    'newtabtools': 'New Tab Tools',
-    'openwith': 'Open With',
-    'shrunked': 'Shrunked Image Resizer'
+    '?newtabtools': 'New Tab Tools',
+    '?openwith': 'Open With',
+    '?shrunked': 'Shrunked Image Resizer'
   };
-  hash = replacements[hash];
-  if (hash) {
-    document.querySelector('input[name="item_name"]').value = 'Donation for ' + hash;
+  var what = replacements[location.search];
+  if (what) {
+    document.getElementById('what').textContent = what;
+    document.querySelector('input[name="item_name"]').value = 'Donation for ' + what;
   }
-}
 
-var options = document.getElementsByTagName('option');
-var found = false;
-for (var i = 0; !found && i < navigator.languages.length; i++) {
-  var language = navigator.languages[i];
-  for (var j = 0; j < options.length; j++) {
-    var languages = options[j].dataset.languages.split(',');
-    if (languages.indexOf(language) >= 0) {
-      options[j].selected = true;
-      found = true;
-      break;
-    }
-    if (languages.indexOf(language.replace(/-.*/, '')) >= 0) {
-      options[j].selected = true;
-      found = true;
-      break;
+  var options = document.getElementsByTagName('option');
+  var found = false;
+  for (var i = 0; !found && i < navigator.languages.length; i++) {
+    var language = navigator.languages[i];
+    for (var j = 0; j < options.length; j++) {
+      var languages = options[j].dataset.languages.split(',');
+      if (languages.indexOf(language) >= 0) {
+        options[j].selected = true;
+        found = true;
+        break;
+      }
+      if (languages.indexOf(language.replace(/-.*/, '')) >= 0) {
+        options[j].selected = true;
+        found = true;
+        break;
+      }
     }
   }
-}
-selectedChanged();
-var radio;
-for (var i = 0; i < 4; i++) {
-  radio = document.getElementById('amount' + i);
+  selectedChanged();
+  var radio;
+  for (var i = 0; i < 4; i++) {
+    radio = document.getElementById('amount' + i);
+    if (radio.checked) {
+      amountClicked();
+    }
+  }
+  radio = document.getElementById('amount4');
   if (radio.checked) {
-    amountClicked();
+    otherClicked(true);
   }
-}
-radio = document.getElementById('amount4');
-if (radio.checked) {
-  otherClicked(true);
-}
-otherInput();
+  otherInput();
+})();
 
 function selectedChanged() {
   var select = document.getElementById('currency_code');
