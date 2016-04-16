@@ -88,6 +88,7 @@ input[type="radio"] {
 
 (function() {
   var replacements = {
+    '?menufilter': 'Menu Filter',
     '?newtabtools': 'New Tab Tools',
     '?openwith': 'Open With',
     '?shrunked': 'Shrunked Image Resizer'
@@ -105,13 +106,13 @@ input[type="radio"] {
   for (var i = 0; !found && i < languages.length; i++) {
     var language = languages[i];
     for (var j = 0; j < options.length; j++) {
-      var languages = options[j].dataset.languages.split(',');
-      if (languages.indexOf(language) >= 0) {
+      var optionLanguages = options[j].dataset.languages.split(',');
+      if (optionLanguages.indexOf(language) >= 0) {
         options[j].selected = true;
         found = true;
         break;
       }
-      if (languages.indexOf(language.replace(/-.*/, '')) >= 0) {
+      if (optionLanguages.indexOf(language.replace(/-.*/, '')) >= 0) {
         options[j].selected = true;
         found = true;
         break;
@@ -179,7 +180,6 @@ function otherKeyDown(event) {
       if (event.key == '.' && amount.value.indexOf('.') < 0 && decimals) {
         return;
       }
-      // console.log(event);
       event.preventDefault();
     }
   } else {
@@ -196,7 +196,6 @@ function otherKeyDown(event) {
         amount.value.indexOf('.') < 0 && decimals) {
       return;
     }
-    // console.log(event.code);
     event.preventDefault();
   }
 }
