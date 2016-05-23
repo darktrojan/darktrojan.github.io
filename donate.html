@@ -21,6 +21,19 @@
 #main_content {
   text-align: center;
 }
+#backlink_wrap {
+  text-align: left;
+}
+#backlink {
+  text-decoration: none;
+}
+#backlink:empty {
+  display: none;
+}
+#backlink::before {
+  content: '\25C1';
+  margin-inline-end: 0.5em;
+}
 form {
   width: 28em;
   margin: 1em auto;
@@ -53,6 +66,7 @@ input[type="radio"] {
 }
 
         </style>
+        <div id="backlink_wrap"><a id="backlink"></a></div>
         <h2 id="page_title">Thanks for donating!</h2>
         <p>Your donation helps me to continue making <span id="what">stuff</span> better.</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -95,6 +109,10 @@ input[type="radio"] {
   };
   var what = replacements[location.search];
   if (what) {
+    if (what != 'Menu Filter') { // No gh-pages page
+      document.getElementById('backlink').href = '/' + location.search.substring(1) + '/';
+      document.getElementById('backlink').textContent = 'Back to ' + what;
+    }
     document.getElementById('what').textContent = what;
     document.querySelector('input[name="item_name"]').value = 'Donation for ' + what;
     document.title = 'Donate to ' + what;
