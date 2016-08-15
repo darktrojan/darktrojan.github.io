@@ -102,6 +102,7 @@ input[type="radio"] {
 
 (function() {
   var replacements = {
+    '?betterreader': 'Better Reader',
     '?menufilter': 'Menu Filter',
     '?newtabtools': 'New Tab Tools',
     '?openwith': 'Open With',
@@ -109,7 +110,7 @@ input[type="radio"] {
   };
   var what = replacements[location.search];
   if (what) {
-    if (what != 'Menu Filter') { // No gh-pages page
+    if (what != 'Better Reader' && what != 'Menu Filter') { // No gh-pages page
       document.getElementById('backlink').href = '/' + location.search.substring(1) + '/';
       document.getElementById('backlink').textContent = 'Back to ' + what;
     }
