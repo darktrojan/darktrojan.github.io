@@ -306,6 +306,12 @@ header > h1 > a > img {
   padding: 0;
   box-shadow: none;
 }
+@media all and (max-width: 592px) {
+  header > h1 img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 #project_title {
   margin: 0;
