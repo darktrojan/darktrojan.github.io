@@ -111,7 +111,7 @@ input[type="radio"] {
   };
   var what = replacements[location.search];
   if (what) {
-    if (what != 'Better Reader' && what != 'Menu Filter') { // No gh-pages page
+    if (['newtabtools', 'openwith', 'shrunked'].indexOf(location.search) >= 0) { // No gh-pages page
       document.getElementById('backlink').href = '/' + location.search.substring(1) + '/';
       document.getElementById('backlink').textContent = 'Back to ' + what;
     }
