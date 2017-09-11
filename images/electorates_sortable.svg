@@ -1,0 +1,795 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1790" height="2271" font-family="Open Sans" font-size="16">
+	<path fill="#eee" d="M20 215H1770V239H20zM20 263H1770V287H20zM20 311H1770V335H20zM20 359H1770V383H20zM20 407H1770V431H20zM20 455H1770V479H20zM20 503H1770V527H20zM20 551H1770V575H20zM20 599H1770V623H20zM20 647H1770V671H20zM20 695H1770V719H20zM20 743H1770V767H20zM20 791H1770V815H20zM20 839H1770V863H20zM20 887H1770V911H20zM20 935H1770V959H20zM20 983H1770V1007H20zM20 1031H1770V1055H20zM20 1079H1770V1103H20zM20 1127H1770V1151H20zM20 1175H1770V1199H20zM20 1223H1770V1247H20zM20 1271H1770V1295H20zM20 1319H1770V1343H20zM20 1367H1770V1391H20zM20 1415H1770V1439H20zM20 1463H1770V1487H20zM20 1511H1770V1535H20zM20 1559H1770V1583H20zM20 1607H1770V1631H20zM20 1655H1770V1679H20zM20 1703H1770V1727H20zM20 1751H1770V1775H20zM20 1799H1770V1823H20zM20 1847H1770V1871H20zM20 1895H1770V1919H20zM20 1943H1770V1967H20zM20 1991H1770V2015H20zM20 2039H1770V2063H20zM20 2087H1770V2111H20zM20 2135H1770V2159H20zM20 2183H1770V2207H20z"/>
+	<g stroke-dasharray="2 2">
+		<path fill="none" stroke="gray" d="m 250,2296.4456 v -2064 m 50,0 v 2064 m 50,-2064 v 2064 m 50,0 v -2064 m 50,0 v 2064" transform="translate(20.5,-45.445557)"/>
+		<text x="252" y="2295.157" font-size="10" transform="translate(20.5,-45.445557)">0</text>
+		<text x="302" y="2295.157" font-size="10" transform="translate(20.5,-45.445557)">5,000</text>
+		<text x="352" y="2295.157" font-size="10" transform="translate(20.5,-45.445557)">10,000</text>
+		<text x="402" y="2295.157" font-size="10" transform="translate(20.5,-45.445557)">15,000</text>
+		<text x="452" y="2295.157" font-size="10" transform="translate(20.5,-45.445557)">20,000</text>
+	</g>
+	<g stroke-dasharray="2 2">
+		<path fill="none" stroke="gray" d="m 250,2296.4456 v -2064 m 50,0 v 2064 m 50,-2064 v 2064 m 50,0 v -2064 m 50,0 v 2064" transform="translate(270.5,-45.445557)"/>
+		<text x="252" y="2295.157" font-size="10" transform="translate(270.5,-45.445557)">0</text>
+		<text x="302" y="2295.157" font-size="10" transform="translate(270.5,-45.445557)">5,000</text>
+		<text x="352" y="2295.157" font-size="10" transform="translate(270.5,-45.445557)">10,000</text>
+		<text x="402" y="2295.157" font-size="10" transform="translate(270.5,-45.445557)">15,000</text>
+		<text x="452" y="2295.157" font-size="10" transform="translate(270.5,-45.445557)">20,000</text>
+	</g>
+	<g stroke-dasharray="2 2">
+		<path fill="none" stroke="gray" d="m 250,2296.4456 v -2064 m 50,0 v 2064 m 50,-2064 v 2064 m 50,0 v -2064 m 50,0 v 2064" transform="translate(520.5,-45.445557)"/>
+		<text x="252" y="2295.157" font-size="10" transform="translate(520.5,-45.445557)">0</text>
+		<text x="302" y="2295.157" font-size="10" transform="translate(520.5,-45.445557)">5,000</text>
+		<text x="352" y="2295.157" font-size="10" transform="translate(520.5,-45.445557)">10,000</text>
+		<text x="402" y="2295.157" font-size="10" transform="translate(520.5,-45.445557)">15,000</text>
+		<text x="452" y="2295.157" font-size="10" transform="translate(520.5,-45.445557)">20,000</text>
+	</g>
+	<g stroke-dasharray="2 2">
+		<path fill="none" stroke="gray" d="m 250,2296.4456 v -2064 m 50,0 v 2064 m 50,-2064 v 2064 m 50,0 v -2064 m 50,0 v 2064" transform="translate(770.5,-45.445557)"/>
+		<text x="252" y="2295.157" font-size="10" transform="translate(770.5,-45.445557)">0</text>
+		<text x="302" y="2295.157" font-size="10" transform="translate(770.5,-45.445557)">5,000</text>
+		<text x="352" y="2295.157" font-size="10" transform="translate(770.5,-45.445557)">10,000</text>
+		<text x="402" y="2295.157" font-size="10" transform="translate(770.5,-45.445557)">15,000</text>
+		<text x="452" y="2295.157" font-size="10" transform="translate(770.5,-45.445557)">20,000</text>
+	</g>
+	<g stroke-dasharray="2 2">
+		<path fill="none" stroke="gray" d="m 250,2296.4456 v -2064 m 50,0 v 2064 m 50,-2064 v 2064 m 50,0 v -2064 m 50,0 v 2064" transform="translate(1020.5,-45.445557)"/>
+		<text x="252" y="2295.157" font-size="10" transform="translate(1020.5,-45.445557)">0</text>
+		<text x="302" y="2295.157" font-size="10" transform="translate(1020.5,-45.445557)">5,000</text>
+		<text x="352" y="2295.157" font-size="10" transform="translate(1020.5,-45.445557)">10,000</text>
+		<text x="402" y="2295.157" font-size="10" transform="translate(1020.5,-45.445557)">15,000</text>
+		<text x="452" y="2295.157" font-size="10" transform="translate(1020.5,-45.445557)">20,000</text>
+	</g>
+	<g stroke-dasharray="2 2">
+		<path fill="none" stroke="gray" d="m 250,2296.4456 v -2064 m 50,0 v 2064 m 50,-2064 v 2064 m 50,0 v -2064 m 50,0 v 2064" transform="translate(1270.5,-45.445557)"/>
+		<text x="252" y="2295.157" font-size="10" transform="translate(1270.5,-45.445557)">0</text>
+		<text x="302" y="2295.157" font-size="10" transform="translate(1270.5,-45.445557)">5,000</text>
+		<text x="352" y="2295.157" font-size="10" transform="translate(1270.5,-45.445557)">10,000</text>
+		<text x="402" y="2295.157" font-size="10" transform="translate(1270.5,-45.445557)">15,000</text>
+		<text x="452" y="2295.157" font-size="10" transform="translate(1270.5,-45.445557)">20,000</text>
+	</g>
+	<text x="894.029" y="41.173" font-size="28" font-weight="600" text-anchor="middle">How safe is that seat?</text>
+	<text x="894.473" y="79.173" font-size="20" font-weight="600" text-anchor="middle">Electorate majorities from the last six general elections</text>
+	<text x="895.006" y="99.173" font-size="12" text-anchor="middle">(data from www.parliament.nz, electionresults.govt.nz)</text>
+	<g>
+		<path fill="#0000e6" d="M139.862 130.949H159.862V150.949H139.862z" transform="translate(290.18625,-9.1563721) translate(487.83035)"/>
+		<text x="163.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(487.83035)">National</text>
+		<path fill="red" d="M254.316 130.949H274.31600000000003V150.949H254.316z" transform="translate(290.18625,-9.1563721) translate(105.17942)"/>
+		<text x="278.316" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(105.17942)">Labour</text>
+		<path fill="#ff0" d="M358.724 130.949H378.724V150.949H358.724z" transform="translate(290.18625,-9.1563721) translate(-261.22063)"/>
+		<text x="382.724" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-261.22063)">ACT</text>
+		<path fill="#909" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(536.74136)"/>
+		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(536.74136)">United Future</text>
+		<path fill="#600" d="M596.385 130.949H616.385V150.949H596.385z" transform="translate(290.18625,-9.1563721) translate(-54.751991)"/>
+		<text x="620.385" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-54.751991)">Maori</text>
+		<g>
+			<path fill="#b30000" d="M689.007 130.949H709.007V150.949H689.007z" transform="translate(290.18625,-9.1563721) translate(-231.66633)"/>
+			<text x="713.007" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-231.66633)">Mana</text>
+		</g>
+		<g>
+			<path fill="#999" d="M779.862 130.949H799.862V150.949H779.862z" transform="translate(290.18625,-9.1563721) translate(58.427208)"/>
+			<text x="803.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(58.427208)">Progressive</text>
+		</g>
+		<g>
+			<path d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(299.32021)"/>
+			<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(299.32021)">NZ First</text>
+		</g>
+		<g>
+			<path fill="#00b300" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-267.78313)"/>
+			<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-267.78313)">Alliance</text>
+		</g>
+		<g>
+			<path fill="#060" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-165.44654)"/>
+			<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-165.44654)">Green</text>
+		</g>
+	</g>
+	<g font-size="20" font-weight="600" style="cursor: pointer;">
+		<text x="28" y="177" onclick="sort(0);">Electorate</text>
+		<text x="270" y="177" onclick="sort(250);">1999</text>
+		<text x="520" y="177" onclick="sort(500);">2002</text>
+		<text x="770" y="177" onclick="sort(750);">2005</text>
+		<text x="1020" y="177" onclick="sort(1000);">2008</text>
+		<text x="1270" y="177" onclick="sort(1250);">2011</text>
+		<text x="1520" y="177" onclick="sort(1500);">2014</text>
+	</g>
+	<g id="data" transform="translate(20,191)">
+		<g>
+			<text y="19" x="8">Albany</text>
+			<rect fill="#0000e6" height="20" width="49.48" y="2" x="250" />
+		</g>
+		<g transform="translate(0,24)">
+			<text y="19" x="8">Aoraki</text>
+			<rect fill="#ff0000" height="20" width="71.389999" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="69.370003" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="69.370003" y="2" x="750" />
+		</g>
+		<g transform="translate(0,48)">
+			<text y="19" x="8">Auckland Central</text>
+			<rect fill="#ff0000" height="20" width="52.849998" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="38.84" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="38.84" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="14.97" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="7.1700001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="6" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,72)">
+			<text y="19" x="8">Banks Peninsula</text>
+			<rect fill="#ff0000" height="20" width="14.55" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="19.23" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="19.23" y="2" x="750" />
+		</g>
+		<g transform="translate(0,96)">
+			<text y="19" x="8">Bay of Plenty</text>
+			<rect fill="#0000e6" height="20" width="71.019997" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="135.84" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="135.84" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="176.03999" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="177.60001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="150.96001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,120)">
+			<text y="19" x="8">Botany</text>
+			<rect fill="#0000e6" height="20" width="108.72" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="107.41" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="134.95" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,144)">
+			<text y="19" x="8">Christchurch Central</text>
+			<rect fill="#ff0000" height="20" width="94.040001" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="78.360001" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="78.360001" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="9.3500004" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="0.47" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="24.200001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,168)">
+			<text y="19" x="8">Christchurch East</text>
+			<rect fill="#ff0000" height="20" width="111.62" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="119.73" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="119.73" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="57.650002" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="53.34" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="40.73" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,192)">
+			<text y="19" x="8">Clevedon</text>
+			<rect fill="#0000e6" height="20" width="128.71001" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="128.71001" y="2" x="750" />
+		</g>
+		<g transform="translate(0,216)">
+			<text y="19" x="8">Clutha-Southland</text>
+			<rect fill="#0000e6" height="20" width="64.010002" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="130.32001" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="130.32001" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="154.75" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="161.67999" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="148.86" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,240)">
+			<text y="19" x="8">Coromandel</text>
+			<rect fill="#006600" height="20" width="2.5" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="105.78" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="105.78" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="145.60001" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="127.4" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="158.00999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,264)">
+			<text y="19" x="8">Dunedin North</text>
+			<rect fill="#ff0000" height="20" width="126.95" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="76.300003" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="76.300003" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="71.550003" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="34.889999" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="59.169998" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,288)">
+			<text y="19" x="8">Dunedin South</text>
+			<rect fill="#ff0000" height="20" width="106.08" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="106.4" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="106.4" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="64.489998" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="41.75" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="38.580002" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,312)">
+			<text y="19" x="8">East Coast</text>
+			<rect fill="#ff0000" height="20" width="38.450001" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="12.19" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="12.19" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="64.129997" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="47.740002" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="79.339996" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,336)">
+			<text y="19" x="8">East Coast Bays</text>
+			<rect fill="#0000e6" height="20" width="72.860001" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="72.860001" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="139.74001" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="146.41" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="150.34" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,360)">
+			<text y="19" x="8">Epsom</text>
+			<rect fill="#0000e6" height="20" width="19.08" y="2" x="250" />
+			<rect fill="#ffff00" height="20" width="31.02" y="2" x="500" />
+			<rect fill="#ffff00" height="20" width="31.02" y="2" x="750" />
+			<rect fill="#ffff00" height="20" width="128.82001" y="2" x="1000" />
+			<rect fill="#ffff00" height="20" width="22.610001" y="2" x="1250" />
+			<rect fill="#ffff00" height="20" width="42.5" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,384)">
+			<text y="19" x="8">Hamilton East</text>
+			<rect fill="#0000e6" height="20" width="6.9200001" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="52.98" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="52.98" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="88.199997" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="82.75" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="101.99" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,408)">
+			<text y="19" x="8">Hamilton West</text>
+			<rect fill="#ff0000" height="20" width="16.290001" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="8.25" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="8.25" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="16.18" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="44.18" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="57.84" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,432)">
+			<text y="19" x="8">Hauraki</text>
+			<rect fill="#ff0000" height="20" width="72.379997" y="2" x="250" />
+		</g>
+		<g transform="translate(0,456)">
+			<text y="19" x="8">Hauraki-Waikato</text>
+			<rect fill="#ff0000" height="20" width="8.8800001" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="59.349998" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="76.949997" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,480)">
+			<text y="19" x="8">Helensville</text>
+			<rect fill="#0000e6" height="20" width="127.78" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="127.78" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="205.47" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="210.66" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="182.87" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,504)">
+			<text y="19" x="8">Hunua</text>
+			<rect fill="#0000e6" height="20" width="51.950001" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="158.58" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="167.97" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="173.75999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,528)">
+			<text y="19" x="8">Hutt South</text>
+			<rect fill="#ff0000" height="20" width="88.849998" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="57.400002" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="57.400002" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="40.860001" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="48.25" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="7.0900002" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,552)">
+			<text y="19" x="8">Ikaroa-Rāwhiti</text>
+			<rect fill="#ff0000" height="20" width="6.9499998" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="19.32" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="19.32" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="16.450001" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="65.410004" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="46.73" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,576)">
+			<text y="19" x="8">Ilam</text>
+			<rect fill="#0000e6" height="20" width="67.919998" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="78.209999" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="78.209999" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="118.93" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="133.12" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="118.98" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,600)">
+			<text y="19" x="8">Invercargill</text>
+			<rect fill="#ff0000" height="20" width="79.900002" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="20.52" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="20.52" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="66.639999" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="62.630001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="74.82" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,624)">
+			<text y="19" x="8">Kaikōura</text>
+			<rect fill="#0000e6" height="20" width="14.86" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="46.75" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="46.75" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="110.77" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="114.45" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="125.7" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,648)">
+			<text y="19" x="8">Karapiro</text>
+			<rect fill="#0000e6" height="20" width="52.16" y="2" x="250" />
+		</g>
+		<g transform="translate(0,672)">
+			<text y="19" x="8">Kelston</text>
+			<rect fill="#ff0000" height="20" width="53.669998" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,696)">
+			<text y="19" x="8">Mana</text>
+			<rect fill="#ff0000" height="20" width="54.75" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="67.339996" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="67.339996" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="61.549999" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="22.299999" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="79.529999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,720)">
+			<text y="19" x="8">Māngere</text>
+			<rect fill="#ff0000" height="20" width="130.47" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="160.2" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="160.2" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="71.260002" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="151.59" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="149.33" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,744)">
+			<text y="19" x="8">Manukau East</text>
+			<rect fill="#ff0000" height="20" width="70.860001" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="98.900002" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="98.900002" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="124.45" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="158.38" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="132.53999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,768)">
+			<text y="19" x="8">Manurewa</text>
+			<rect fill="#ff0000" height="20" width="130.62" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="117.07" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="117.07" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="67.260002" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="86.099998" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="64.019997" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,792)">
+			<text y="19" x="8">Maungakiekie</text>
+			<rect fill="#ff0000" height="20" width="25.120001" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="64.5" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="64.5" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="19.42" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="30.209999" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="23.48" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,816)">
+			<text y="19" x="8">Mt Albert</text>
+			<rect fill="#ff0000" height="20" width="131.08" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="147.49001" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="147.49001" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="103.51" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="100.21" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="106.56" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,840)">
+			<text y="19" x="8">Mt Roskill</text>
+			<rect fill="#ff0000" height="20" width="97.07" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="98.949997" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="98.949997" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="64.18" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="72.709999" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="80.910004" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,864)">
+			<text y="19" x="8">Napier</text>
+			<rect fill="#ff0000" height="20" width="118.63" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="35.91" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="35.91" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="90.18" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="37.009998" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="38.5" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,888)">
+			<text y="19" x="8">Nelson</text>
+			<rect fill="#0000e6" height="20" width="45.209999" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="102.26" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="102.26" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="84.709999" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="70.879997" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="76.050003" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,912)">
+			<text y="19" x="8">New Lynn</text>
+			<rect fill="#ff0000" height="20" width="80.779999" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="80.779999" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="40.25" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="51.900002" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="45.57" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,936)">
+			<text y="19" x="8">New Plymouth</text>
+			<rect fill="#ff0000" height="20" width="150.92" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="54.389999" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="54.389999" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="1.05" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="42.700001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="97.779999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,960)">
+			<text y="19" x="8">North Shore</text>
+			<rect fill="#0000e6" height="20" width="70.480003" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="97.010002" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="97.010002" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="145.74001" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="152.28" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="165.03" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,984)">
+			<text y="19" x="8">Northcote</text>
+			<rect fill="#ff0000" height="20" width="2.78" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="23.83" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="23.83" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="93.599998" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="93.790001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="96.639999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1008)">
+			<text y="19" x="8">Northland</text>
+			<rect fill="#0000e6" height="20" width="54.540001" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="92.75" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="92.75" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="100.54" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="113.62" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="93" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1032)">
+			<text y="19" x="8">Ōhāriu</text>
+			<rect fill="#990099" height="20" width="10.06" y="2" x="1000" />
+			<rect fill="#990099" height="20" width="13.92" y="2" x="1250" />
+			<rect fill="#990099" height="20" width="7.0999999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1056)">
+			<text y="19" x="8">Ohariu-Belmont</text>
+			<rect fill="#990099" height="20" width="125.57" y="2" x="250" />
+			<rect fill="#990099" height="20" width="77.019997" y="2" x="500" />
+			<rect fill="#990099" height="20" width="77.019997" y="2" x="750" />
+		</g>
+		<g transform="translate(0,1080)">
+			<text y="19" x="8">Otago</text>
+			<rect fill="#0000e6" height="20" width="23.67" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="19.950001" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="19.950001" y="2" x="750" />
+		</g>
+		<g transform="translate(0,1104)">
+			<text y="19" x="8">Ōtaki</text>
+			<rect fill="#ff0000" height="20" width="72.5" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="3.8199999" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="3.8199999" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="13.54" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="52.310001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="77.82" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1128)">
+			<text y="19" x="8">Pakuranga</text>
+			<rect fill="#0000e6" height="20" width="53.139999" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="95.82" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="95.82" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="139.06" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="138.46001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="128.67" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1152)">
+			<text y="19" x="8">Palmerston North</text>
+			<rect fill="#ff0000" height="20" width="131.53" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="55" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="55" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="11.17" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="32.849998" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="22.120001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1176)">
+			<text y="19" x="8">Papakura</text>
+			<rect fill="#0000e6" height="20" width="102.77" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="98.900002" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="51.189999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1200)">
+			<text y="19" x="8">Piako</text>
+			<rect fill="#0000e6" height="20" width="83.510002" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="83.510002" y="2" x="750" />
+		</g>
+		<g transform="translate(0,1224)">
+			<text y="19" x="8">Port Hills</text>
+			<rect fill="#ff0000" height="20" width="34.52" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="30.969999" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="22.280001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1248)">
+			<text y="19" x="8">Port Waikato</text>
+			<rect fill="#0000e6" height="20" width="39.150002" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="134.98" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="134.98" y="2" x="750" />
+		</g>
+		<g transform="translate(0,1272)">
+			<text y="19" x="8">Rakaia</text>
+			<rect fill="#0000e6" height="20" width="106.02" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="104.48" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="104.48" y="2" x="750" />
+		</g>
+		<g transform="translate(0,1296)">
+			<text y="19" x="8">Rangitata</text>
+			<rect fill="#0000e6" height="20" width="81.120003" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="65.370003" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="141.07001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1320)">
+			<text y="19" x="8">Rangitīkei</text>
+			<rect fill="#0000e6" height="20" width="2.8900001" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="96.599998" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="96.599998" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="120.42" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="93.82" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="110.6" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1344)">
+			<text y="19" x="8">Rimutaka</text>
+			<rect fill="#ff0000" height="20" width="83.739998" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="82.769997" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="82.769997" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="7.5300002" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="32.860001" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="66.639999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1368)">
+			<text y="19" x="8">Rodney</text>
+			<rect fill="#0000e6" height="20" width="69.050003" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="115.36" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="115.36" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="156.35001" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="122.22" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="202.3" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1392)">
+			<text y="19" x="8">Rongotai</text>
+			<rect fill="#ff0000" height="20" width="129.28" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="126.38" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="126.38" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="90.199997" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="90.470001" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="96.169998" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1416)">
+			<text y="19" x="8">Rotorua</text>
+			<rect fill="#ff0000" height="20" width="49.779999" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="6.6199999" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="6.6199999" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="50.650002" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="73.57" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="74.18" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1440)">
+			<text y="19" x="8">Selwyn</text>
+			<rect fill="#0000e6" height="20" width="110.75" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="194.50999" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="205.61" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1464)">
+			<text y="19" x="8">Tainui</text>
+			<rect fill="#ff0000" height="20" width="18.6" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="18.6" y="2" x="750" />
+		</g>
+		<g transform="translate(0,1488)">
+			<text y="19" x="8">Tāmaki</text>
+			<rect fill="#0000e6" height="20" width="49.110001" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="95.099998" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="95.099998" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="170.2" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="177.86" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="204.21001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1512)">
+			<text y="19" x="8">Tāmaki Makaurau</text>
+			<rect fill="#660000" height="20" width="21.27" y="2" x="500" />
+			<rect fill="#660000" height="20" width="21.27" y="2" x="750" />
+			<rect fill="#660000" height="20" width="75.400002" y="2" x="1000" />
+			<rect fill="#660000" height="20" width="9.3599997" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="14.62" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1536)">
+			<text y="19" x="8">Taranaki-King Country</text>
+			<rect fill="#0000e6" height="20" width="65.099998" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="131.17999" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="131.17999" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="156.17999" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="150.89" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="167.73" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1560)">
+			<text y="19" x="8">Taupō</text>
+			<rect fill="#ff0000" height="20" width="35.779999" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="12.85" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="12.85" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="64.449997" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="141.14999" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="150.46001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1584)">
+			<text y="19" x="8">Tauranga</text>
+			<rect fill="#000000" height="20" width="0.63" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="7.3000002" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="7.3000002" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="117.42" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="172.64" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="148.42" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1608)">
+			<text y="19" x="8">Te Atatū</text>
+			<rect fill="#ff0000" height="20" width="92.620003" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="104.47" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="104.47" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="52.98" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="54.16" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="28.129999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1632)">
+			<text y="19" x="8">Te Tai Hauāuru</text>
+			<rect fill="#ff0000" height="20" width="62.330002" y="2" x="250" />
+			<rect fill="#660000" height="20" width="51.130001" y="2" x="500" />
+			<rect fill="#660000" height="20" width="51.130001" y="2" x="750" />
+			<rect fill="#660000" height="20" width="78.169998" y="2" x="1000" />
+			<rect fill="#660000" height="20" width="32.209999" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="15.54" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1656)">
+			<text y="19" x="8">Te Tai Tokerau</text>
+			<rect fill="#ff0000" height="20" width="56.919998" y="2" x="250" />
+			<rect fill="#660000" height="20" width="36.130001" y="2" x="500" />
+			<rect fill="#660000" height="20" width="36.130001" y="2" x="750" />
+			<rect fill="#660000" height="20" width="63.080002" y="2" x="1000" />
+			<rect fill="#b30000" height="20" width="11.65" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="7.4299998" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1680)">
+			<text y="19" x="8">Te Tai Tonga</text>
+			<rect fill="#ff0000" height="20" width="45.220001" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="25.030001" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="25.030001" y="2" x="750" />
+			<rect fill="#660000" height="20" width="10.49" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="14.75" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="35.540001" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1704)">
+			<text y="19" x="8">Titirangi</text>
+			<rect fill="#ff0000" height="20" width="58" y="2" x="250" />
+		</g>
+		<g transform="translate(0,1728)">
+			<text y="19" x="8">Tukituki</text>
+			<rect fill="#ff0000" height="20" width="86.459999" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="24.02" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="24.02" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="78.110001" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="96.599998" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="64.900002" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1752)">
+			<text y="19" x="8">Upper Harbour</text>
+			<rect fill="#0000e6" height="20" width="96.919998" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1776)">
+			<text y="19" x="8">Waiariki</text>
+			<rect fill="#ff0000" height="20" width="43.689999" y="2" x="250" />
+			<rect fill="#660000" height="20" width="28.709999" y="2" x="500" />
+			<rect fill="#660000" height="20" width="28.709999" y="2" x="750" />
+			<rect fill="#660000" height="20" width="68.120003" y="2" x="1000" />
+			<rect fill="#660000" height="20" width="18.83" y="2" x="1250" />
+			<rect fill="#660000" height="20" width="38.889999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1800)">
+			<text y="19" x="8">Waikato</text>
+			<rect fill="#0000e6" height="20" width="128.5" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="141.98" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="161.69" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1824)">
+			<text y="19" x="8">Waimakariri</text>
+			<rect fill="#ff0000" height="20" width="11.41" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="56.060001" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="56.060001" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="3.9000001" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="6.4200001" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="25.059999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1848)">
+			<text y="19" x="8">Wairarapa</text>
+			<rect fill="#ff0000" height="20" width="30.33" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="27.52" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="27.52" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="67.580002" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="71.349998" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="67.709999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1872)">
+			<text y="19" x="8">Waitakere</text>
+			<rect fill="#0000e6" height="20" width="40.560001" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="49.419998" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="49.419998" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="6.3200002" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="0.090000004" y="2" x="1250" />
+		</g>
+		<g transform="translate(0,1896)">
+			<text y="19" x="8">Waitaki</text>
+			<rect fill="#0000e6" height="20" width="110.39" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="141.42999" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="166.67999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1920)">
+			<text y="19" x="8">Wellington Central</text>
+			<rect fill="#ff0000" height="20" width="14.82" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="61.799999" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="61.799999" y="2" x="750" />
+			<rect fill="#ff0000" height="20" width="19.040001" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="63.759998" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="82.669998" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1944)">
+			<text y="19" x="8">West Coast-Tasman</text>
+			<rect fill="#ff0000" height="20" width="73.779999" y="2" x="250" />
+			<rect fill="#ff0000" height="20" width="21.540001" y="2" x="500" />
+			<rect fill="#ff0000" height="20" width="21.540001" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="9.71" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="25.389999" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="40.939999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1968)">
+			<text y="19" x="8">Whanganui</text>
+			<rect fill="#ff0000" height="20" width="31.549999" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="24.02" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="24.02" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="63.330002" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="50.459999" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="45.049999" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,1992)">
+			<text y="19" x="8">Whangarei</text>
+			<rect fill="#0000e6" height="20" width="19.34" y="2" x="250" />
+			<rect fill="#0000e6" height="20" width="90.889999" y="2" x="500" />
+			<rect fill="#0000e6" height="20" width="90.889999" y="2" x="750" />
+			<rect fill="#0000e6" height="20" width="146.63" y="2" x="1000" />
+			<rect fill="#0000e6" height="20" width="124.47" y="2" x="1250" />
+			<rect fill="#0000e6" height="20" width="131.69" y="2" x="1500" />
+		</g>
+		<g transform="translate(0,2016)">
+			<text y="19" x="8">Wigram</text>
+			<rect fill="#00ff00" height="20" width="98.849998" y="2" x="250" />
+			<rect fill="#00b300" height="20" width="85.480003" y="2" x="500" />
+			<rect fill="#00b300" height="20" width="85.480003" y="2" x="750" />
+			<rect fill="#00b300" height="20" width="47.669998" y="2" x="1000" />
+			<rect fill="#ff0000" height="20" width="15" y="2" x="1250" />
+			<rect fill="#ff0000" height="20" width="33.299999" y="2" x="1500" />
+		</g>
+	</g>
+	<script type="text/javascript"><![CDATA[
+		function sort(column) {
+			let y = 0;
+			for (let row of [...document.querySelectorAll('#data > g')].sort((a, b) => {
+				if (column == 0) {
+					let nameA = a.querySelector('text').textContent.replace('Ō', 'O');
+					let nameB = b.querySelector('text').textContent.replace('Ō', 'O');
+					return nameA < nameB ? -1 : 1;
+				}
+				let colA = a.querySelector('rect[x="' + column + '"]');
+				let colB = b.querySelector('rect[x="' + column + '"]');
+				if (colA && !colB) {
+					return -1;
+				}
+				if (!colA && !colB) {
+					return 0;
+				}
+				if (!colA && colB) {
+					return 1;
+				}
+				return parseInt(colB.getAttribute('width'), 10) - parseInt(colA.getAttribute('width'), 10);
+			})) {
+				row.setAttribute('transform', 'translate(0, ' + y + ')');
+				y += 24;
+			}
+		}
+	]]></script>
+</svg>
