@@ -1,0 +1,842 @@
+[
+  {
+    "img": "https://www.parliament.nz/media/2061/adams-amy.jpg?crop=0.0925925925925926,0.028587764436821043,0.065656565656565635,0.33612858141160029&cropmode=percentage&width=200&height=200",
+    "name": "Amy Adams",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Selwyn"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4439/allan-kiritapu.jpg?crop=0.075785582255083209,0.028005436401133031,0,0.27447424831968453&cropmode=percentage&width=200&height=200",
+    "name": "Kiritapu Allan",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4438/andersen-virginia.jpg?crop=0.0798134322485952,0.026373454428521133,0.07201014705590017,0.33349339787675836&cropmode=percentage&width=200&height=200",
+    "name": "Ginny Andersen",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1234/arden-jacinda.jpg?crop=0.033333333333333333,0.040880503144654086,0.084054133568696621,0.29299683036631197&cropmode=percentage&width=200&height=200",
+    "name": "Jacinda Ardern",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Mt Albert"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1259/bakshi-kanwaljit-singh.jpg?crop=0,0.035509332620872643,0,0.20977368624705189&cropmode=percentage&width=200&height=200",
+    "name": "Kanwaljit Singh Bakshi",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2047/ball-darroch.jpg?crop=0,0.039584868808962267,0,0.20569815005896228&cropmode=percentage&width=200&height=200",
+    "name": "Darroch Ball",
+    "category": 2,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2005/barry-maggie.jpg?crop=0.0855431993156544,0.044773070467471386,0.059024807527801586,0.30961787809362751&cropmode=percentage&width=200&height=200",
+    "name": "Maggie Barry",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "North Shore"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1260/bayly-andrew.jpg?crop=0.10722795869737888,0.056948461642213795,0.098490865766481278,0.34359404738711463&cropmode=percentage&width=200&height=200",
+    "name": "Andrew Bayly",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Hunua"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1262/bennett-david3.jpg?crop=0.10584250635055037,0,0.047417442845046641,0.36095090505328076&cropmode=percentage&width=200&height=200",
+    "name": "David Bennett",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Hamilton East"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1263/bennett-paula.jpg?crop=0.08,0,0.068936170212765907,0.35768767563227621&cropmode=percentage&width=200&height=200",
+    "name": "Paula Bennett",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Upper Harbour"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4843/bidois-dan.jpg?center=0.294478527607362,0.44973544973544971&mode=crop&width=200&height=200",
+    "name": "Dan Bidois",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Northcote"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4710/bishop-chris.jpg?crop=0.19942186705082929,0,0.19612634553486455,0.43509178746326532&cropmode=percentage&width=200&height=200",
+    "name": "Chris Bishop",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Hutt South"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2058/bridgess.jpg?crop=0.064220183486238522,0.0346200450060585,0.018348623853211139,0.27297905487277141&cropmode=percentage&width=200&height=200",
+    "name": "Simon Bridges",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Tauranga"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4396/simeon-brown.jpg?center=0.47337278106508873,0.421875&mode=crop&width=200&height=200",
+    "name": "Simeon Brown",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Pakuranga"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1271/brownlee-gerry3.jpg?crop=0,0.075471698113207544,0,0.16981132075471697&cropmode=percentage&width=200&height=200",
+    "name": "Gerry Brownlee",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Ilam"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1273/carter-david3.jpg?crop=0.040307101727447246,0.044145882162047768,0,0.23155759083979918&cropmode=percentage&width=200&height=200",
+    "name": "David Carter",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1272/clark-david3.jpg?crop=0.0843558282208589,0.043407801828915384,0.14877300613496935,0.37782150711887952&cropmode=percentage&width=200&height=200",
+    "name": "David Clark",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Dunedin North"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4444/coffey-tamati.jpg?crop=0.088422971741112147,0.024285779599916582,0,0.28773155756318686&cropmode=percentage&width=200&height=200",
+    "name": "Tamati Coffey",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Waiariki"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1276/collins-judith3.jpg?crop=0.10025062656641603,0,0.064327485380116983,0.36949291467662876&cropmode=percentage&width=200&height=200",
+    "name": "Judith Collins",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Papakura"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4457/craig-liz.jpg?crop=0.084636239242896455,0.036752602478057353,0.016891164171299392,0.28515487179680743&cropmode=percentage&width=200&height=200",
+    "name": "Liz Craig",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1279/curran-clare.jpg?crop=0,0.11320754716981132,0.000000000000000284217094304,0.1320754716981134&cropmode=percentage&width=200&height=200",
+    "name": "Clare Curran",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Dunedin South"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1280/davidson-marama.jpg?crop=0.072175732217573216,0,0.091004184100418412,0.3684376726928239&cropmode=percentage&width=200&height=200",
+    "name": "Marama Davidson",
+    "category": 1,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2032/davis-kelvin.jpg?crop=0,0.039969811320754722,0,0.20531320754716975&cropmode=percentage&width=200&height=200",
+    "name": "Kelvin Davis",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Te Tai Tokerau"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2060/dean-jacqui.jpg?crop=0.11769172361427488,0.020057019240412029,0.12300683371298397,0.40688528817638714&cropmode=percentage&width=200&height=200",
+    "name": "Jacqui Dean",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Waitaki"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2035/doocey-matt.jpg?crop=0,0.016226426610406838,0,0.22905659225751768&cropmode=percentage&width=200&height=200",
+    "name": "Matt Doocey",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Waimakariri"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1284/dowie-sarah.jpg?crop=0.030599663831859188,0,0.03219321339400763,0.29267386960442787&cropmode=percentage&width=200&height=200",
+    "name": "Sarah Dowie",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Invercargill"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1287/dyson-ruth5.jpg?crop=0.025341130604288581,0.036338242976249588,0,0.22807015747981715&cropmode=percentage&width=200&height=200",
+    "name": "Ruth Dyson",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Port Hills"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4445/eagle-paul.jpg?crop=0.047608264126466189,0.030202554887928303,0.032428534401592712,0.275485594944569&cropmode=percentage&width=200&height=200",
+    "name": "Paul Eagle",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Rongotai"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1289/faafoi-kris.jpg?crop=0,0.066203243958954,0.025341130604288581,0.19820515649711276&cropmode=percentage&width=200&height=200",
+    "name": "Kris Faafoi",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Mana"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4398/andrew-falloon.jpg?anchor=center&mode=crop&width=200&height=200",
+    "name": "Andrew Falloon",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Rangitata"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1294/genter-julie-anne.jpg?crop=0.092553213133034148,0,0.020921964171930259,0.33092466211695426&cropmode=percentage&width=200&height=200",
+    "name": "Julie Anne Genter",
+    "category": 1,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4623/ghahraman-golriz.jpg?crop=0,0,0,0.0867579908675799&cropmode=percentage&width=200&height=200",
+    "name": "Golriz Ghahraman",
+    "category": 1,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1297/goldsmith-paul5.jpg?crop=0.091097159727716245,0.06120532193520619,0.065020983732199361,0.30190271086473019&cropmode=percentage&width=200&height=200",
+    "name": "Paul Goldsmith",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1300/guy-nathan5.jpg?crop=0,0.086792452830188674,0,0.15849056603773584&cropmode=percentage&width=200&height=200",
+    "name": "Nathan Guy",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Ōtaki"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1303/hayes-joanne.jpg?crop=0,0.053932075471698121,0,0.19135094339622641&cropmode=percentage&width=200&height=200",
+    "name": "Joanne Hayes",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1305/henare-peeni5.jpg?crop=0,0.060150375939849621,0,0.18796992481203006&cropmode=percentage&width=200&height=200",
+    "name": "Peeni Henare",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Tāmaki Makaurau"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4581/hipango-harete.jpg?crop=0.093908063076465639,0.06138338161493441,0.16226569473370753,0.23021067344237339&cropmode=percentage&width=200&height=200",
+    "name": "Harete Hipango",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Whanganui"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1304/hipkins-chris5.jpg?crop=0.06660746003552398,0,0.045293072824156254,0.329736251214853&cropmode=percentage&width=200&height=200",
+    "name": "Chris Hipkins",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Rimutaka"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1306/hudson-brett.jpg?crop=0.11202640941940384,0.015541947716887881,0.064250361585538443,0.36278014360759686&cropmode=percentage&width=200&height=200",
+    "name": "Brett Hudson",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1307/hughes-gareth.jpg?crop=0,0.077358490566037733,0,0.16792452830188678&cropmode=percentage&width=200&height=200",
+    "name": "Gareth Hughes",
+    "category": 2,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/3671/huo-raymond.jpg?center=0.4,0.535&mode=crop&width=200&height=200",
+    "name": "Raymond Huo",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4594/jackson-willie.jpg?crop=0.10926573426573427,0.056075999472225892,0.016608391608391535,0.28420635967805774&cropmode=percentage&width=200&height=200",
+    "name": "Willie Jackson",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/3811/jones-shane.jpg?center=0.38113207547169814,0.405&mode=crop&width=200&height=200",
+    "name": "Shane Jones",
+    "category": 2,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4647/anahila.jpg?anchor=center&mode=crop&width=200&height=200",
+    "name": "Anahila Kanongata'a-Suisuiki",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1330/kaye-nikki.jpg?crop=0.049239033124440466,0.037161534433539978,0.055505819158460187,0.28717420313846048&cropmode=percentage&width=200&height=200",
+    "name": "Nikki Kaye",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Auckland Central"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4401/matt-king.jpg?center=0.4642857142857143,0.47244094488188976&mode=crop&width=200&height=200",
+    "name": "Matt King",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Northland"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1336/korako-nuk.jpg?crop=0,0.026641500221108491,0,0.21864151864681602&cropmode=percentage&width=200&height=200",
+    "name": "Tutehounuku (Nuk) Korako",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1335/kuriger-barbara.jpg?crop=0.13055774082163715,0.044475407401141573,0.11586275654083451,0.38678534532525216&cropmode=percentage&width=200&height=200",
+    "name": "Barbara Kuriger",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Taranaki-King Country"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4433/denise-lee.jpg?crop=0.048525214081826779,0.038023073579127251,0,0.24388274836942128&cropmode=percentage&width=200&height=200",
+    "name": "Denise Lee",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Maungakiekie"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1333/lee-melissa.jpg?crop=0.15751888877467105,0,0.09060141197720864,0.43254362320896589&cropmode=percentage&width=200&height=200",
+    "name": "Melissa Lee",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1334/lees-galloway-iain.jpg?crop=0.15333333333333335,0,0.223419549184587,0.49466449933885437&cropmode=percentage&width=200&height=200",
+    "name": "Iain Lees-Galloway",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Palmerston North"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1340/050-little-17-04-18lr.jpg?crop=0,0,0,0.28229665071770327&cropmode=percentage&width=200&height=200",
+    "name": "Andrew Little",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1339/logie-jan.jpg?crop=0,0,0,0.24528301886792453&cropmode=percentage&width=200&height=200",
+    "name": "Jan Logie",
+    "category": 1,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/content/images/placeholder/lazyload/square.EQ2Wtg.png",
+    "name": "Agnes Loheni",
+    "category": 0,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4446/lubeck-marja.jpg?crop=0.10138059023333149,0.052991496068351067,0.0081474596330977037,0.2749542019440484&cropmode=percentage&width=200&height=200",
+    "name": "Marja Lubeck",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4468/luxton-jo.jpg?crop=0.090253603208315131,0.042353860462761,0.035620522665810679,0.29792849868752258&cropmode=percentage&width=200&height=200",
+    "name": "Jo Luxton",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1338/macindoe-tim.jpg?crop=0,0.018867924528301886,0,0.22641509433962265&cropmode=percentage&width=200&height=200",
+    "name": "Tim Macindoe",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Hamilton West"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2213/mahuta-nanaia.jpg?crop=0,0.1609434019844487,0,0.084339616883475826&cropmode=percentage&width=200&height=200",
+    "name": "Nanaia Mahuta",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Hauraki-Waikato"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1347/mallard-trevor.jpg?crop=0,0.022323631238825466,0.020568070519098869,0.23848245971898505&cropmode=percentage&width=200&height=200",
+    "name": "Trevor Mallard",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4424/macroft-jenny.jpg?crop=0.092396633684142568,0.029346651059127947,0.0811570853241219,0.34692030668295842&cropmode=percentage&width=200&height=200",
+    "name": "Jenny Marcroft",
+    "category": 1,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1342/mark-ron.jpg?crop=0.049415992812219228,0.094932953601518932,0.052111410601976618,0.22697452067334586&cropmode=percentage&width=200&height=200",
+    "name": "Ron Mark",
+    "category": 2,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2045/martin-tracey.jpg?crop=0,0,0,0.24528301886792453&cropmode=percentage&width=200&height=200",
+    "name": "Tracey Martin",
+    "category": 1,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4805/mcanulty-kieran.jpg?crop=0,0,0,0.033816425120772944&cropmode=percentage&width=200&height=200",
+    "name": "Kieran McAnulty",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1346/mcclay-todd.jpg?crop=0.11426319936958236,0.029736681683690921,0.097714736012608286,0.3755296846424907&cropmode=percentage&width=200&height=200",
+    "name": "Todd McClay",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Rotorua"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1351/mckelvie-ian.jpg?crop=0.090000000000000011,0.0490566037735849,0.056757679180887262,0.30698692768368857&cropmode=percentage&width=200&height=200",
+    "name": "Ian McKelvie",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Rangitīkei"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1348/mitchell-clayton.jpg?crop=0,0.064150943396226415,0,0.1811320754716981&cropmode=percentage&width=200&height=200",
+    "name": "Clayton Mitchell",
+    "category": 2,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1350/mitchell-mark.jpg?crop=0.097634453781512615,0.069808149674964348,0.0620294117647059,0.29597589979387973&cropmode=percentage&width=200&height=200",
+    "name": "Mark Mitchell",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Rodney"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1352/muller-todd.jpg?crop=0,0.054603778191332546,0,0.19067924067659198&cropmode=percentage&width=200&height=200",
+    "name": "Todd Muller",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Bay of Plenty"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1356/nash-stuart.jpg?crop=0,0.061471730358195753,0,0.18381128850972878&cropmode=percentage&width=200&height=200",
+    "name": "Stuart Nash",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Napier"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1354/ngaro-alfred.jpg?crop=0,0.026603842681308963,0,0.21867917618661556&cropmode=percentage&width=200&height=200",
+    "name": "Alfred Ngaro",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1358/oconnor-damien.jpg?crop=0.00458295142071494,0,0.078826764436296923,0.30823374781661278&cropmode=percentage&width=200&height=200",
+    "name": "Damien O'Connor",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "West Coast-Tasman"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4471/oconnor-greg.jpg?crop=0.081525494573944743,0.054695448528612571,0.10281382027107969,0.329711581543104&cropmode=percentage&width=200&height=200",
+    "name": "Greg O'Connor",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Ōhāriu"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1357/oconnor-simon.jpg?crop=0.061032863849765258,0.017716361059438395,0,0.27362919656302587&cropmode=percentage&width=200&height=200",
+    "name": "Simon O'Connor",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Tāmaki"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1362/parker-david.jpg?crop=0,0.062339581183667454,0,0.18294343768425708&cropmode=percentage&width=200&height=200",
+    "name": "David Parker",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1363/parmar-parmjeet.jpg?crop=0.086713981797359382,0.020054481340976319,0.027546425642853239,0.3114628072931464&cropmode=percentage&width=200&height=200",
+    "name": "Parmjeet Parmar",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4437/patterson-mark-2.jpg?crop=0.069847462842583752,0.022427428686767972,0.081976116461911622,0.34223442847015739&cropmode=percentage&width=200&height=200",
+    "name": "Mark Patterson",
+    "category": 2,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4473/penk-chris.jpg?crop=0.039385206532180542,0.035162115339902447,0,0.23984558770325259&cropmode=percentage&width=200&height=200",
+    "name": "Chris Penk",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Helensville"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1395/peters-winston.jpg?crop=0,0.026641500221108491,0,0.21864151864681602&cropmode=percentage&width=200&height=200",
+    "name": "Winston Peters",
+    "category": 2,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4442/prime-willow-jean.jpg?crop=0.088372136697786222,0.0347655957463051,0.017173480475738023,0.29017449268654338&cropmode=percentage&width=200&height=200",
+    "name": "Willow-Jean Prime",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1974/pugh-maureen.jpg?crop=0.013333333333333338,0,0.0014449917898191821,0.2536199432751155&cropmode=percentage&width=200&height=200",
+    "name": "Maureen Pugh",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4670/radhakrishnan-priyanca.jpeg?center=0.39583333333333331,0.55&mode=crop&width=200&height=200",
+    "name": "Priyanca Radhakrishnan",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1365/reti-shane.jpg?crop=0.018464469353589651,0.018336175440526615,0.0097182322984996749,0.24821680693840878&cropmode=percentage&width=200&height=200",
+    "name": "Shane Reti",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Whangarei"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1367/robertson-grant.jpg?crop=0,0.05037732394236439,0,0.19490569492556015&cropmode=percentage&width=200&height=200",
+    "name": "Grant Robertson",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Wellington Central"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1371/ross-jami-lee.jpg?crop=0,0.011320754716981131,0,0.2339622641509434&cropmode=percentage&width=200&height=200",
+    "name": "Jami-Lee Ross",
+    "category": 2,
+    "party": "Independent",
+    "electorate": "Botany"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1369/rurawhe-adrian.jpg?crop=0.030036933288293467,0.028570864830501121,0.049999865239765434,0.27711728500199617&cropmode=percentage&width=200&height=200",
+    "name": "Adrian Rurawhe",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Te Tai Hauāuru"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4582/russell-deborah.jpg?crop=0.097472924187725726,0.034057625502349975,0,0.28478986445065052&cropmode=percentage&width=200&height=200",
+    "name": "Deborah Russell",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "New Lynn"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1370/sage-eugenie.jpg?crop=0,0.013684804734942437,0.093381686310063439,0.3020749585179357&cropmode=percentage&width=200&height=200",
+    "name": "Eugenie Sage",
+    "category": 1,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2216/salesa-jenny.jpg?crop=0.010872977120535714,0.0431865681856469,0.036746070498511904,0.23803535454570979&cropmode=percentage&width=200&height=200",
+    "name": "Jenny Salesa",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Manukau East"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1373/scott-alastair.jpg?crop=0.1,0.01509433962264151,0.01738746690203,0.31878299388832448&cropmode=percentage&width=200&height=200",
+    "name": "Alastair Scott",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Wairarapa"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1374/sepuloni-carmel.jpg?crop=0.000000000000000284217094304,0.0064905706441627346,0,0.23879244822376194&cropmode=percentage&width=200&height=200",
+    "name": "Carmel Sepuloni",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Kelston"
+  },
+  {
+    "img": "https://www.parliament.nz/media/2066/seymour-david.jpg?crop=0.025,0.011320754716981126,0.018977055449330912,0.26715249467874019&cropmode=percentage&width=200&height=200",
+    "name": "David Seymour",
+    "category": 2,
+    "party": "ACT Party",
+    "electorate": "Epsom"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1376/shaw-james.jpg?crop=0.10100424539095189,0,0.062175670927039746,0.3684376726928239&cropmode=percentage&width=200&height=200",
+    "name": "James Shaw",
+    "category": 2,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1377/simpson-scott.jpg?crop=0.12141280353200883,0.022213892012717455,0.14275202354672556,0.42243880766934622&cropmode=percentage&width=200&height=200",
+    "name": "Scott Simpson",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Coromandel"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1378/sio-aupito-william.jpg?crop=0,0.029018934717718159,0,0.21626408415020637&cropmode=percentage&width=200&height=200",
+    "name": "Aupito William Sio",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Māngere"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1380/smith-nick.jpg?crop=0,0,0,0.24528301886792453&cropmode=percentage&width=200&height=200",
+    "name": "Nick Smith",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Nelson"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1379/smith-stuart.jpg?crop=0.036663611365719523,0,0.046746104491292344,0.30823374781661278&cropmode=percentage&width=200&height=200",
+    "name": "Stuart Smith",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Kaikōura"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4400/erica-stanford.jpg?crop=0.058380414312617729,0.01670046621551096,0,0.27264324269967222&cropmode=percentage&width=200&height=200",
+    "name": "Erica Stanford",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "East Coast Bays"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4447/strange-jamie.jpg?crop=0.058380414312617729,0.052339820657140539,0,0.23700388825804264&cropmode=percentage&width=200&height=200",
+    "name": "Jamie Strange",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4394/swarbrick-chloe.jpg?crop=0.091521256453507435,0.031303620178005226,0.034352869420618375,0.3089787389722784&cropmode=percentage&width=200&height=200",
+    "name": "Chlöe Swarbrick",
+    "category": 1,
+    "party": "Green Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1383/tabuteau-fletcher2.jpg?center=0.43018867924528303,0.505&mode=crop&width=200&height=200",
+    "name": "Fletcher Tabuteau",
+    "category": 2,
+    "party": "NZ First Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4453/tinetti-jan.jpg?crop=0.074465501196268172,0.02582441131361771,0.070102505647187813,0.32856653724748119&cropmode=percentage&width=200&height=200",
+    "name": "Jan Tinetti",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1384/tirikatene-rino.jpg?crop=0.096698257158387382,0.020914925393846602,0.11713822082903402,0.38575411459666009&cropmode=percentage&width=200&height=200",
+    "name": "Rino Tirikatene",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Te Tai Tonga"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1400/tolley-anne.jpg?crop=0.0811043476832129,0.049587301113644039,0.05608288268779664,0.29923325010975932&cropmode=percentage&width=200&height=200",
+    "name": "Anne Tolley",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "East Coast"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1388/twyford-phil.jpg?crop=0.048685423085387321,0.007086544423775357,0.012347440764377934,0.2842590131986889&cropmode=percentage&width=200&height=200",
+    "name": "Phil Twyford",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Te Atatū"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1389/upston-louise.jpg?crop=0,0.039962250331662737,0,0.2053207685362618&cropmode=percentage&width=200&height=200",
+    "name": "Louise Upston",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "Taupō"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4395/tim-van-de-molen.jpg?crop=0,0.075509413233343162,0,0.16977360563458138&cropmode=percentage&width=200&height=200",
+    "name": "Tim van de Molen",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Waikato"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1390/wagner-nicky.jpg?crop=0,0.052999788000847987,0.063670411985018827,0.24033637198784549&cropmode=percentage&width=200&height=200",
+    "name": "Nicky Wagner",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4397/hamish-walker.jpg?center=0.43018867924528303,0.49&mode=crop&width=200&height=200",
+    "name": "Hamish Walker",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Clutha-Southland"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1391/wall-louisa2.jpg?crop=0.080142475512021374,0.016801357549690015,0.029385574354407813,0.31114434046270945&cropmode=percentage&width=200&height=200",
+    "name": "Louisa Wall",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Manurewa"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4585/warren-clark-angie.jpg?crop=0.054747348409669654,0,0.23563017075013526,0.29037751915980492&cropmode=percentage&width=200&height=200",
+    "name": "Angie Warren-Clark",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4443/webb-duncan.jpg?crop=0.0814846717125051,0.035858318677932342,0.10285464313251932,0.34854871139378424&cropmode=percentage&width=200&height=200",
+    "name": "Duncan Webb",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Christchurch Central"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1393/whaitiri-meka.jpg?crop=0,0.045283018867924525,0,0.2&cropmode=percentage&width=200&height=200",
+    "name": "Meka Whaitiri",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Ikaroa-Rāwhiti"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1394/willams-poto2.jpg?crop=0.19894675248683441,0,0.21591574019894677,0.55838678693266508&cropmode=percentage&width=200&height=200",
+    "name": "Poto Williams",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Christchurch East"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4732/willis-nicola.jpg?crop=0,0,0.0540962362489236,0.0540962362489236&cropmode=percentage&width=200&height=200",
+    "name": "Nicola Willis",
+    "category": 1,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/3893/wood-michael.jpg?anchor=center&mode=crop&width=200&height=200",
+    "name": "Michael Wood",
+    "category": 2,
+    "party": "Labour Party",
+    "electorate": "Mt Roskill"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1396/woodhouse-michael2.jpg?crop=0.096308186195826651,0.0211999152003392,0.10112359550561793,0.37308822193282654&cropmode=percentage&width=200&height=200",
+    "name": "Michael Woodhouse",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1397/woods-megan2.jpg?crop=0,0.052830188679245285,0,0.19245283018867926&cropmode=percentage&width=200&height=200",
+    "name": "Megan Woods",
+    "category": 1,
+    "party": "Labour Party",
+    "electorate": "Wigram"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1399/yang-jian2.jpg?crop=0.0859167404782994,0.00561528129608875,0.028343666961913223,0.325902007338034&cropmode=percentage&width=200&height=200",
+    "name": "Jian Yang",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "List"
+  },
+  {
+    "img": "https://www.parliament.nz/media/1398/young-jonathan2.jpg?crop=0.060296846011131722,0.024503798088703746,0.012059369202226449,0.27538768509118916&cropmode=percentage&width=200&height=200",
+    "name": "Jonathan Young",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "New Plymouth"
+  },
+  {
+    "img": "https://www.parliament.nz/media/4643/yule-lawrence.jpg?crop=0,0,0.054462934947049589,0.054462934947049589&cropmode=percentage&width=200&height=200",
+    "name": "Lawrence Yule",
+    "category": 2,
+    "party": "National Party",
+    "electorate": "Tukituki"
+  }
+]
