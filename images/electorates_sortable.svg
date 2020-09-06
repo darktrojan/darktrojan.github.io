@@ -1,55 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2290" height="2300" font-family="Open Sans, Arial, sans-serif" font-size="16">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2540" height="2480" font-family="Open Sans, Arial, sans-serif" font-size="16">
 	<title>How safe is that seat?</title>
-	<g transform="translate(250)">
+	<style type="text/css"><![CDATA[
+		.act { fill: #ffff00 }
+		.alliance { fill: #00b300 }
+		.green { fill: #006600 }
+		.labour { fill: #ff0000 }
+		.mana { fill: #b30000 }
+		.maori { fill: #660000 }
+		.national { fill: #0000e6 }
+		.newzealandfirst { fill: #000000 }
+		.progressive { fill: #999999 }
+		.unitedfuture { fill: #990099 }
+
+		.label1 { transform: translatex(8px); }
+		.year1999 { transform: translatex(250px); }
+		.year2002 { transform: translatex(500px); }
+		.year2005 { transform: translatex(750px); }
+		.year2008 { transform: translatex(1000px); }
+		.year2011 { transform: translatex(1250px); }
+		.year2014 { transform: translatex(1500px); }
+		.year2017 { transform: translatex(1750px); }
+		.year2020 { transform: translatex(2000px); }
+		.label2 { transform: translatex(2258px); }
+	]]></style>
+	<g transform="translate(375)">
 		<text x="894.029" y="41.173" font-size="28" font-weight="600" text-anchor="middle">How safe is that seat?</text>
 		<text x="894.473" y="79.173" font-size="20" font-weight="600" text-anchor="middle">Electorate majorities from the last seven general elections</text>
 		<text x="895.006" y="99.173" font-size="12" text-anchor="middle">(data from www.parliament.nz, electionresults.govt.nz)</text>
-		<path fill="#0000e6" d="M139.862 130.949H159.862V150.949H139.862z" transform="translate(290.18625,-9.1563721) translate(487.83035)"/>
+		<path class="national" d="M139.862 130.949H159.862V150.949H139.862z" transform="translate(290.18625,-9.1563721) translate(487.83035)"/>
 		<text x="163.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(487.83035)">National</text>
-		<path fill="red" d="M254.316 130.949H274.31600000000003V150.949H254.316z" transform="translate(290.18625,-9.1563721) translate(105.17942)"/>
+		<path class="labour" d="M254.316 130.949H274.31600000000003V150.949H254.316z" transform="translate(290.18625,-9.1563721) translate(105.17942)"/>
 		<text x="278.316" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(105.17942)">Labour</text>
-		<path fill="#ff0" d="M358.724 130.949H378.724V150.949H358.724z" transform="translate(290.18625,-9.1563721) translate(-261.22063)"/>
+		<path class="act" d="M358.724 130.949H378.724V150.949H358.724z" transform="translate(290.18625,-9.1563721) translate(-261.22063)"/>
 		<text x="382.724" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-261.22063)">ACT</text>
-		<path fill="#909" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(536.74136)"/>
+		<path class="unitedfuture" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(536.74136)"/>
 		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(536.74136)">United Future</text>
-		<path fill="#600" d="M596.385 130.949H616.385V150.949H596.385z" transform="translate(290.18625,-9.1563721) translate(-54.751991)"/>
+		<path class="maori" d="M596.385 130.949H616.385V150.949H596.385z" transform="translate(290.18625,-9.1563721) translate(-54.751991)"/>
 		<text x="620.385" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-54.751991)">Maori</text>
-		<path fill="#b30000" d="M689.007 130.949H709.007V150.949H689.007z" transform="translate(290.18625,-9.1563721) translate(-231.66633)"/>
+		<path class="mana" d="M689.007 130.949H709.007V150.949H689.007z" transform="translate(290.18625,-9.1563721) translate(-231.66633)"/>
 		<text x="713.007" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-231.66633)">Mana</text>
-		<path fill="#999" d="M779.862 130.949H799.862V150.949H779.862z" transform="translate(290.18625,-9.1563721) translate(58.427208)"/>
+		<path class="progressive" d="M779.862 130.949H799.862V150.949H779.862z" transform="translate(290.18625,-9.1563721) translate(58.427208)"/>
 		<text x="803.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(58.427208)">Progressive</text>
-		<path d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(299.32021)"/>
+		<path class="newzealandfirst" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(299.32021)"/>
 		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(299.32021)">NZ First</text>
-		<path fill="#00b300" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-267.78313)"/>
+		<path class="alliance" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-267.78313)"/>
 		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-267.78313)">Alliance</text>
-		<path fill="#060" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-165.44654)"/>
+		<path class="green" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-165.44654)"/>
 		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-165.44654)">Green</text>
 	</g>
 	<g font-size="20" font-weight="600" style="cursor: pointer;">
-		<text x="28" y="177" onclick="sort(0);">Electorate</text>
-		<text x="270" y="177" onclick="sort(250);">1999</text>
-		<text x="520" y="177" onclick="sort(500);">2002</text>
-		<text x="770" y="177" onclick="sort(750);">2005</text>
-		<text x="1020" y="177" onclick="sort(1000);">2008</text>
-		<text x="1270" y="177" onclick="sort(1250);">2011</text>
-		<text x="1520" y="177" onclick="sort(1500);">2014</text>
-		<text x="1770" y="177" onclick="sort(1750);">2017</text>
-		<text x="2008" y="177" onclick="sort(0);">Electorate</text>
+		<text x="28" y="177" onclick="sort();">Electorate</text>
+		<text x="270" y="177" onclick="sort(1999);">1999</text>
+		<text x="520" y="177" onclick="sort(2002);">2002</text>
+		<text x="770" y="177" onclick="sort(2005);">2005</text>
+		<text x="1020" y="177" onclick="sort(2008);">2008</text>
+		<text x="1270" y="177" onclick="sort(2011);">2011</text>
+		<text x="1520" y="177" onclick="sort(2014);">2014</text>
+		<text x="1770" y="177" onclick="sort(2017);">2017</text>
+		<text x="2020" y="177" onclick="sort(2020);">2020</text>
+		<text x="2278" y="177" onclick="sort();">Electorate</text>
 	</g>
-	<path fill="#eee" d="M20 215H2270V239H20zM20 263H2270V287H20zM20 311H2270V335H20zM20 359H2270V383H20zM20 407H2270V431H20zM20 455H2270V479H20zM20 503H2270V527H20zM20 551H2270V575H20zM20 599H2270V623H20zM20 647H2270V671H20zM20 695H2270V719H20zM20 743H2270V767H20zM20 791H2270V815H20zM20 839H2270V863H20zM20 887H2270V911H20zM20 935H2270V959H20zM20 983H2270V1007H20zM20 1031H2270V1055H20zM20 1079H2270V1103H20zM20 1127H2270V1151H20zM20 1175H2270V1199H20zM20 1223H2270V1247H20zM20 1271H2270V1295H20zM20 1319H2270V1343H20zM20 1367H2270V1391H20zM20 1415H2270V1439H20zM20 1463H2270V1487H20zM20 1511H2270V1535H20zM20 1559H2270V1583H20zM20 1607H2270V1631H20zM20 1655H2270V1679H20zM20 1703H2270V1727H20zM20 1751H2270V1775H20zM20 1799H2270V1823H20zM20 1847H2270V1871H20zM20 1895H2270V1919H20zM20 1943H2270V1967H20zM20 1991H2270V2015H20zM20 2039H2270V2063H20zM20 2087H2270V2111H20zM20 2135H2270V2159H20zM20 2183H2270V2207H20z" transform="translate(0, 19)" />
+	<g fill="#eee">
+		<rect x="20" y="210" width="2500" height="24"/>
+		<rect x="20" y="258" width="2500" height="24"/>
+		<rect x="20" y="306" width="2500" height="24"/>
+		<rect x="20" y="354" width="2500" height="24"/>
+		<rect x="20" y="402" width="2500" height="24"/>
+		<rect x="20" y="450" width="2500" height="24"/>
+		<rect x="20" y="498" width="2500" height="24"/>
+		<rect x="20" y="546" width="2500" height="24"/>
+		<rect x="20" y="594" width="2500" height="24"/>
+		<rect x="20" y="642" width="2500" height="24"/>
+		<rect x="20" y="690" width="2500" height="24"/>
+		<rect x="20" y="738" width="2500" height="24"/>
+		<rect x="20" y="786" width="2500" height="24"/>
+		<rect x="20" y="834" width="2500" height="24"/>
+		<rect x="20" y="882" width="2500" height="24"/>
+		<rect x="20" y="930" width="2500" height="24"/>
+		<rect x="20" y="978" width="2500" height="24"/>
+		<rect x="20" y="1026" width="2500" height="24"/>
+		<rect x="20" y="1074" width="2500" height="24"/>
+		<rect x="20" y="1122" width="2500" height="24"/>
+		<rect x="20" y="1170" width="2500" height="24"/>
+		<rect x="20" y="1218" width="2500" height="24"/>
+		<rect x="20" y="1266" width="2500" height="24"/>
+		<rect x="20" y="1314" width="2500" height="24"/>
+		<rect x="20" y="1362" width="2500" height="24"/>
+		<rect x="20" y="1410" width="2500" height="24"/>
+		<rect x="20" y="1458" width="2500" height="24"/>
+		<rect x="20" y="1506" width="2500" height="24"/>
+		<rect x="20" y="1554" width="2500" height="24"/>
+		<rect x="20" y="1602" width="2500" height="24"/>
+		<rect x="20" y="1650" width="2500" height="24"/>
+		<rect x="20" y="1698" width="2500" height="24"/>
+		<rect x="20" y="1746" width="2500" height="24"/>
+		<rect x="20" y="1794" width="2500" height="24"/>
+		<rect x="20" y="1842" width="2500" height="24"/>
+		<rect x="20" y="1890" width="2500" height="24"/>
+		<rect x="20" y="1938" width="2500" height="24"/>
+		<rect x="20" y="1986" width="2500" height="24"/>
+		<rect x="20" y="2034" width="2500" height="24"/>
+		<rect x="20" y="2082" width="2500" height="24"/>
+		<rect x="20" y="2130" width="2500" height="24"/>
+		<rect x="20" y="2178" width="2500" height="24"/>
+		<rect x="20" y="2226" width="2500" height="24"/>
+		<rect x="20" y="2274" width="2500" height="24"/>
+		<rect x="20" y="2322" width="2500" height="24"/>
+		<rect x="20" y="2370" width="2500" height="24"/>
+	</g>
 	<g stroke-dasharray="2 2" font-size="10">
 		<g id="grid">
-			<path fill="none" stroke="gray" d="m 270.5,2270.5 v -2080 m 50,2080 v -2080 m 50,2080 v -2080 m 50,2080 v -2080 m 50,2080 v -2080"/>
+			<path fill="none" stroke="gray" d="m 270.5,2430.5 v -2240 m 50,2240 v -2240 m 50,2240 v -2240 m 50,2240 v -2240 m 50,2240 v -2240"/>
 			<text x="272.5" y="200">0</text>
 			<text x="322.5" y="200">5,000</text>
 			<text x="372.5" y="200">10,000</text>
 			<text x="422.5" y="200">15,000</text>
 			<text x="472.5" y="200">20,000</text>
-			<text x="272.5" y="2270">0</text>
-			<text x="322.5" y="2270">5,000</text>
-			<text x="372.5" y="2270">10,000</text>
-			<text x="422.5" y="2270">15,000</text>
-			<text x="472.5" y="2270">20,000</text>
+			<text x="272.5" y="2430">0</text>
+			<text x="322.5" y="2430">5,000</text>
+			<text x="372.5" y="2430">10,000</text>
+			<text x="422.5" y="2430">15,000</text>
+			<text x="472.5" y="2430">20,000</text>
 		</g>
 		<use xlink:href="#grid" transform="translate(250,0)" />
 		<use xlink:href="#grid" transform="translate(500,0)" />
@@ -57,847 +128,2177 @@
 		<use xlink:href="#grid" transform="translate(1000,0)" />
 		<use xlink:href="#grid" transform="translate(1250,0)" />
 		<use xlink:href="#grid" transform="translate(1500,0)" />
+		<use xlink:href="#grid" transform="translate(1750,0)" />
 	</g>
-	<g id="data" transform="translate(20,210)">
-		<g transform="translate(0, 1704)">
-			<text y="19" x="8">Albany</text>
-			<rect fill="#0000e6" height="20" width="49.48" y="2" x="250" xlink:title="4948" />
-			<text y="19" x="1988">Albany</text>
-		</g>
-		<g transform="translate(0, 1728)">
-			<text y="19" x="8">Aoraki</text>
-			<rect fill="#ff0000" height="20" width="71.39" y="2" x="250" xlink:title="7139" />
-			<rect fill="#ff0000" height="20" width="64.53" y="2" x="500" xlink:title="6453" />
-			<rect fill="#0000e6" height="20" width="69.37" y="2" x="750" xlink:title="6937" />
-			<text y="19" x="1988">Aoraki</text>
-		</g>
-		<g transform="translate(0, 1584)">
-			<text y="19" x="8">Auckland Central</text>
-			<rect fill="#ff0000" height="20" width="52.85" y="2" x="250" xlink:title="5285" />
-			<rect fill="#ff0000" height="20" width="52.05" y="2" x="500" xlink:title="5205" />
-			<rect fill="#ff0000" height="20" width="38.84" y="2" x="750" xlink:title="3884" />
-			<rect fill="#0000e6" height="20" width="14.97" y="2" x="1000" xlink:title="1497" />
-			<rect fill="#0000e6" height="20" width="7.17" y="2" x="1250" xlink:title="717" />
-			<rect fill="#0000e6" height="20" width="6.00" y="2" x="1500" xlink:title="600" />
-			<rect fill="#0000e6" height="20" width="15.81" y="2" x="1750" xlink:title="1581" />
-			<text y="19" x="1988">Auckland Central</text>
-		</g>
-		<g transform="translate(0, 1752)">
-			<text y="19" x="8">Banks Peninsula</text>
-			<rect fill="#ff0000" height="20" width="14.55" y="2" x="250" xlink:title="1455" />
-			<rect fill="#ff0000" height="20" width="40.57" y="2" x="500" xlink:title="4057" />
-			<rect fill="#ff0000" height="20" width="19.23" y="2" x="750" xlink:title="1923" />
-			<text y="19" x="1988">Banks Peninsula</text>
-		</g>
-		<g transform="translate(0, 336)">
-			<text y="19" x="8">Bay of Plenty</text>
-			<rect fill="#0000e6" height="20" width="71.02" y="2" x="250" xlink:title="7102" />
-			<rect fill="#0000e6" height="20" width="55.97" y="2" x="500" xlink:title="5597" />
-			<rect fill="#0000e6" height="20" width="135.84" y="2" x="750" xlink:title="13584" />
-			<rect fill="#0000e6" height="20" width="176.04" y="2" x="1000" xlink:title="17604" />
-			<rect fill="#0000e6" height="20" width="177.60" y="2" x="1250" xlink:title="17760" />
-			<rect fill="#0000e6" height="20" width="150.96" y="2" x="1500" xlink:title="15096" />
-			<rect fill="#0000e6" height="20" width="139.96" y="2" x="1750" xlink:title="13996" />
-			<text y="19" x="1988">Bay of Plenty</text>
-		</g>
-		<g transform="translate(0, 360)">
-			<text y="19" x="8">Botany</text>
-			<rect fill="#0000e6" height="20" width="108.72" y="2" x="1000" xlink:title="10872" />
-			<rect fill="#0000e6" height="20" width="107.41" y="2" x="1250" xlink:title="10741" />
-			<rect fill="#0000e6" height="20" width="134.95" y="2" x="1500" xlink:title="13495" />
-			<rect fill="#0000e6" height="20" width="128.39" y="2" x="1750" xlink:title="12839" />
-			<text y="19" x="1988">Botany</text>
-		</g>
-		<g transform="translate(0, 1416)">
-			<text y="19" x="8">Christchurch Central</text>
-			<rect fill="#ff0000" height="20" width="94.04" y="2" x="250" xlink:title="9404" />
-			<rect fill="#ff0000" height="20" width="103.53" y="2" x="500" xlink:title="10353" />
-			<rect fill="#ff0000" height="20" width="78.36" y="2" x="750" xlink:title="7836" />
-			<rect fill="#ff0000" height="20" width="9.35" y="2" x="1000" xlink:title="935" />
-			<rect fill="#0000e6" height="20" width="0.47" y="2" x="1250" xlink:title="47" />
-			<rect fill="#0000e6" height="20" width="24.20" y="2" x="1500" xlink:title="2420" />
-			<rect fill="#f00" height="20" width="28.71" y="2" x="1750" xlink:title="2871" />
-			<text y="19" x="1988">Christchurch Central</text>
-		</g>
-		<g transform="translate(0, 912)">
-			<text y="19" x="8">Christchurch East</text>
-			<rect fill="#ff0000" height="20" width="111.62" y="2" x="250" xlink:title="11162" />
-			<rect fill="#ff0000" height="20" width="148.64" y="2" x="500" xlink:title="14864" />
-			<rect fill="#ff0000" height="20" width="119.73" y="2" x="750" xlink:title="11973" />
-			<rect fill="#ff0000" height="20" width="57.65" y="2" x="1000" xlink:title="5765" />
-			<rect fill="#ff0000" height="20" width="53.34" y="2" x="1250" xlink:title="5334" />
-			<rect fill="#ff0000" height="20" width="40.73" y="2" x="1500" xlink:title="4073" />
-			<rect fill="#f00" height="20" width="74.8" y="2" x="1750" xlink:title="7480" />
-			<text y="19" x="1988">Christchurch East</text>
-		</g>
-		<g transform="translate(0, 1776)">
-			<text y="19" x="8">Clevedon</text>
-			<rect fill="#0000e6" height="20" width="31.27" y="2" x="500" xlink:title="3127" />
-			<rect fill="#0000e6" height="20" width="128.71" y="2" x="750" xlink:title="12871" />
-			<text y="19" x="1988">Clevedon</text>
-		</g>
-		<g transform="translate(0, 264)">
-			<text y="19" x="8">Clutha-Southland</text>
-			<rect fill="#0000e6" height="20" width="64.01" y="2" x="250" xlink:title="6401" />
-			<rect fill="#0000e6" height="20" width="68.08" y="2" x="500" xlink:title="6808" />
-			<rect fill="#0000e6" height="20" width="130.32" y="2" x="750" xlink:title="13032" />
-			<rect fill="#0000e6" height="20" width="154.75" y="2" x="1000" xlink:title="15475" />
-			<rect fill="#0000e6" height="20" width="161.68" y="2" x="1250" xlink:title="16168" />
-			<rect fill="#0000e6" height="20" width="148.86" y="2" x="1500" xlink:title="14886" />
-			<rect fill="#0000e6" height="20" width="143.54" y="2" x="1750" xlink:title="14354" />
-			<text y="19" x="1988">Clutha-Southland</text>
-		</g>
-		<g transform="translate(0, 288)">
-			<text y="19" x="8">Coromandel</text>
-			<rect fill="#006600" height="20" width="2.50" y="2" x="250" xlink:title="250" />
-			<rect fill="#0000e6" height="20" width="59.58" y="2" x="500" xlink:title="5958" />
-			<rect fill="#0000e6" height="20" width="105.78" y="2" x="750" xlink:title="10578" />
-			<rect fill="#0000e6" height="20" width="145.60" y="2" x="1000" xlink:title="14560" />
-			<rect fill="#0000e6" height="20" width="127.40" y="2" x="1250" xlink:title="12740" />
-			<rect fill="#0000e6" height="20" width="158.01" y="2" x="1500" xlink:title="15801" />
-			<rect fill="#0000e6" height="20" width="143.26" y="2" x="1750" xlink:title="14326" />
-			<text y="19" x="1988">Coromandel</text>
-		</g>
-		<g transform="translate(0, 456)">
-			<text y="19" x="8">Dunedin North</text>
-			<rect fill="#ff0000" height="20" width="126.95" y="2" x="250" xlink:title="12695" />
-			<rect fill="#ff0000" height="20" width="106.37" y="2" x="500" xlink:title="10637" />
-			<rect fill="#ff0000" height="20" width="76.30" y="2" x="750" xlink:title="7630" />
-			<rect fill="#ff0000" height="20" width="71.55" y="2" x="1000" xlink:title="7155" />
-			<rect fill="#ff0000" height="20" width="34.89" y="2" x="1250" xlink:title="3489" />
-			<rect fill="#ff0000" height="20" width="59.17" y="2" x="1500" xlink:title="5917" />
-			<rect fill="#f00" height="20" width="117.54" y="2" x="1750" xlink:title="11754" />
-			<text y="19" x="1988">Dunedin North</text>
-		</g>
-		<g transform="translate(0, 720)">
-			<text y="19" x="8">Dunedin South</text>
-			<rect fill="#ff0000" height="20" width="106.08" y="2" x="250" xlink:title="10608" />
-			<rect fill="#ff0000" height="20" width="147.24" y="2" x="500" xlink:title="14724" />
-			<rect fill="#ff0000" height="20" width="106.40" y="2" x="750" xlink:title="10640" />
-			<rect fill="#ff0000" height="20" width="64.49" y="2" x="1000" xlink:title="6449" />
-			<rect fill="#ff0000" height="20" width="41.75" y="2" x="1250" xlink:title="4175" />
-			<rect fill="#ff0000" height="20" width="38.58" y="2" x="1500" xlink:title="3858" />
-			<rect fill="#f00" height="20" width="87.17" y="2" x="1750" xlink:title="8717" />
-			<text y="19" x="1988">Dunedin South</text>
-		</g>
-		<g transform="translate(0, 1224)">
-			<text y="19" x="8">East Coast</text>
-			<rect fill="#ff0000" height="20" width="38.45" y="2" x="250" xlink:title="3845" />
-			<rect fill="#ff0000" height="20" width="53.43" y="2" x="500" xlink:title="5343" />
-			<rect fill="#0000e6" height="20" width="12.19" y="2" x="750" xlink:title="1219" />
-			<rect fill="#0000e6" height="20" width="64.13" y="2" x="1000" xlink:title="6413" />
-			<rect fill="#0000e6" height="20" width="47.74" y="2" x="1250" xlink:title="4774" />
-			<rect fill="#0000e6" height="20" width="79.34" y="2" x="1500" xlink:title="7934" />
-			<rect fill="#0000e6" height="20" width="48.07" y="2" x="1750" xlink:title="4807" />
-			<text y="19" x="1988">East Coast</text>
-		</g>
-		<g transform="translate(0, 72)">
-			<text y="19" x="8">East Coast Bays</text>
-			<rect fill="#0000e6" height="20" width="15.34" y="2" x="500" xlink:title="1534" />
-			<rect fill="#0000e6" height="20" width="72.86" y="2" x="750" xlink:title="7286" />
-			<rect fill="#0000e6" height="20" width="139.74" y="2" x="1000" xlink:title="13974" />
-			<rect fill="#0000e6" height="20" width="146.41" y="2" x="1250" xlink:title="14641" />
-			<rect fill="#0000e6" height="20" width="150.34" y="2" x="1500" xlink:title="15034" />
-			<rect fill="#0000e6" height="20" width="162.9" y="2" x="1750" xlink:title="16290" />
-			<text y="19" x="1988">East Coast Bays</text>
-		</g>
-		<g transform="translate(0, 1128)">
-			<text y="19" x="8">Epsom</text>
-			<rect fill="#0000e6" height="20" width="19.08" y="2" x="250" xlink:title="1908" />
-			<rect fill="#0000e6" height="20" width="56.19" y="2" x="500" xlink:title="5619" />
-			<rect fill="#ffff00" height="20" width="31.02" y="2" x="750" xlink:title="3102" />
-			<rect fill="#ffff00" height="20" width="128.82" y="2" x="1000" xlink:title="12882" />
-			<rect fill="#ffff00" height="20" width="22.61" y="2" x="1250" xlink:title="2261" />
-			<rect fill="#ffff00" height="20" width="42.50" y="2" x="1500" xlink:title="4250" />
-			<rect fill="#ff0" height="20" width="55.19" y="2" x="1750" xlink:title="5519" />
-			<text y="19" x="1988">Epsom</text>
-		</g>
-		<g transform="translate(0, 1104)">
-			<text y="19" x="8">Hamilton East</text>
-			<rect fill="#0000e6" height="20" width="6.92" y="2" x="250" xlink:title="692" />
-			<rect fill="#ff0000" height="20" width="6.14" y="2" x="500" xlink:title="614" />
-			<rect fill="#0000e6" height="20" width="52.98" y="2" x="750" xlink:title="5298" />
-			<rect fill="#0000e6" height="20" width="88.20" y="2" x="1000" xlink:title="8820" />
-			<rect fill="#0000e6" height="20" width="82.75" y="2" x="1250" xlink:title="8275" />
-			<rect fill="#0000e6" height="20" width="101.99" y="2" x="1500" xlink:title="10199" />
-			<rect fill="#0000e6" height="20" width="58.1" y="2" x="1750" xlink:title="5810" />
-			<text y="19" x="1988">Hamilton East</text>
-		</g>
-		<g transform="translate(0, 864)">
-			<text y="19" x="8">Hamilton West</text>
-			<rect fill="#ff0000" height="20" width="16.29" y="2" x="250" xlink:title="1629" />
-			<rect fill="#ff0000" height="20" width="55.74" y="2" x="500" xlink:title="5574" />
-			<rect fill="#ff0000" height="20" width="8.25" y="2" x="750" xlink:title="825" />
-			<rect fill="#0000e6" height="20" width="16.18" y="2" x="1000" xlink:title="1618" />
-			<rect fill="#0000e6" height="20" width="44.18" y="2" x="1250" xlink:title="4418" />
-			<rect fill="#0000e6" height="20" width="57.84" y="2" x="1500" xlink:title="5784" />
-			<rect fill="#0000e6" height="20" width="77.31" y="2" x="1750" xlink:title="7731" />
-			<text y="19" x="1988">Hamilton West</text>
-		</g>
-		<g transform="translate(0, 1800)">
-			<text y="19" x="8">Hauraki</text>
-			<rect fill="#ff0000" height="20" width="72.38" y="2" x="250" xlink:title="7238" />
-			<text y="19" x="1988">Hauraki</text>
-		</g>
-		<g transform="translate(0, 696)">
-			<text y="19" x="8">Hauraki-Waikato</text>
-			<rect fill="#ff0000" height="20" width="8.88" y="2" x="1000" xlink:title="888" />
-			<rect fill="#ff0000" height="20" width="59.35" y="2" x="1250" xlink:title="5935" />
-			<rect fill="#ff0000" height="20" width="76.95" y="2" x="1500" xlink:title="7695" />
-			<rect fill="#f00" height="20" width="92.23" y="2" x="1750" xlink:title="9223" />
-			<text y="19" x="1988">Hauraki-Waikato</text>
-		</g>
-		<g transform="translate(0, 216)">
-			<text y="19" x="8">Helensville</text>
-			<rect fill="#0000e6" height="20" width="17.05" y="2" x="500" xlink:title="1705" />
-			<rect fill="#0000e6" height="20" width="127.78" y="2" x="750" xlink:title="12778" />
-			<rect fill="#0000e6" height="20" width="205.47" y="2" x="1000" xlink:title="20547" />
-			<rect fill="#0000e6" height="20" width="210.66" y="2" x="1250" xlink:title="21066" />
-			<rect fill="#0000e6" height="20" width="182.87" y="2" x="1500" xlink:title="18287" />
-			<rect fill="#0000e6" height="20" width="146.08" y="2" x="1750" xlink:title="14608" />
-			<text y="19" x="1988">Helensville</text>
-		</g>
-		<g transform="translate(0, 48)">
-			<text y="19" x="8">Hunua</text>
-			<rect fill="#0000e6" height="20" width="51.95" y="2" x="250" xlink:title="5195" />
-			<rect fill="#0000e6" height="20" width="158.58" y="2" x="1000" xlink:title="15858" />
-			<rect fill="#0000e6" height="20" width="167.97" y="2" x="1250" xlink:title="16797" />
-			<rect fill="#0000e6" height="20" width="173.76" y="2" x="1500" xlink:title="17376" />
-			<rect fill="#0000e6" height="20" width="194.43" y="2" x="1750" xlink:title="19443" />
-			<text y="19" x="1988">Hunua</text>
-		</g>
-		<g transform="translate(0, 1608)">
-			<text y="19" x="8">Hutt South</text>
-			<rect fill="#ff0000" height="20" width="88.85" y="2" x="250" xlink:title="8885" />
-			<rect fill="#ff0000" height="20" width="77.71" y="2" x="500" xlink:title="7771" />
-			<rect fill="#ff0000" height="20" width="57.40" y="2" x="750" xlink:title="5740" />
-			<rect fill="#ff0000" height="20" width="40.86" y="2" x="1000" xlink:title="4086" />
-			<rect fill="#ff0000" height="20" width="48.25" y="2" x="1250" xlink:title="4825" />
-			<rect fill="#ff0000" height="20" width="7.09" y="2" x="1500" xlink:title="709" />
-			<rect fill="#0000e6" height="20" width="15.3" y="2" x="1750" xlink:title="1530" />
-			<text y="19" x="1988">Hutt South</text>
-		</g>
-		<g transform="translate(0, 1320)">
-			<text y="19" x="8">Ikaroa-Rāwhiti</text>
-			<rect fill="#ff0000" height="20" width="6.95" y="2" x="250" xlink:title="695" />
-			<rect fill="#ff0000" height="20" width="103.59" y="2" x="500" xlink:title="10359" />
-			<rect fill="#ff0000" height="20" width="19.32" y="2" x="750" xlink:title="1932" />
-			<rect fill="#ff0000" height="20" width="16.45" y="2" x="1000" xlink:title="1645" />
-			<rect fill="#ff0000" height="20" width="65.41" y="2" x="1250" xlink:title="6541" />
-			<rect fill="#ff0000" height="20" width="46.73" y="2" x="1500" xlink:title="4673" />
-			<rect fill="#f00" height="20" width="42.1" y="2" x="1750" xlink:title="4210" />
-			<text y="19" x="1988">Ikaroa-Rāwhiti</text>
-		</g>
-		<g transform="translate(0, 792)">
-			<text y="19" x="8">Ilam</text>
-			<rect fill="#0000e6" height="20" width="67.92" y="2" x="250" xlink:title="6792" />
-			<rect fill="#0000e6" height="20" width="38.72" y="2" x="500" xlink:title="3872" />
-			<rect fill="#0000e6" height="20" width="78.21" y="2" x="750" xlink:title="7821" />
-			<rect fill="#0000e6" height="20" width="118.93" y="2" x="1000" xlink:title="11893" />
-			<rect fill="#0000e6" height="20" width="133.12" y="2" x="1250" xlink:title="13312" />
-			<rect fill="#0000e6" height="20" width="118.98" y="2" x="1500" xlink:title="11898" />
-			<rect fill="#0000e6" height="20" width="82.56" y="2" x="1750" xlink:title="8256" />
-			<text y="19" x="1988">Ilam</text>
-		</g>
-		<g transform="translate(0, 1152)">
-			<text y="19" x="8">Invercargill</text>
-			<rect fill="#ff0000" height="20" width="79.90" y="2" x="250" xlink:title="7990" />
-			<rect fill="#ff0000" height="20" width="27.92" y="2" x="500" xlink:title="2792" />
-			<rect fill="#0000e6" height="20" width="20.52" y="2" x="750" xlink:title="2052" />
-			<rect fill="#0000e6" height="20" width="66.64" y="2" x="1000" xlink:title="6664" />
-			<rect fill="#0000e6" height="20" width="62.63" y="2" x="1250" xlink:title="6263" />
-			<rect fill="#0000e6" height="20" width="74.82" y="2" x="1500" xlink:title="7482" />
-			<rect fill="#0000e6" height="20" width="55.79" y="2" x="1750" xlink:title="5579" />
-			<text y="19" x="1988">Invercargill</text>
-		</g>
-		<g transform="translate(0, 600)">
-			<text y="19" x="8">Kaikōura</text>
-			<rect fill="#0000e6" height="20" width="14.86" y="2" x="250" xlink:title="1486" />
-			<rect fill="#0000e6" height="20" width="30.69" y="2" x="500" xlink:title="3069" />
-			<rect fill="#0000e6" height="20" width="46.75" y="2" x="750" xlink:title="4675" />
-			<rect fill="#0000e6" height="20" width="110.77" y="2" x="1000" xlink:title="11077" />
-			<rect fill="#0000e6" height="20" width="114.45" y="2" x="1250" xlink:title="11445" />
-			<rect fill="#0000e6" height="20" width="125.70" y="2" x="1500" xlink:title="12570" />
-			<rect fill="#0000e6" height="20" width="105.53" y="2" x="1750" xlink:title="10553" />
-			<text y="19" x="1988">Kaikōura</text>
-		</g>
-		<g transform="translate(0, 1824)">
-			<text y="19" x="8">Karapiro</text>
-			<rect fill="#0000e6" height="20" width="52.16" y="2" x="250" xlink:title="5216" />
-			<text y="19" x="1988">Karapiro</text>
-		</g>
-		<g transform="translate(0, 960)">
-			<text y="19" x="8">Kelston</text>
-			<rect fill="#ff0000" height="20" width="53.67" y="2" x="1500" xlink:title="5367" />
-			<rect fill="#f00" height="20" width="72.69" y="2" x="1750" xlink:title="7269" />
-			<text y="19" x="1988">Kelston</text>
-		</g>
-		<g transform="translate(0, 504)">
-			<text y="19" x="8">Mana</text>
-			<rect fill="#ff0000" height="20" width="54.75" y="2" x="250" xlink:title="5475" />
-			<rect fill="#ff0000" height="20" width="63.76" y="2" x="500" xlink:title="6376" />
-			<rect fill="#ff0000" height="20" width="67.34" y="2" x="750" xlink:title="6734" />
-			<rect fill="#ff0000" height="20" width="61.55" y="2" x="1000" xlink:title="6155" />
-			<rect fill="#ff0000" height="20" width="22.30" y="2" x="1250" xlink:title="2230" />
-			<rect fill="#ff0000" height="20" width="79.53" y="2" x="1500" xlink:title="7953" />
-			<rect fill="#f00" height="20" width="109.8" y="2" x="1750" xlink:title="10980" />
-			<text y="19" x="1988">Mana</text>
-		</g>
-		<g transform="translate(0, 240)">
-			<text y="19" x="8">Māngere</text>
-			<rect fill="#ff0000" height="20" width="130.47" y="2" x="250" xlink:title="13047" />
-			<rect fill="#ff0000" height="20" width="153.75" y="2" x="500" xlink:title="15375" />
-			<rect fill="#ff0000" height="20" width="160.20" y="2" x="750" xlink:title="16020" />
-			<rect fill="#ff0000" height="20" width="71.26" y="2" x="1000" xlink:title="7126" />
-			<rect fill="#ff0000" height="20" width="151.59" y="2" x="1250" xlink:title="15159" />
-			<rect fill="#ff0000" height="20" width="149.33" y="2" x="1500" xlink:title="14933" />
-			<rect fill="#f00" height="20" width="145.97" y="2" x="1750" xlink:title="14597" />
-			<text y="19" x="1988">Māngere</text>
-		</g>
-		<g transform="translate(0, 432)">
-			<text y="19" x="8">Manukau East</text>
-			<rect fill="#ff0000" height="20" width="70.86" y="2" x="250" xlink:title="7086" />
-			<rect fill="#ff0000" height="20" width="106.57" y="2" x="500" xlink:title="10657" />
-			<rect fill="#ff0000" height="20" width="98.90" y="2" x="750" xlink:title="9890" />
-			<rect fill="#ff0000" height="20" width="124.45" y="2" x="1000" xlink:title="12445" />
-			<rect fill="#ff0000" height="20" width="158.38" y="2" x="1250" xlink:title="15838" />
-			<rect fill="#ff0000" height="20" width="132.54" y="2" x="1500" xlink:title="13254" />
-			<rect fill="#f00" height="20" width="125.89" y="2" x="1750" xlink:title="12589" />
-			<text y="19" x="1988">Manukau East</text>
-		</g>
-		<g transform="translate(0, 768)">
-			<text y="19" x="8">Manurewa</text>
-			<rect fill="#ff0000" height="20" width="130.62" y="2" x="250" xlink:title="13062" />
-			<rect fill="#ff0000" height="20" width="125.48" y="2" x="500" xlink:title="12548" />
-			<rect fill="#ff0000" height="20" width="117.07" y="2" x="750" xlink:title="11707" />
-			<rect fill="#ff0000" height="20" width="67.26" y="2" x="1000" xlink:title="6726" />
-			<rect fill="#ff0000" height="20" width="86.10" y="2" x="1250" xlink:title="8610" />
-			<rect fill="#ff0000" height="20" width="64.02" y="2" x="1500" xlink:title="6402" />
-			<rect fill="#f00" height="20" width="83.74" y="2" x="1750" xlink:title="8374" />
-			<text y="19" x="1988">Manurewa</text>
-		</g>
-		<g transform="translate(0, 1512)">
-			<text y="19" x="8">Maungakiekie</text>
-			<rect fill="#ff0000" height="20" width="25.12" y="2" x="250" xlink:title="2512" />
-			<rect fill="#ff0000" height="20" width="66.03" y="2" x="500" xlink:title="6603" />
-			<rect fill="#ff0000" height="20" width="64.50" y="2" x="750" xlink:title="6450" />
-			<rect fill="#0000e6" height="20" width="19.42" y="2" x="1000" xlink:title="1942" />
-			<rect fill="#0000e6" height="20" width="30.21" y="2" x="1250" xlink:title="3021" />
-			<rect fill="#0000e6" height="20" width="23.48" y="2" x="1500" xlink:title="2348" />
-			<rect fill="#0000e6" height="20" width="21.57" y="2" x="1750" xlink:title="2157" />
-			<text y="19" x="1988">Maungakiekie</text>
-		</g>
-		<g transform="translate(0, 144)">
-			<text y="19" x="8">Mt Albert</text>
-			<rect fill="#ff0000" height="20" width="131.08" y="2" x="250" xlink:title="13108" />
-			<rect fill="#ff0000" height="20" width="160.24" y="2" x="500" xlink:title="16024" />
-			<rect fill="#ff0000" height="20" width="147.49" y="2" x="750" xlink:title="14749" />
-			<rect fill="#ff0000" height="20" width="103.51" y="2" x="1000" xlink:title="10351" />
-			<rect fill="#ff0000" height="20" width="100.21" y="2" x="1250" xlink:title="10021" />
-			<rect fill="#ff0000" height="20" width="106.56" y="2" x="1500" xlink:title="10656" />
-			<rect fill="#f00" height="20" width="152.64" y="2" x="1750" xlink:title="15264" />
-			<text y="19" x="1988">Mt Albert</text>
-		</g>
-		<g transform="translate(0, 984)">
-			<text y="19" x="8">Mt Roskill</text>
-			<rect fill="#ff0000" height="20" width="97.07" y="2" x="250" xlink:title="9707" />
-			<rect fill="#ff0000" height="20" width="137.15" y="2" x="500" xlink:title="13715" />
-			<rect fill="#ff0000" height="20" width="98.95" y="2" x="750" xlink:title="9895" />
-			<rect fill="#ff0000" height="20" width="64.18" y="2" x="1000" xlink:title="6418" />
-			<rect fill="#ff0000" height="20" width="72.71" y="2" x="1250" xlink:title="7271" />
-			<rect fill="#ff0000" height="20" width="80.91" y="2" x="1500" xlink:title="8091" />
-			<rect fill="#f00" height="20" width="68.98" y="2" x="1750" xlink:title="6898" />
-			<text y="19" x="1988">Mt Roskill</text>
-		</g>
-		<g transform="translate(0, 1200)">
-			<text y="19" x="8">Napier</text>
-			<rect fill="#ff0000" height="20" width="118.63" y="2" x="250" xlink:title="11863" />
-			<rect fill="#ff0000" height="20" width="41.57" y="2" x="500" xlink:title="4157" />
-			<rect fill="#0000e6" height="20" width="35.91" y="2" x="750" xlink:title="3591" />
-			<rect fill="#0000e6" height="20" width="90.18" y="2" x="1000" xlink:title="9018" />
-			<rect fill="#0000e6" height="20" width="37.01" y="2" x="1250" xlink:title="3701" />
-			<rect fill="#ff0000" height="20" width="38.50" y="2" x="1500" xlink:title="3850" />
-			<rect fill="#f00" height="20" width="52.2" y="2" x="1750" xlink:title="5220" />
-			<text y="19" x="1988">Napier</text>
-		</g>
-		<g transform="translate(0, 1344)">
-			<text y="19" x="8">Nelson</text>
-			<rect fill="#0000e6" height="20" width="45.21" y="2" x="250" xlink:title="4521" />
-			<rect fill="#0000e6" height="20" width="42.32" y="2" x="500" xlink:title="4232" />
-			<rect fill="#0000e6" height="20" width="102.26" y="2" x="750" xlink:title="10226" />
-			<rect fill="#0000e6" height="20" width="84.71" y="2" x="1000" xlink:title="8471" />
-			<rect fill="#0000e6" height="20" width="70.88" y="2" x="1250" xlink:title="7088" />
-			<rect fill="#0000e6" height="20" width="76.05" y="2" x="1500" xlink:title="7605" />
-			<rect fill="#0000e6" height="20" width="42.83" y="2" x="1750" xlink:title="4283" />
-			<text y="19" x="1988">Nelson</text>
-		</g>
-		<g transform="translate(0, 1440)">
-			<text y="19" x="8">New Lynn</text>
-			<rect fill="#ff0000" height="20" width="111.85" y="2" x="500" xlink:title="11185" />
-			<rect fill="#ff0000" height="20" width="80.78" y="2" x="750" xlink:title="8078" />
-			<rect fill="#ff0000" height="20" width="40.25" y="2" x="1000" xlink:title="4025" />
-			<rect fill="#ff0000" height="20" width="51.90" y="2" x="1250" xlink:title="5190" />
-			<rect fill="#ff0000" height="20" width="45.57" y="2" x="1500" xlink:title="4557" />
-			<rect fill="#f00" height="20" width="28.25" y="2" x="1750" xlink:title="2825" />
-			<text y="19" x="1988">New Lynn</text>
-		</g>
-		<g transform="translate(0, 888)">
-			<text y="19" x="8">New Plymouth</text>
-			<rect fill="#ff0000" height="20" width="150.92" y="2" x="250" xlink:title="15092" />
-			<rect fill="#ff0000" height="20" width="149.30" y="2" x="500" xlink:title="14930" />
-			<rect fill="#ff0000" height="20" width="54.39" y="2" x="750" xlink:title="5439" />
-			<rect fill="#0000e6" height="20" width="1.05" y="2" x="1000" xlink:title="105" />
-			<rect fill="#0000e6" height="20" width="42.70" y="2" x="1250" xlink:title="4270" />
-			<rect fill="#0000e6" height="20" width="97.78" y="2" x="1500" xlink:title="9778" />
-			<rect fill="#0000e6" height="20" width="77.33" y="2" x="1750" xlink:title="7733" />
-			<text y="19" x="1988">New Plymouth</text>
-		</g>
-		<g transform="translate(0, 408)">
-			<text y="19" x="8">North Shore</text>
-			<rect fill="#0000e6" height="20" width="70.48" y="2" x="250" xlink:title="7048" />
-			<rect fill="#0000e6" height="20" width="50.98" y="2" x="500" xlink:title="5098" />
-			<rect fill="#0000e6" height="20" width="97.01" y="2" x="750" xlink:title="9701" />
-			<rect fill="#0000e6" height="20" width="145.74" y="2" x="1000" xlink:title="14574" />
-			<rect fill="#0000e6" height="20" width="152.28" y="2" x="1250" xlink:title="15228" />
-			<rect fill="#0000e6" height="20" width="165.03" y="2" x="1500" xlink:title="16503" />
-			<rect fill="#0000e6" height="20" width="127.16" y="2" x="1750" xlink:title="12716" />
-			<text y="19" x="1988">North Shore</text>
-		</g>
-		<g transform="translate(0, 1056)">
-			<text y="19" x="8">Northcote</text>
-			<rect fill="#ff0000" height="20" width="2.78" y="2" x="250" xlink:title="278" />
-			<rect fill="#ff0000" height="20" width="26.24" y="2" x="500" xlink:title="2624" />
-			<rect fill="#0000e6" height="20" width="23.83" y="2" x="750" xlink:title="2383" />
-			<rect fill="#0000e6" height="20" width="93.60" y="2" x="1000" xlink:title="9360" />
-			<rect fill="#0000e6" height="20" width="93.79" y="2" x="1250" xlink:title="9379" />
-			<rect fill="#0000e6" height="20" width="96.64" y="2" x="1500" xlink:title="9664" />
-			<rect fill="#0000e6" height="20" width="62.1" y="2" x="1750" xlink:title="6210" />
-			<text y="19" x="1988">Northcote</text>
-		</g>
-		<g transform="translate(0, 1632)">
-			<text y="19" x="8">Northland</text>
-			<rect fill="#0000e6" height="20" width="54.54" y="2" x="250" xlink:title="5454" />
-			<rect fill="#0000e6" height="20" width="75.58" y="2" x="500" xlink:title="7558" />
-			<rect fill="#0000e6" height="20" width="92.75" y="2" x="750" xlink:title="9275" />
-			<rect fill="#0000e6" height="20" width="100.54" y="2" x="1000" xlink:title="10054" />
-			<rect fill="#0000e6" height="20" width="113.62" y="2" x="1250" xlink:title="11362" />
-			<rect fill="#0000e6" height="20" width="93.00" y="2" x="1500" xlink:title="9300" />
-			<rect fill="#0000e6" height="20" width="13.89" y="2" x="1750" xlink:title="1389" />
-			<text y="19" x="1988">Northland</text>
-		</g>
-		<g transform="translate(0, 1656)">
-			<text y="19" x="8">Ōhāriu</text>
-			<rect fill="#990099" height="20" width="10.06" y="2" x="1000" xlink:title="1006" />
-			<rect fill="#990099" height="20" width="13.92" y="2" x="1250" xlink:title="1392" />
-			<rect fill="#990099" height="20" width="7.10" y="2" x="1500" xlink:title="710" />
-			<rect fill="#f00" height="20" width="10.51" y="2" x="1750" xlink:title="1051" />
-			<text y="19" x="1988">Ōhāriu</text>
-		</g>
-		<g transform="translate(0, 1848)">
-			<text y="19" x="8">Ohariu-Belmont</text>
-			<rect fill="#990099" height="20" width="125.57" y="2" x="250" xlink:title="12557" />
-			<rect fill="#990099" height="20" width="125.34" y="2" x="500" xlink:title="12534" />
-			<rect fill="#990099" height="20" width="77.02" y="2" x="750" xlink:title="7702" />
-			<text y="19" x="1988">Ohariu-Belmont</text>
-		</g>
-		<g transform="translate(0, 1872)">
-			<text y="19" x="8">Otago</text>
-			<rect fill="#0000e6" height="20" width="23.67" y="2" x="250" xlink:title="2367" />
-			<rect fill="#ff0000" height="20" width="6.84" y="2" x="500" xlink:title="684" />
-			<rect fill="#0000e6" height="20" width="19.95" y="2" x="750" xlink:title="1995" />
-			<text y="19" x="1988">Otago</text>
-		</g>
-		<g transform="translate(0, 1080)">
-			<text y="19" x="8">Ōtaki</text>
-			<rect fill="#ff0000" height="20" width="72.50" y="2" x="250" xlink:title="7250" />
-			<rect fill="#ff0000" height="20" width="77.36" y="2" x="500" xlink:title="7736" />
-			<rect fill="#ff0000" height="20" width="3.82" y="2" x="750" xlink:title="382" />
-			<rect fill="#0000e6" height="20" width="13.54" y="2" x="1000" xlink:title="1354" />
-			<rect fill="#0000e6" height="20" width="52.31" y="2" x="1250" xlink:title="5231" />
-			<rect fill="#0000e6" height="20" width="77.82" y="2" x="1500" xlink:title="7782" />
-			<rect fill="#0000e6" height="20" width="61.56" y="2" x="1750" xlink:title="6156" />
-			<text y="19" x="1988">Ōtaki</text>
-		</g>
-		<g transform="translate(0, 192)">
-			<text y="19" x="8">Pakuranga</text>
-			<rect fill="#0000e6" height="20" width="53.14" y="2" x="250" xlink:title="5314" />
-			<rect fill="#0000e6" height="20" width="45.56" y="2" x="500" xlink:title="4556" />
-			<rect fill="#0000e6" height="20" width="95.82" y="2" x="750" xlink:title="9582" />
-			<rect fill="#0000e6" height="20" width="139.06" y="2" x="1000" xlink:title="13906" />
-			<rect fill="#0000e6" height="20" width="138.46" y="2" x="1250" xlink:title="13846" />
-			<rect fill="#0000e6" height="20" width="128.67" y="2" x="1500" xlink:title="12867" />
-			<rect fill="#0000e6" height="20" width="148.86" y="2" x="1750" xlink:title="14886" />
-			<text y="19" x="1988">Pakuranga</text>
-		</g>
-		<g transform="translate(0, 1008)">
-			<text y="19" x="8">Palmerston North</text>
-			<rect fill="#ff0000" height="20" width="131.53" y="2" x="250" xlink:title="13153" />
-			<rect fill="#ff0000" height="20" width="76.27" y="2" x="500" xlink:title="7627" />
-			<rect fill="#ff0000" height="20" width="55.00" y="2" x="750" xlink:title="5500" />
-			<rect fill="#ff0000" height="20" width="11.17" y="2" x="1000" xlink:title="1117" />
-			<rect fill="#ff0000" height="20" width="32.85" y="2" x="1250" xlink:title="3285" />
-			<rect fill="#ff0000" height="20" width="22.12" y="2" x="1500" xlink:title="2212" />
-			<rect fill="#f00" height="20" width="63.92" y="2" x="1750" xlink:title="6392" />
-			<text y="19" x="1988">Palmerston North</text>
-		</g>
-		<g transform="translate(0, 936)">
-			<text y="19" x="8">Papakura</text>
-			<rect fill="#0000e6" height="20" width="102.77" y="2" x="1000" xlink:title="10277" />
-			<rect fill="#0000e6" height="20" width="98.90" y="2" x="1250" xlink:title="9890" />
-			<rect fill="#0000e6" height="20" width="51.19" y="2" x="1500" xlink:title="5119" />
-			<rect fill="#0000e6" height="20" width="74.86" y="2" x="1750" xlink:title="7486" />
-			<text y="19" x="1988">Papakura</text>
-		</g>
-		<g transform="translate(0, 1896)">
-			<text y="19" x="8">Piako</text>
-			<rect fill="#0000e6" height="20" width="16.21" y="2" x="500" xlink:title="1621" />
-			<rect fill="#0000e6" height="20" width="83.51" y="2" x="750" xlink:title="8351" />
-			<text y="19" x="1988">Piako</text>
-		</g>
-		<g transform="translate(0, 816)">
-			<text y="19" x="8">Port Hills</text>
-			<rect fill="#ff0000" height="20" width="34.52" y="2" x="1000" xlink:title="3452" />
-			<rect fill="#ff0000" height="20" width="30.97" y="2" x="1250" xlink:title="3097" />
-			<rect fill="#ff0000" height="20" width="22.28" y="2" x="1500" xlink:title="2228" />
-			<rect fill="#f00" height="20" width="79.16" y="2" x="1750" xlink:title="7916" />
-			<text y="19" x="1988">Port Hills</text>
-		</g>
-		<g transform="translate(0, 1920)">
-			<text y="19" x="8">Port Waikato</text>
-			<rect fill="#0000e6" height="20" width="39.15" y="2" x="250" xlink:title="3915" />
-			<rect fill="#0000e6" height="20" width="59.72" y="2" x="500" xlink:title="5972" />
-			<rect fill="#0000e6" height="20" width="134.98" y="2" x="750" xlink:title="13498" />
-			<text y="19" x="1988">Port Waikato</text>
-		</g>
-		<g transform="translate(0, 1944)">
-			<text y="19" x="8">Rakaia</text>
-			<rect fill="#0000e6" height="20" width="106.02" y="2" x="250" xlink:title="10602" />
-			<rect fill="#0000e6" height="20" width="60.76" y="2" x="500" xlink:title="6076" />
-			<rect fill="#0000e6" height="20" width="104.48" y="2" x="750" xlink:title="10448" />
-			<text y="19" x="1988">Rakaia</text>
-		</g>
-		<g transform="translate(0, 1032)">
-			<text y="19" x="8">Rangitata</text>
-			<rect fill="#0000e6" height="20" width="81.12" y="2" x="1000" xlink:title="8112" />
-			<rect fill="#0000e6" height="20" width="65.37" y="2" x="1250" xlink:title="6537" />
-			<rect fill="#0000e6" height="20" width="141.07" y="2" x="1500" xlink:title="14107" />
-			<rect fill="#0000e6" height="20" width="63.31" y="2" x="1750" xlink:title="6331" />
-			<text y="19" x="1988">Rangitata</text>
-		</g>
-		<g transform="translate(0, 624)">
-			<text y="19" x="8">Rangitīkei</text>
-			<rect fill="#0000e6" height="20" width="2.89" y="2" x="250" xlink:title="289" />
-			<rect fill="#0000e6" height="20" width="53.15" y="2" x="500" xlink:title="5315" />
-			<rect fill="#0000e6" height="20" width="96.60" y="2" x="750" xlink:title="9660" />
-			<rect fill="#0000e6" height="20" width="120.42" y="2" x="1000" xlink:title="12042" />
-			<rect fill="#0000e6" height="20" width="93.82" y="2" x="1250" xlink:title="9382" />
-			<rect fill="#0000e6" height="20" width="110.60" y="2" x="1500" xlink:title="11060" />
-			<rect fill="#0000e6" height="20" width="102.9" y="2" x="1750" xlink:title="10290" />
-			<text y="19" x="1988">Rangitīkei</text>
-		</g>
-		<g transform="translate(0, 744)">
-			<text y="19" x="8">Rimutaka</text>
-			<rect fill="#ff0000" height="20" width="83.74" y="2" x="250" xlink:title="8374" />
-			<rect fill="#ff0000" height="20" width="126.15" y="2" x="500" xlink:title="12615" />
-			<rect fill="#ff0000" height="20" width="82.77" y="2" x="750" xlink:title="8277" />
-			<rect fill="#ff0000" height="20" width="7.53" y="2" x="1000" xlink:title="753" />
-			<rect fill="#ff0000" height="20" width="32.86" y="2" x="1250" xlink:title="3286" />
-			<rect fill="#ff0000" height="20" width="66.64" y="2" x="1500" xlink:title="6664" />
-			<rect fill="#f00" height="20" width="86.09" y="2" x="1750" xlink:title="8609" />
-			<text y="19" x="1988">Rimutaka</text>
-		</g>
-		<g transform="translate(0, 24)">
-			<text y="19" x="8">Rodney</text>
-			<rect fill="#0000e6" height="20" width="69.05" y="2" x="250" xlink:title="6905" />
-			<rect fill="#0000e6" height="20" width="45.66" y="2" x="500" xlink:title="4566" />
-			<rect fill="#0000e6" height="20" width="115.36" y="2" x="750" xlink:title="11536" />
-			<rect fill="#0000e6" height="20" width="156.35" y="2" x="1000" xlink:title="15635" />
-			<rect fill="#0000e6" height="20" width="122.22" y="2" x="1250" xlink:title="12222" />
-			<rect fill="#0000e6" height="20" width="202.30" y="2" x="1500" xlink:title="20230" />
-			<rect fill="#0000e6" height="20" width="195.61" y="2" x="1750" xlink:title="19561" />
-			<text y="19" x="1988">Rodney</text>
-		</g>
-		<g transform="translate(0, 528)">
-			<text y="19" x="8">Rongotai</text>
-			<rect fill="#ff0000" height="20" width="129.28" y="2" x="250" xlink:title="12928" />
-			<rect fill="#ff0000" height="20" width="114.93" y="2" x="500" xlink:title="11493" />
-			<rect fill="#ff0000" height="20" width="126.38" y="2" x="750" xlink:title="12638" />
-			<rect fill="#ff0000" height="20" width="90.20" y="2" x="1000" xlink:title="9020" />
-			<rect fill="#ff0000" height="20" width="90.47" y="2" x="1250" xlink:title="9047" />
-			<rect fill="#ff0000" height="20" width="96.17" y="2" x="1500" xlink:title="9617" />
-			<rect fill="#f00" height="20" width="109" y="2" x="1750" xlink:title="10900" />
-			<text y="19" x="1988">Rongotai</text>
-		</g>
-		<g transform="translate(0, 840)">
-			<text y="19" x="8">Rotorua</text>
-			<rect fill="#ff0000" height="20" width="49.78" y="2" x="250" xlink:title="4978" />
-			<rect fill="#ff0000" height="20" width="77.44" y="2" x="500" xlink:title="7744" />
-			<rect fill="#ff0000" height="20" width="6.62" y="2" x="750" xlink:title="662" />
-			<rect fill="#0000e6" height="20" width="50.65" y="2" x="1000" xlink:title="5065" />
-			<rect fill="#0000e6" height="20" width="73.57" y="2" x="1250" xlink:title="7357" />
-			<rect fill="#0000e6" height="20" width="74.18" y="2" x="1500" xlink:title="7418" />
-			<rect fill="#0000e6" height="20" width="79.01" y="2" x="1750" xlink:title="7901" />
-			<text y="19" x="1988">Rotorua</text>
-		</g>
-		<g transform="translate(0, 0)">
-			<text y="19" x="8">Selwyn</text>
-			<rect fill="#0000e6" height="20" width="110.75" y="2" x="1000" xlink:title="11075" />
-			<rect fill="#0000e6" height="20" width="194.51" y="2" x="1250" xlink:title="19451" />
-			<rect fill="#0000e6" height="20" width="205.61" y="2" x="1500" xlink:title="20561" />
-			<rect fill="#0000e6" height="20" width="196.39" y="2" x="1750" xlink:title="19639" />
-			<text y="19" x="1988">Selwyn</text>
-		</g>
-		<g transform="translate(0, 1968)">
-			<text y="19" x="8">Tainui</text>
-			<rect fill="#ff0000" height="20" width="34.30" y="2" x="500" xlink:title="3430" />
-			<rect fill="#ff0000" height="20" width="18.60" y="2" x="750" xlink:title="1860" />
-			<text y="19" x="1988">Tainui</text>
-		</g>
-		<g transform="translate(0, 96)">
-			<text y="19" x="8">Tāmaki</text>
-			<rect fill="#0000e6" height="20" width="49.11" y="2" x="250" xlink:title="4911" />
-			<rect fill="#0000e6" height="20" width="12.07" y="2" x="500" xlink:title="1207" />
-			<rect fill="#0000e6" height="20" width="95.10" y="2" x="750" xlink:title="9510" />
-			<rect fill="#0000e6" height="20" width="170.20" y="2" x="1000" xlink:title="17020" />
-			<rect fill="#0000e6" height="20" width="177.86" y="2" x="1250" xlink:title="17786" />
-			<rect fill="#0000e6" height="20" width="204.21" y="2" x="1500" xlink:title="20421" />
-			<rect fill="#0000e6" height="20" width="154.02" y="2" x="1750" xlink:title="15402" />
-			<text y="19" x="1988">Tāmaki</text>
-		</g>
-		<g transform="translate(0, 1368)">
-			<text y="19" x="8">Tāmaki Makaurau</text>
-			<rect fill="#ff0000" height="20" width="94.44" y="2" x="500" xlink:title="9444" />
-			<rect fill="#660000" height="20" width="21.27" y="2" x="750" xlink:title="2127" />
-			<rect fill="#660000" height="20" width="75.40" y="2" x="1000" xlink:title="7540" />
-			<rect fill="#660000" height="20" width="9.36" y="2" x="1250" xlink:title="936" />
-			<rect fill="#ff0000" height="20" width="14.62" y="2" x="1500" xlink:title="1462" />
-			<rect fill="#f00" height="20" width="38.09" y="2" x="1750" xlink:title="3809" />
-			<text y="19" x="1988">Tāmaki Makaurau</text>
-		</g>
-		<g transform="translate(0, 168)">
-			<text y="19" x="8">Taranaki-King Country</text>
-			<rect fill="#0000e6" height="20" width="65.10" y="2" x="250" xlink:title="6510" />
-			<rect fill="#0000e6" height="20" width="71.75" y="2" x="500" xlink:title="7175" />
-			<rect fill="#0000e6" height="20" width="131.18" y="2" x="750" xlink:title="13118" />
-			<rect fill="#0000e6" height="20" width="156.18" y="2" x="1000" xlink:title="15618" />
-			<rect fill="#0000e6" height="20" width="150.89" y="2" x="1250" xlink:title="15089" />
-			<rect fill="#0000e6" height="20" width="167.73" y="2" x="1500" xlink:title="16773" />
-			<rect fill="#0000e6" height="20" width="152.59" y="2" x="1750" xlink:title="15259" />
-			<text y="19" x="1988">Taranaki-King Country</text>
-		</g>
-		<g transform="translate(0, 312)">
-			<text y="19" x="8">Taupō</text>
-			<rect fill="#ff0000" height="20" width="35.78" y="2" x="250" xlink:title="3578" />
-			<rect fill="#ff0000" height="20" width="71.28" y="2" x="500" xlink:title="7128" />
-			<rect fill="#ff0000" height="20" width="12.85" y="2" x="750" xlink:title="1285" />
-			<rect fill="#0000e6" height="20" width="64.45" y="2" x="1000" xlink:title="6445" />
-			<rect fill="#0000e6" height="20" width="141.15" y="2" x="1250" xlink:title="14115" />
-			<rect fill="#0000e6" height="20" width="150.46" y="2" x="1500" xlink:title="15046" />
-			<rect fill="#0000e6" height="20" width="143.35" y="2" x="1750" xlink:title="14335" />
-			<text y="19" x="1988">Taupō</text>
-		</g>
-		<g transform="translate(0, 480)">
-			<text y="19" x="8">Tauranga</text>
-			<rect fill="#000000" height="20" width="0.63" y="2" x="250" xlink:title="63" />
-			<rect fill="#000000" height="20" width="103.62" y="2" x="500" xlink:title="10362" />
-			<rect fill="#0000e6" height="20" width="7.30" y="2" x="750" xlink:title="730" />
-			<rect fill="#0000e6" height="20" width="117.42" y="2" x="1000" xlink:title="11742" />
-			<rect fill="#0000e6" height="20" width="172.64" y="2" x="1250" xlink:title="17264" />
-			<rect fill="#0000e6" height="20" width="148.42" y="2" x="1500" xlink:title="14842" />
-			<rect fill="#0000e6" height="20" width="112.52" y="2" x="1750" xlink:title="11252" />
-			<text y="19" x="1988">Tauranga</text>
-		</g>
-		<g transform="translate(0, 1392)">
-			<text y="19" x="8">Te Atatū</text>
-			<rect fill="#ff0000" height="20" width="92.62" y="2" x="250" xlink:title="9262" />
-			<rect fill="#ff0000" height="20" width="129.32" y="2" x="500" xlink:title="12932" />
-			<rect fill="#ff0000" height="20" width="104.47" y="2" x="750" xlink:title="10447" />
-			<rect fill="#ff0000" height="20" width="52.98" y="2" x="1000" xlink:title="5298" />
-			<rect fill="#ff0000" height="20" width="54.16" y="2" x="1250" xlink:title="5416" />
-			<rect fill="#ff0000" height="20" width="28.13" y="2" x="1500" xlink:title="2813" />
-			<rect fill="#f00" height="20" width="31.84" y="2" x="1750" xlink:title="3184" />
-			<text y="19" x="1988">Te Atatū</text>
-		</g>
-		<g transform="translate(0, 1680)">
-			<text y="19" x="8">Te Tai Hauāuru</text>
-			<rect fill="#ff0000" height="20" width="62.33" y="2" x="250" xlink:title="6233" />
-			<rect fill="#ff0000" height="20" width="86.57" y="2" x="500" xlink:title="8657" />
-			<rect fill="#660000" height="20" width="51.13" y="2" x="750" xlink:title="5113" />
-			<rect fill="#660000" height="20" width="78.17" y="2" x="1000" xlink:title="7817" />
-			<rect fill="#660000" height="20" width="32.21" y="2" x="1250" xlink:title="3221" />
-			<rect fill="#ff0000" height="20" width="15.54" y="2" x="1500" xlink:title="1554" />
-			<rect fill="#f00" height="20" width="10.39" y="2" x="1750" xlink:title="1039" />
-			<text y="19" x="1988">Te Tai Hauāuru</text>
-		</g>
-		<g transform="translate(0, 1248)">
-			<text y="19" x="8">Te Tai Tokerau</text>
-			<rect fill="#ff0000" height="20" width="56.92" y="2" x="250" xlink:title="5692" />
-			<rect fill="#ff0000" height="20" width="53.36" y="2" x="500" xlink:title="5336" />
-			<rect fill="#660000" height="20" width="36.13" y="2" x="750" xlink:title="3613" />
-			<rect fill="#660000" height="20" width="63.08" y="2" x="1000" xlink:title="6308" />
-			<rect fill="#b30000" height="20" width="11.65" y="2" x="1250" xlink:title="1165" />
-			<rect fill="#ff0000" height="20" width="7.43" y="2" x="1500" xlink:title="743" />
-			<rect fill="#f00" height="20" width="48.07" y="2" x="1750" xlink:title="4807" />
-			<text y="19" x="1988">Te Tai Tokerau</text>
-		</g>
-		<g transform="translate(0, 1272)">
-			<text y="19" x="8">Te Tai Tonga</text>
-			<rect fill="#ff0000" height="20" width="45.22" y="2" x="250" xlink:title="4522" />
-			<rect fill="#ff0000" height="20" width="80.52" y="2" x="500" xlink:title="8052" />
-			<rect fill="#ff0000" height="20" width="25.03" y="2" x="750" xlink:title="2503" />
-			<rect fill="#660000" height="20" width="10.49" y="2" x="1000" xlink:title="1049" />
-			<rect fill="#ff0000" height="20" width="14.75" y="2" x="1250" xlink:title="1475" />
-			<rect fill="#ff0000" height="20" width="35.54" y="2" x="1500" xlink:title="3554" />
-			<rect fill="#f00" height="20" width="46.76" y="2" x="1750" xlink:title="4676" />
-			<text y="19" x="1988">Te Tai Tonga</text>
-		</g>
-		<g transform="translate(0, 1992)">
-			<text y="19" x="8">Titirangi</text>
-			<rect fill="#ff0000" height="20" width="58.00" y="2" x="250" xlink:title="5800" />
-			<text y="19" x="1988">Titirangi</text>
-		</g>
-		<g transform="translate(0, 1464)">
-			<text y="19" x="8">Tukituki</text>
-			<rect fill="#ff0000" height="20" width="86.46" y="2" x="250" xlink:title="8646" />
-			<rect fill="#ff0000" height="20" width="64.10" y="2" x="500" xlink:title="6410" />
-			<rect fill="#0000e6" height="20" width="24.02" y="2" x="750" xlink:title="2402" />
-			<rect fill="#0000e6" height="20" width="78.11" y="2" x="1000" xlink:title="7811" />
-			<rect fill="#0000e6" height="20" width="96.60" y="2" x="1250" xlink:title="9660" />
-			<rect fill="#0000e6" height="20" width="64.90" y="2" x="1500" xlink:title="6490" />
-			<rect fill="#0000e6" height="20" width="28.13" y="2" x="1750" xlink:title="2813" />
-			<text y="19" x="1988">Tukituki</text>
-		</g>
-		<g transform="translate(0, 672)">
-			<text y="19" x="8">Upper Harbour</text>
-			<rect fill="#0000e6" height="20" width="96.92" y="2" x="1500" xlink:title="9692" />
-			<rect fill="#0000e6" height="20" width="95.56" y="2" x="1750" xlink:title="9556" />
-			<text y="19" x="1988">Upper Harbour</text>
-		</g>
-		<g transform="translate(0, 1536)">
-			<text y="19" x="8">Waiariki</text>
-			<rect fill="#ff0000" height="20" width="43.69" y="2" x="250" xlink:title="4369" />
-			<rect fill="#ff0000" height="20" width="67.17" y="2" x="500" xlink:title="6717" />
-			<rect fill="#660000" height="20" width="28.71" y="2" x="750" xlink:title="2871" />
-			<rect fill="#660000" height="20" width="68.12" y="2" x="1000" xlink:title="6812" />
-			<rect fill="#660000" height="20" width="18.83" y="2" x="1250" xlink:title="1883" />
-			<rect fill="#660000" height="20" width="38.89" y="2" x="1500" xlink:title="3889" />
-			<rect fill="#f00" height="20" width="17.19" y="2" x="1750" xlink:title="1719" />
-			<text y="19" x="1988">Waiariki</text>
-		</g>
-		<g transform="translate(0, 120)">
-			<text y="19" x="8">Waikato</text>
-			<rect fill="#0000e6" height="20" width="128.50" y="2" x="1000" xlink:title="12850" />
-			<rect fill="#0000e6" height="20" width="141.98" y="2" x="1250" xlink:title="14198" />
-			<rect fill="#0000e6" height="20" width="161.69" y="2" x="1500" xlink:title="16169" />
-			<rect fill="#0000e6" height="20" width="154.52" y="2" x="1750" xlink:title="15452" />
-			<text y="19" x="1988">Waikato</text>
-		</g>
-		<g transform="translate(0, 576)">
-			<text y="19" x="8">Waimakariri</text>
-			<rect fill="#ff0000" height="20" width="11.41" y="2" x="250" xlink:title="1141" />
-			<rect fill="#ff0000" height="20" width="105.36" y="2" x="500" xlink:title="10536" />
-			<rect fill="#ff0000" height="20" width="56.06" y="2" x="750" xlink:title="5606" />
-			<rect fill="#ff0000" height="20" width="3.90" y="2" x="1000" xlink:title="390" />
-			<rect fill="#0000e6" height="20" width="6.42" y="2" x="1250" xlink:title="642" />
-			<rect fill="#0000e6" height="20" width="25.06" y="2" x="1500" xlink:title="2506" />
-			<rect fill="#0000e6" height="20" width="107.66" y="2" x="1750" xlink:title="10766" />
-			<text y="19" x="1988">Waimakariri</text>
-		</g>
-		<g transform="translate(0, 1488)">
-			<text y="19" x="8">Wairarapa</text>
-			<rect fill="#ff0000" height="20" width="30.33" y="2" x="250" xlink:title="3033" />
-			<rect fill="#ff0000" height="20" width="63.72" y="2" x="500" xlink:title="6372" />
-			<rect fill="#0000e6" height="20" width="27.52" y="2" x="750" xlink:title="2752" />
-			<rect fill="#0000e6" height="20" width="67.58" y="2" x="1000" xlink:title="6758" />
-			<rect fill="#0000e6" height="20" width="71.35" y="2" x="1250" xlink:title="7135" />
-			<rect fill="#0000e6" height="20" width="67.71" y="2" x="1500" xlink:title="6771" />
-			<rect fill="#0000e6" height="20" width="28.72" y="2" x="1750" xlink:title="2872" />
-			<text y="19" x="1988">Wairarapa</text>
-		</g>
-		<g transform="translate(0, 2016)">
-			<text y="19" x="8">Waitakere</text>
-			<rect fill="#0000e6" height="20" width="40.56" y="2" x="250" xlink:title="4056" />
-			<rect fill="#ff0000" height="20" width="23.33" y="2" x="500" xlink:title="2333" />
-			<rect fill="#ff0000" height="20" width="49.42" y="2" x="750" xlink:title="4942" />
-			<rect fill="#0000e6" height="20" width="6.32" y="2" x="1000" xlink:title="632" />
-			<rect fill="#0000e6" height="20" width="0.09" y="2" x="1250" xlink:title="9" />
-			<text y="19" x="1988">Waitakere</text>
-		</g>
-		<g transform="translate(0, 384)">
-			<text y="19" x="8">Waitaki</text>
-			<rect fill="#0000e6" height="20" width="110.39" y="2" x="1000" xlink:title="11039" />
-			<rect fill="#0000e6" height="20" width="141.43" y="2" x="1250" xlink:title="14143" />
-			<rect fill="#0000e6" height="20" width="166.68" y="2" x="1500" xlink:title="16668" />
-			<rect fill="#0000e6" height="20" width="128.16" y="2" x="1750" xlink:title="12816" />
-			<text y="19" x="1988">Waitaki</text>
-		</g>
-		<g transform="translate(0, 648)">
-			<text y="19" x="8">Wellington Central</text>
-			<rect fill="#ff0000" height="20" width="14.82" y="2" x="250" xlink:title="1482" />
-			<rect fill="#ff0000" height="20" width="41.81" y="2" x="500" xlink:title="4181" />
-			<rect fill="#ff0000" height="20" width="61.80" y="2" x="750" xlink:title="6180" />
-			<rect fill="#ff0000" height="20" width="19.04" y="2" x="1000" xlink:title="1904" />
-			<rect fill="#ff0000" height="20" width="63.76" y="2" x="1250" xlink:title="6376" />
-			<rect fill="#ff0000" height="20" width="82.67" y="2" x="1500" xlink:title="8267" />
-			<rect fill="#f00" height="20" width="99.63" y="2" x="1750" xlink:title="9963" />
-			<text y="19" x="1988">Wellington Central</text>
-		</g>
-		<g transform="translate(0, 1176)">
-			<text y="19" x="8">West Coast-Tasman</text>
-			<rect fill="#ff0000" height="20" width="73.78" y="2" x="250" xlink:title="7378" />
-			<rect fill="#ff0000" height="20" width="77.22" y="2" x="500" xlink:title="7722" />
-			<rect fill="#ff0000" height="20" width="21.54" y="2" x="750" xlink:title="2154" />
-			<rect fill="#0000e6" height="20" width="9.71" y="2" x="1000" xlink:title="971" />
-			<rect fill="#ff0000" height="20" width="25.39" y="2" x="1250" xlink:title="2539" />
-			<rect fill="#ff0000" height="20" width="40.94" y="2" x="1500" xlink:title="4094" />
-			<rect fill="#f00" height="20" width="55.93" y="2" x="1750" xlink:title="5593" />
-			<text y="19" x="1988">West Coast-Tasman</text>
-		</g>
-		<g transform="translate(0, 1560)">
-			<text y="19" x="8">Whanganui</text>
-			<rect fill="#ff0000" height="20" width="31.55" y="2" x="250" xlink:title="3155" />
-			<rect fill="#ff0000" height="20" width="20.70" y="2" x="500" xlink:title="2070" />
-			<rect fill="#0000e6" height="20" width="24.02" y="2" x="750" xlink:title="2402" />
-			<rect fill="#0000e6" height="20" width="63.33" y="2" x="1000" xlink:title="6333" />
-			<rect fill="#0000e6" height="20" width="50.46" y="2" x="1250" xlink:title="5046" />
-			<rect fill="#0000e6" height="20" width="45.05" y="2" x="1500" xlink:title="4505" />
-			<rect fill="#0000e6" height="20" width="17.06" y="2" x="1750" xlink:title="1706" />
-			<text y="19" x="1988">Whanganui</text>
-		</g>
-		<g transform="translate(0, 552)">
-			<text y="19" x="8">Whangarei</text>
-			<rect fill="#0000e6" height="20" width="19.34" y="2" x="250" xlink:title="1934" />
-			<rect fill="#0000e6" height="20" width="32.14" y="2" x="500" xlink:title="3214" />
-			<rect fill="#0000e6" height="20" width="90.89" y="2" x="750" xlink:title="9089" />
-			<rect fill="#0000e6" height="20" width="146.63" y="2" x="1000" xlink:title="14663" />
-			<rect fill="#0000e6" height="20" width="124.47" y="2" x="1250" xlink:title="12447" />
-			<rect fill="#0000e6" height="20" width="131.69" y="2" x="1500" xlink:title="13169" />
-			<rect fill="#0000e6" height="20" width="109.67" y="2" x="1750" xlink:title="10967" />
-			<text y="19" x="1988">Whangarei</text>
-		</g>
-		<g transform="translate(0, 1296)">
-			<text y="19" x="8">Wigram</text>
-			<rect fill="#00ff00" height="20" width="98.85" y="2" x="250" xlink:title="9885" />
-			<rect fill="#999999" height="20" width="31.76" y="2" x="500" xlink:title="3176" />
-			<rect fill="#00b300" height="20" width="85.48" y="2" x="750" xlink:title="8548" />
-			<rect fill="#00b300" height="20" width="47.67" y="2" x="1000" xlink:title="4767" />
-			<rect fill="#ff0000" height="20" width="15.00" y="2" x="1250" xlink:title="1500" />
-			<rect fill="#ff0000" height="20" width="33.30" y="2" x="1500" xlink:title="3330" />
-			<rect fill="#f00" height="20" width="45.94" y="2" x="1750" xlink:title="4594" />
-			<text y="19" x="1988">Wigram</text>
-		</g>
-	</g>
+	<g id="data" transform="translate(20,210)"></g>
+	<script	type="text/javascript" src="data.js"></script>
 	<script type="text/javascript"><![CDATA[
-		function sort(column) {
+		let data = {
+			"Albany": {
+				"1999": {
+					"winner": "national",
+					"majority": 4948
+				}
+			},
+			"Aoraki": {
+				"1999": {
+					"winner": "labour",
+					"majority": 7139
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 6453
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 6937
+				}
+			},
+			"Auckland Central": {
+				"1999": {
+					"winner": "labour",
+					"majority": 5285
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 5205
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 3884
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 1497
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 717
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 600
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 1581
+				}
+			},
+			"Banks Peninsula": {
+				"1999": {
+					"winner": "labour",
+					"majority": 1455
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 4057
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 1923
+				}
+			},
+			"Bay of Plenty": {
+				"1999": {
+					"winner": "national",
+					"majority": 7102
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 5597
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 13584
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 17604
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 17760
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 15096
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 13996
+				}
+			},
+			"Botany": {
+				"2008": {
+					"winner": "national",
+					"majority": 10872
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 10741
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 13495
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 12839
+				}
+			},
+			"Christchurch Central": {
+				"1999": {
+					"winner": "labour",
+					"majority": 9404
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 10353
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 7836
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 935
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 47
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 2420
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 2871
+				}
+			},
+			"Christchurch East": {
+				"1999": {
+					"winner": "labour",
+					"majority": 11162
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 14864
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 11973
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 5765
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 5334
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 4073
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 7480
+				}
+			},
+			"Clevedon": {
+				"2002": {
+					"winner": "national",
+					"majority": 3127
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 12871
+				}
+			},
+			"Clutha-Southland": {
+				"1999": {
+					"winner": "national",
+					"majority": 6401
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 6808
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 13032
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 15475
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 16168
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 14886
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 14354
+				}
+			},
+			"Coromandel": {
+				"1999": {
+					"winner": "green",
+					"majority": 250
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 5958
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 10578
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 14560
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 12740
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 15801
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 14326
+				}
+			},
+			"Dunedin": {},
+			"Dunedin North": {
+				"1999": {
+					"winner": "labour",
+					"majority": 12695
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 10637
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 7630
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 7155
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 3489
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 5917
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 11754
+				}
+			},
+			"Dunedin South": {
+				"1999": {
+					"winner": "labour",
+					"majority": 10608
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 14724
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 10640
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 6449
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 4175
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 3858
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 8717
+				}
+			},
+			"East Coast": {
+				"1999": {
+					"winner": "labour",
+					"majority": 3845
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 5343
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 1219
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 6413
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 4774
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 7934
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 4807
+				}
+			},
+			"East Coast Bays": {
+				"2002": {
+					"winner": "national",
+					"majority": 1534
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 7286
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 13974
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 14641
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 15034
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 16290
+				}
+			},
+			"Epsom": {
+				"1999": {
+					"winner": "national",
+					"majority": 1908
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 5619
+				},
+				"2005": {
+					"winner": "act",
+					"majority": 3102
+				},
+				"2008": {
+					"winner": "act",
+					"majority": 12882
+				},
+				"2011": {
+					"winner": "act",
+					"majority": 2261
+				},
+				"2014": {
+					"winner": "act",
+					"majority": 4250
+				},
+				"2017": {
+					"winner": "act",
+					"majority": 5519
+				}
+			},
+			"Hamilton East": {
+				"1999": {
+					"winner": "national",
+					"majority": 692
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 614
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 5298
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 8820
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 8275
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 10199
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 5810
+				}
+			},
+			"Hamilton West": {
+				"1999": {
+					"winner": "labour",
+					"majority": 1629
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 5574
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 825
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 1618
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 4418
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 5784
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 7731
+				}
+			},
+			"Hauraki": {
+				"1999": {
+					"winner": "labour",
+					"majority": 7238
+				}
+			},
+			"Hauraki-Waikato": {
+				"2008": {
+					"winner": "labour",
+					"majority": 888
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 5935
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 7695
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 9223
+				}
+			},
+			"Helensville": {
+				"2002": {
+					"winner": "national",
+					"majority": 1705
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 12778
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 20547
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 21066
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 18287
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 14608
+				}
+			},
+			"Hunua": {
+				"1999": {
+					"winner": "national",
+					"majority": 5195
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 15858
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 16797
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 17376
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 19443
+				}
+			},
+			"Hutt South": {
+				"1999": {
+					"winner": "labour",
+					"majority": 8885
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 7771
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 5740
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 4086
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 4825
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 709
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 1530
+				}
+			},
+			"Ikaroa-Rāwhiti": {
+				"1999": {
+					"winner": "labour",
+					"majority": 695
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 10359
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 1932
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 1645
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 6541
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 4673
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 4210
+				}
+			},
+			"Ilam": {
+				"1999": {
+					"winner": "national",
+					"majority": 6792
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 3872
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 7821
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 11893
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 13312
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 11898
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 8256
+				}
+			},
+			"Invercargill": {
+				"1999": {
+					"winner": "labour",
+					"majority": 7990
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 2792
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 2052
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 6664
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 6263
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 7482
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 5579
+				}
+			},
+			"Kaikōura": {
+				"1999": {
+					"winner": "national",
+					"majority": 1486
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 3069
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 4675
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 11077
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 11445
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 12570
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 10553
+				}
+			},
+			"Kaipara ki Mahurangi": {},
+			"Karapiro": {
+				"1999": {
+					"winner": "national",
+					"majority": 5216
+				}
+			},
+			"Kelston": {
+				"2014": {
+					"winner": "labour",
+					"majority": 5367
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 7269
+				}
+			},
+			"Mana": {
+				"1999": {
+					"winner": "labour",
+					"majority": 5475
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 6376
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 6734
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 6155
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 2230
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 7953
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 10980
+				}
+			},
+			"Māngere": {
+				"1999": {
+					"winner": "labour",
+					"majority": 13047
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 15375
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 16020
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 7126
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 15159
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 14933
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 14597
+				}
+			},
+			"Manukau East": {
+				"1999": {
+					"winner": "labour",
+					"majority": 7086
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 10657
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 9890
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 12445
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 15838
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 13254
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 12589
+				}
+			},
+			"Manurewa": {
+				"1999": {
+					"winner": "labour",
+					"majority": 13062
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 12548
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 11707
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 6726
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 8610
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 6402
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 8374
+				}
+			},
+			"Maungakiekie": {
+				"1999": {
+					"winner": "labour",
+					"majority": 2512
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 6603
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 6450
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 1942
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 3021
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 2348
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 2157
+				}
+			},
+			"Mt Albert": {
+				"1999": {
+					"winner": "labour",
+					"majority": 13108
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 16024
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 14749
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 10351
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 10021
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 10656
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 15264
+				}
+			},
+			"Mt Roskill": {
+				"1999": {
+					"winner": "labour",
+					"majority": 9707
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 13715
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 9895
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 6418
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 7271
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 8091
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 6898
+				}
+			},
+			"Napier": {
+				"1999": {
+					"winner": "labour",
+					"majority": 11863
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 4157
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 3591
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 9018
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 3701
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 3850
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 5220
+				}
+			},
+			"Nelson": {
+				"1999": {
+					"winner": "national",
+					"majority": 4521
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 4232
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 10226
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 8471
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 7088
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 7605
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 4283
+				}
+			},
+			"New Lynn": {
+				"2002": {
+					"winner": "labour",
+					"majority": 11185
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 8078
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 4025
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 5190
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 4557
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 2825
+				}
+			},
+			"New Plymouth": {
+				"1999": {
+					"winner": "labour",
+					"majority": 15092
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 14930
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 5439
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 105
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 4270
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 9778
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 7733
+				}
+			},
+			"North Shore": {
+				"1999": {
+					"winner": "national",
+					"majority": 7048
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 5098
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 9701
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 14574
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 15228
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 16503
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 12716
+				}
+			},
+			"Northcote": {
+				"1999": {
+					"winner": "labour",
+					"majority": 278
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 2624
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 2383
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 9360
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 9379
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 9664
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 6210
+				}
+			},
+			"Northland": {
+				"1999": {
+					"winner": "national",
+					"majority": 5454
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 7558
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 9275
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 10054
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 11362
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 9300
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 1389
+				}
+			},
+			"Ōhāriu": {
+				"2008": {
+					"winner": "unitedfuture",
+					"majority": 1006
+				},
+				"2011": {
+					"winner": "unitedfuture",
+					"majority": 1392
+				},
+				"2014": {
+					"winner": "unitedfuture",
+					"majority": 710
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 1051
+				}
+			},
+			"Ohariu-Belmont": {
+				"1999": {
+					"winner": "unitedfuture",
+					"majority": 12557
+				},
+				"2002": {
+					"winner": "unitedfuture",
+					"majority": 12534
+				},
+				"2005": {
+					"winner": "unitedfuture",
+					"majority": 7702
+				}
+			},
+			"Otago": {
+				"1999": {
+					"winner": "national",
+					"majority": 2367
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 684
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 1995
+				}
+			},
+			"Ōtaki": {
+				"1999": {
+					"winner": "labour",
+					"majority": 7250
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 7736
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 382
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 1354
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 5231
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 7782
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 6156
+				}
+			},
+			"Pakuranga": {
+				"1999": {
+					"winner": "national",
+					"majority": 5314
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 4556
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 9582
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 13906
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 13846
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 12867
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 14886
+				}
+			},
+			"Palmerston North": {
+				"1999": {
+					"winner": "labour",
+					"majority": 13153
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 7627
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 5500
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 1117
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 3285
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 2212
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 6392
+				}
+			},
+			"Panmure-Ōtāhuhu": {},
+			"Papakura": {
+				"2008": {
+					"winner": "national",
+					"majority": 10277
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 9890
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 5119
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 7486
+				}
+			},
+			"Piako": {
+				"2002": {
+					"winner": "national",
+					"majority": 1621
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 8351
+				}
+			},
+			"Port Hills": {
+				"2008": {
+					"winner": "labour",
+					"majority": 3452
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 3097
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 2228
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 7916
+				}
+			},
+			"Port Waikato": {
+				"1999": {
+					"winner": "national",
+					"majority": 3915
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 5972
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 13498
+				}
+			},
+			"Rakaia": {
+				"1999": {
+					"winner": "national",
+					"majority": 10602
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 6076
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 10448
+				}
+			},
+			"Rangitata": {
+				"2008": {
+					"winner": "national",
+					"majority": 8112
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 6537
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 14107
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 6331
+				}
+			},
+			"Rangitīkei": {
+				"1999": {
+					"winner": "national",
+					"majority": 289
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 5315
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 9660
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 12042
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 9382
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 11060
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 10290
+				}
+			},
+			"Remutaka": {
+				"1999": {
+					"winner": "labour",
+					"majority": 8374
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 12615
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 8277
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 753
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 3286
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 6664
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 8609
+				}
+			},
+			"Rodney": {
+				"1999": {
+					"winner": "national",
+					"majority": 6905
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 4566
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 11536
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 15635
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 12222
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 20230
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 19561
+				}
+			},
+			"Rongotai": {
+				"1999": {
+					"winner": "labour",
+					"majority": 12928
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 11493
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 12638
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 9020
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 9047
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 9617
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 10900
+				}
+			},
+			"Rotorua": {
+				"1999": {
+					"winner": "labour",
+					"majority": 4978
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 7744
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 662
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 5065
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 7357
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 7418
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 7901
+				}
+			},
+			"Selwyn": {
+				"2008": {
+					"winner": "national",
+					"majority": 11075
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 19451
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 20561
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 19639
+				}
+			},
+			"Southland": {},
+			"Taieri": {},
+			"Tainui": {
+				"2002": {
+					"winner": "labour",
+					"majority": 3430
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 1860
+				}
+			},
+			"Takanini": {},
+			"Tāmaki": {
+				"1999": {
+					"winner": "national",
+					"majority": 4911
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 1207
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 9510
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 17020
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 17786
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 20421
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 15402
+				}
+			},
+			"Tāmaki Makaurau": {
+				"2002": {
+					"winner": "labour",
+					"majority": 9444
+				},
+				"2005": {
+					"winner": "maori",
+					"majority": 2127
+				},
+				"2008": {
+					"winner": "maori",
+					"majority": 7540
+				},
+				"2011": {
+					"winner": "maori",
+					"majority": 936
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 1462
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 3809
+				}
+			},
+			"Taranaki-King Country": {
+				"1999": {
+					"winner": "national",
+					"majority": 6510
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 7175
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 13118
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 15618
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 15089
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 16773
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 15259
+				}
+			},
+			"Taupō": {
+				"1999": {
+					"winner": "labour",
+					"majority": 3578
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 7128
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 1285
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 6445
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 14115
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 15046
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 14335
+				}
+			},
+			"Tauranga": {
+				"1999": {
+					"winner": "newzealandfirst",
+					"majority": 63
+				},
+				"2002": {
+					"winner": "newzealandfirst",
+					"majority": 10362
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 730
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 11742
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 17264
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 14842
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 11252
+				}
+			},
+			"Te Atatū": {
+				"1999": {
+					"winner": "labour",
+					"majority": 9262
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 12932
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 10447
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 5298
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 5416
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 2813
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 3184
+				}
+			},
+			"Te Tai Hauāuru": {
+				"1999": {
+					"winner": "labour",
+					"majority": 6233
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 8657
+				},
+				"2005": {
+					"winner": "maori",
+					"majority": 5113
+				},
+				"2008": {
+					"winner": "maori",
+					"majority": 7817
+				},
+				"2011": {
+					"winner": "maori",
+					"majority": 3221
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 1554
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 1039
+				}
+			},
+			"Te Tai Tokerau": {
+				"1999": {
+					"winner": "labour",
+					"majority": 5692
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 5336
+				},
+				"2005": {
+					"winner": "maori",
+					"majority": 3613
+				},
+				"2008": {
+					"winner": "maori",
+					"majority": 6308
+				},
+				"2011": {
+					"winner": "mana",
+					"majority": 1165
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 743
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 4807
+				}
+			},
+			"Te Tai Tonga": {
+				"1999": {
+					"winner": "labour",
+					"majority": 4522
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 8052
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 2503
+				},
+				"2008": {
+					"winner": "maori",
+					"majority": 1049
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 1475
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 3554
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 4676
+				}
+			},
+			"Titirangi": {
+				"1999": {
+					"winner": "labour",
+					"majority": 5800
+				}
+			},
+			"Tukituki": {
+				"1999": {
+					"winner": "labour",
+					"majority": 8646
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 6410
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 2402
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 7811
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 9660
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 6490
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 2813
+				}
+			},
+			"Upper Harbour": {
+				"2014": {
+					"winner": "national",
+					"majority": 9692
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 9556
+				}
+			},
+			"Waiariki": {
+				"1999": {
+					"winner": "labour",
+					"majority": 4369
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 6717
+				},
+				"2005": {
+					"winner": "maori",
+					"majority": 2871
+				},
+				"2008": {
+					"winner": "maori",
+					"majority": 6812
+				},
+				"2011": {
+					"winner": "maori",
+					"majority": 1883
+				},
+				"2014": {
+					"winner": "maori",
+					"majority": 3889
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 1719
+				}
+			},
+			"Waikato": {
+				"2008": {
+					"winner": "national",
+					"majority": 12850
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 14198
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 16169
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 15452
+				}
+			},
+			"Waimakariri": {
+				"1999": {
+					"winner": "labour",
+					"majority": 1141
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 10536
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 5606
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 390
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 642
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 2506
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 10766
+				}
+			},
+			"Wairarapa": {
+				"1999": {
+					"winner": "labour",
+					"majority": 3033
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 6372
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 2752
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 6758
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 7135
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 6771
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 2872
+				}
+			},
+			"Waitakere": {
+				"1999": {
+					"winner": "national",
+					"majority": 4056
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 2333
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 4942
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 632
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 9
+				}
+			},
+			"Waitaki": {
+				"2008": {
+					"winner": "national",
+					"majority": 11039
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 14143
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 16668
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 12816
+				}
+			},
+			"Wellington Central": {
+				"1999": {
+					"winner": "labour",
+					"majority": 1482
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 4181
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 6180
+				},
+				"2008": {
+					"winner": "labour",
+					"majority": 1904
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 6376
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 8267
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 9963
+				}
+			},
+			"West Coast-Tasman": {
+				"1999": {
+					"winner": "labour",
+					"majority": 7378
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 7722
+				},
+				"2005": {
+					"winner": "labour",
+					"majority": 2154
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 971
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 2539
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 4094
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 5593
+				}
+			},
+			"Whanganui": {
+				"1999": {
+					"winner": "labour",
+					"majority": 3155
+				},
+				"2002": {
+					"winner": "labour",
+					"majority": 2070
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 2402
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 6333
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 5046
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 4505
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 1706
+				}
+			},
+			"Whangaparāoa": {},
+			"Whangārei": {
+				"1999": {
+					"winner": "national",
+					"majority": 1934
+				},
+				"2002": {
+					"winner": "national",
+					"majority": 3214
+				},
+				"2005": {
+					"winner": "national",
+					"majority": 9089
+				},
+				"2008": {
+					"winner": "national",
+					"majority": 14663
+				},
+				"2011": {
+					"winner": "national",
+					"majority": 12447
+				},
+				"2014": {
+					"winner": "national",
+					"majority": 13169
+				},
+				"2017": {
+					"winner": "national",
+					"majority": 10967
+				}
+			},
+			"Wigram": {
+				"1999": {
+					"winner": "alliance",
+					"majority": 9885
+				},
+				"2002": {
+					"winner": "progressive",
+					"majority": 3176
+				},
+				"2005": {
+					"winner": "progressive",
+					"majority": 8548
+				},
+				"2008": {
+					"winner": "progressive",
+					"majority": 4767
+				},
+				"2011": {
+					"winner": "labour",
+					"majority": 1500
+				},
+				"2014": {
+					"winner": "labour",
+					"majority": 3330
+				},
+				"2017": {
+					"winner": "labour",
+					"majority": 4594
+				}
+			},
+		};
+
+		let dataEl = document.getElementById("data");
+		for (let [name, results] of Object.entries(data)) {
+			let group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+			let label1 = group.appendChild(document.createElementNS("http://www.w3.org/2000/svg", "text"));
+			label1.classList.add("label1");
+			label1.setAttribute("y", "20");
+			label1.textContent = name;
+
+			for (let [year, result] of Object.entries(results)) {
+				let rect = group.appendChild(document.createElementNS("http://www.w3.org/2000/svg", "rect"));
+				rect.classList.add(`year${year}`);
+				rect.classList.add(result.winner);
+				rect.setAttribute("y", "2");
+				rect.setAttribute("width", result.majority / 100);
+				rect.setAttribute("height", "20");
+				rect.setAttributeNS("http://www.w3.org/1999/xlink", "title", result.majority);
+			}
+
+			let label2 = group.appendChild(document.createElementNS("http://www.w3.org/2000/svg", "text"));
+			label2.classList.add("label2");
+			label2.setAttribute("y", "20");
+			label2.textContent = name;
+			dataEl.appendChild(group);
+		}
+
+		sort(2017);
+
+		function sort(year) {
 			let y = 0;
 			for (let row of [...document.querySelectorAll('#data > g')].sort((a, b) => {
-				if (column == 0) {
+				if (year == 0) {
 					let nameA = a.querySelector('text').textContent.replace('Ō', 'O');
 					let nameB = b.querySelector('text').textContent.replace('Ō', 'O');
 					return nameA < nameB ? -1 : 1;
 				}
-				let colA = a.querySelector('rect[x="' + column + '"]');
-				let colB = b.querySelector('rect[x="' + column + '"]');
+				let colA = a.querySelector(`rect.year${year}`);
+				let colB = b.querySelector(`rect.year${year}`);
 				if (colA && !colB) {
 					return -1;
 				}
@@ -913,19 +2314,6 @@
 				y += 24;
 			}
 		}
-
-		let colours = {
-			NAT: '#0000e6',
-			LAB: '#f00',
-			ACT: '#ff0',
-			UNF: '#909',
-			MAOR: '#600',
-			MANA: '#b30000',
-			JAP: '#999',
-			NZF: '#000',
-			ALL: '#00b300',
-			GRN: '#060'
-		};
 
 		function update(data) {
 			let rows = [...document.querySelectorAll('#data > g')];
