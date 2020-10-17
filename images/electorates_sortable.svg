@@ -27,26 +27,26 @@
 		<text x="894.029" y="41.173" font-size="28" font-weight="600" text-anchor="middle">How safe is that seat?</text>
 		<text x="894.473" y="79.173" font-size="20" font-weight="600" text-anchor="middle">Electorate majorities from the last seven general elections</text>
 		<text x="895.006" y="99.173" font-size="12" text-anchor="middle">(data from www.parliament.nz, electionresults.govt.nz)</text>
-		<path class="national" d="M139.862 130.949H159.862V150.949H139.862z" transform="translate(290.18625,-9.1563721) translate(487.83035)"/>
-		<text x="163.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(487.83035)">National</text>
-		<path class="labour" d="M254.316 130.949H274.31600000000003V150.949H254.316z" transform="translate(290.18625,-9.1563721) translate(105.17942)"/>
-		<text x="278.316" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(105.17942)">Labour</text>
 		<path class="act" d="M358.724 130.949H378.724V150.949H358.724z" transform="translate(290.18625,-9.1563721) translate(-261.22063)"/>
 		<text x="382.724" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-261.22063)">ACT</text>
-		<path class="unitedfuture" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(536.74136)"/>
-		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(536.74136)">United Future</text>
-		<path class="maori" d="M596.385 130.949H616.385V150.949H596.385z" transform="translate(290.18625,-9.1563721) translate(-54.751991)"/>
-		<text x="620.385" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-54.751991)">Maori</text>
-		<path class="mana" d="M689.007 130.949H709.007V150.949H689.007z" transform="translate(290.18625,-9.1563721) translate(-231.66633)"/>
-		<text x="713.007" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-231.66633)">Mana</text>
-		<path class="progressive" d="M779.862 130.949H799.862V150.949H779.862z" transform="translate(290.18625,-9.1563721) translate(58.427208)"/>
-		<text x="803.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(58.427208)">Progressive</text>
-		<path class="newzealandfirst" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(299.32021)"/>
-		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(299.32021)">NZ First</text>
 		<path class="alliance" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-267.78313)"/>
 		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-267.78313)">Alliance</text>
 		<path class="green" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(-165.44654)"/>
 		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-165.44654)">Green</text>
+		<path class="labour" d="M254.316 130.949H274.316V150.949H254.316z" transform="translate(290.18625,-9.1563721) translate(105.17942)"/>
+		<text x="278.316" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(105.17942)">Labour</text>
+		<path class="mana" d="M689.007 130.949H709.007V150.949H689.007z" transform="translate(290.18625,-9.1563721) translate(-231.66633)"/>
+		<text x="713.007" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-231.66633)">Mana</text>
+		<path class="maori" d="M596.385 130.949H616.385V150.949H596.385z" transform="translate(290.18625,-9.1563721) translate(-54.751991)"/>
+		<text x="620.385" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(-54.751991)">Maori</text>
+		<path class="national" d="M139.862 130.949H159.862V150.949H139.862z" transform="translate(290.18625,-9.1563721) translate(487.83035)"/>
+		<text x="163.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(487.83035)">National</text>
+		<path class="newzealandfirst" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(299.32021)"/>
+		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(299.32021)">NZ First</text>
+		<path class="progressive" d="M779.862 130.949H799.862V150.949H779.862z" transform="translate(290.18625,-9.1563721) translate(58.427208)"/>
+		<text x="803.862" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(58.427208)">Progressive</text>
+		<path class="unitedfuture" d="M436.264 130.949H456.264V150.949H436.264z" transform="translate(290.18625,-9.1563721) translate(536.74136)"/>
+		<text x="460.264" y="147.949" font-size="18" transform="translate(290.18625,-9.1563721) translate(536.74136)">United Future</text>
 	</g>
 	<g font-size="20" font-weight="600" style="cursor: pointer;">
 		<text x="28" y="177" onclick="sort();">Electorate</text>
@@ -133,6 +133,18 @@
 	<g id="data" transform="translate(20,210)"></g>
 	<script	type="text/javascript" src="data.js"></script>
 	<script type="text/javascript"><![CDATA[
+		let parties = {
+			"act": "ACT",
+			"alliance": "Alliance",
+			"green": "Green",
+			"labour": "Labour",
+			"mana": "Mana",
+			"maori": "Maori",
+			"national": "National",
+			"newzealandfirst": "NZ First",
+			"progressive": "Progressive",
+			"unitedfuture": "United Future",
+		};
 		let data = {
 			"Albany": {
 				"1999": {
@@ -2260,6 +2272,7 @@
 				}
 			},
 		};
+		let format = new Intl.NumberFormat().format;
 
 		let dataEl = document.getElementById("data");
 		for (let [name, results] of Object.entries(data)) {
@@ -2277,7 +2290,8 @@
 				rect.setAttribute("y", "2");
 				rect.setAttribute("width", result.majority / 100);
 				rect.setAttribute("height", "20");
-				rect.setAttributeNS("http://www.w3.org/1999/xlink", "title", result.majority);
+				let title = rect.appendChild(document.createElementNS("http://www.w3.org/2000/svg", "title"));
+				title.textContent = `${parties[result.winner]} ${format(result.majority)}`;
 			}
 
 			let label2 = group.appendChild(document.createElementNS("http://www.w3.org/2000/svg", "text"));
