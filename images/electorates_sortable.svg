@@ -194,6 +194,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 1581
+				},
+				"2020": {
+					"winner": "green",
+					"majority": 492
 				}
 			},
 			"Banks Peninsula": {
@@ -208,6 +212,10 @@
 				"2005": {
 					"winner": "labour",
 					"majority": 1923
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 11204
 				}
 			},
 			"Bay of Plenty": {
@@ -238,6 +246,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 13996
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 3472
 				}
 			},
 			"Botany": {
@@ -256,6 +268,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 12839
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 4471
 				}
 			},
 			"Christchurch Central": {
@@ -286,6 +302,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 2871
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 11423
 				}
 			},
 			"Christchurch East": {
@@ -316,6 +336,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 7480
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 14455
 				}
 			},
 			"Clevedon": {
@@ -386,9 +410,18 @@
 				"2017": {
 					"winner": "national",
 					"majority": 14326
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 4206
 				}
 			},
-			"Dunedin": {},
+			"Dunedin": {
+				"2020": {
+					"winner": "labour",
+					"majority": 13321
+				}
+			},
 			"Dunedin North": {
 				"1999": {
 					"winner": "labour",
@@ -477,6 +510,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 4807
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 4646
 				}
 			},
 			"East Coast Bays": {
@@ -503,6 +540,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 16290
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 8071
 				}
 			},
 			"Epsom": {
@@ -533,6 +574,10 @@
 				"2017": {
 					"winner": "act",
 					"majority": 5519
+				},
+				"2020": {
+					"winner": "act",
+					"majority": 8883
 				}
 			},
 			"Hamilton East": {
@@ -563,6 +608,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 5810
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 1948
 				}
 			},
 			"Hamilton West": {
@@ -593,6 +642,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 7731
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 4425
 				}
 			},
 			"Hauraki": {
@@ -617,6 +670,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 9223
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 7535
 				}
 			},
 			"Helensville": {
@@ -695,6 +752,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 1530
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 2292
 				}
 			},
 			"Ikaroa-Rāwhiti": {
@@ -725,6 +786,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 4210
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 5052
 				}
 			},
 			"Ilam": {
@@ -755,6 +820,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 8256
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 2220
 				}
 			},
 			"Invercargill": {
@@ -785,6 +854,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 5579
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 685
 				}
 			},
 			"Kaikōura": {
@@ -815,9 +888,18 @@
 				"2017": {
 					"winner": "national",
 					"majority": 10553
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 2282
 				}
 			},
-			"Kaipara ki Mahurangi": {},
+			"Kaipara ki Mahurangi": {
+				"2020": {
+					"winner": "national",
+					"majority": 4431
+				}
+			},
 			"Karapiro": {
 				"1999": {
 					"winner": "national",
@@ -832,6 +914,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 7269
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 12224
 				}
 			},
 			"Mana": {
@@ -862,6 +948,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 10980
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 13243
 				}
 			},
 			"Māngere": {
@@ -892,6 +982,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 14597
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 11145
 				}
 			},
 			"Manukau East": {
@@ -952,6 +1046,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 8374
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 11696
 				}
 			},
 			"Maungakiekie": {
@@ -982,6 +1080,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 2157
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 580
 				}
 			},
 			"Mt Albert": {
@@ -1012,6 +1114,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 15264
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 16577
 				}
 			},
 			"Mt Roskill": {
@@ -1042,6 +1148,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 6898
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 9514
 				}
 			},
 			"Napier": {
@@ -1072,6 +1182,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 5220
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 4525
 				}
 			},
 			"Nelson": {
@@ -1102,6 +1216,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 4283
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 3577
 				}
 			},
 			"New Lynn": {
@@ -1128,6 +1246,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 2825
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 10402
 				}
 			},
 			"New Plymouth": {
@@ -1158,6 +1280,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 7733
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 1519
 				}
 			},
 			"North Shore": {
@@ -1188,6 +1314,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 12716
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 3982
 				}
 			},
 			"Northcote": {
@@ -1218,6 +1348,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 6210
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 1358
 				}
 			},
 			"Northland": {
@@ -1248,6 +1382,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 1389
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 742
 				}
 			},
 			"Ōhāriu": {
@@ -1266,6 +1404,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 1051
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 9991
 				}
 			},
 			"Ohariu-Belmont": {
@@ -1324,6 +1466,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 6156
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 1267
 				}
 			},
 			"Pakuranga": {
@@ -1354,6 +1500,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 14886
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 9756
 				}
 			},
 			"Palmerston North": {
@@ -1384,9 +1534,18 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 6392
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 10442
 				}
 			},
-			"Panmure-Ōtāhuhu": {},
+			"Panmure-Ōtāhuhu": {
+				"2020": {
+					"winner": "labour",
+					"majority": 13541
+				}
+			},
 			"Papakura": {
 				"2008": {
 					"winner": "national",
@@ -1403,6 +1562,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 7486
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 5925
 				}
 			},
 			"Piako": {
@@ -1445,6 +1608,10 @@
 				"2005": {
 					"winner": "national",
 					"majority": 13498
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 4261
 				}
 			},
 			"Rakaia": {
@@ -1477,6 +1644,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 6331
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 3484
 				}
 			},
 			"Rangitīkei": {
@@ -1507,6 +1678,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 10290
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 2423
 				}
 			},
 			"Remutaka": {
@@ -1537,6 +1712,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 8609
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 17237
 				}
 			},
 			"Rodney": {
@@ -1597,6 +1776,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 10900
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 16033
 				}
 			},
 			"Rotorua": {
@@ -1627,6 +1810,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 7901
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 1245
 				}
 			},
 			"Selwyn": {
@@ -1645,10 +1832,24 @@
 				"2017": {
 					"winner": "national",
 					"majority": 19639
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 4943
 				}
 			},
-			"Southland": {},
-			"Taieri": {},
+			"Southland": {
+				"2020": {
+					"winner": "national",
+					"majority": 5076
+				}
+			},
+			"Taieri": {
+				"2020": {
+					"winner": "labour",
+					"majority": 10632
+				}
+			},
 			"Tainui": {
 				"2002": {
 					"winner": "labour",
@@ -1659,7 +1860,12 @@
 					"majority": 1860
 				}
 			},
-			"Takanini": {},
+			"Takanini": {
+				"2020": {
+					"winner": "labour",
+					"majority": 4548
+				}
+			},
 			"Tāmaki": {
 				"1999": {
 					"winner": "national",
@@ -1688,6 +1894,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 15402
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 7892
 				}
 			},
 			"Tāmaki Makaurau": {
@@ -1714,6 +1924,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 3809
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 902
 				}
 			},
 			"Taranaki-King Country": {
@@ -1744,6 +1958,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 15259
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 3632
 				}
 			},
 			"Taupō": {
@@ -1774,6 +1992,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 14335
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 5254
 				}
 			},
 			"Tauranga": {
@@ -1804,6 +2026,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 11252
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 2433
 				}
 			},
 			"Te Atatū": {
@@ -1834,6 +2060,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 3184
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 8224
 				}
 			},
 			"Te Tai Hauāuru": {
@@ -1864,6 +2094,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 1039
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 1121
 				}
 			},
 			"Te Tai Tokerau": {
@@ -1894,6 +2128,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 4807
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 6601
 				}
 			},
 			"Te Tai Tonga": {
@@ -1924,6 +2162,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 4676
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 5643
 				}
 			},
 			"Titirangi": {
@@ -1960,6 +2202,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 2813
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 772
 				}
 			},
 			"Upper Harbour": {
@@ -1970,6 +2216,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 9556
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 1415
 				}
 			},
 			"Waiariki": {
@@ -2000,6 +2250,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 1719
+				},
+				"2020": {
+					"winner": "maori",
+					"majority": 415
 				}
 			},
 			"Waikato": {
@@ -2018,6 +2272,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 15452
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 5387
 				}
 			},
 			"Waimakariri": {
@@ -2048,6 +2306,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 10766
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 1976
 				}
 			},
 			"Wairarapa": {
@@ -2078,6 +2340,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 2872
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 5411
 				}
 			},
 			"Waitakere": {
@@ -2118,6 +2384,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 12816
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 3145
 				}
 			},
 			"Wellington Central": {
@@ -2148,6 +2418,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 9963
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 14935
 				}
 			},
 			"West Coast-Tasman": {
@@ -2178,6 +2452,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 5593
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 5067
 				}
 			},
 			"Whanganui": {
@@ -2208,9 +2486,18 @@
 				"2017": {
 					"winner": "national",
 					"majority": 1706
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 6821
 				}
 			},
-			"Whangaparāoa": {},
+			"Whangaparāoa": {
+				"2020": {
+					"winner": "national",
+					"majority": 7640
+				}
+			},
 			"Whangārei": {
 				"1999": {
 					"winner": "national",
@@ -2239,6 +2526,10 @@
 				"2017": {
 					"winner": "national",
 					"majority": 10967
+				},
+				"2020": {
+					"winner": "national",
+					"majority": 162
 				}
 			},
 			"Wigram": {
@@ -2269,6 +2560,10 @@
 				"2017": {
 					"winner": "labour",
 					"majority": 4594
+				},
+				"2020": {
+					"winner": "labour",
+					"majority": 12384
 				}
 			},
 		};
@@ -2301,7 +2596,7 @@
 			dataEl.appendChild(group);
 		}
 
-		sort(2017);
+		sort(2020);
 
 		function sort(year) {
 			let y = 0;
