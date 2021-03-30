@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title>Address Book</title>
+<link rel="stylesheet" type="text/css" href="list.css"/>
+<style type="text/css">
+html {
+  display: flex;
+  height: 100%;
+  font: message-box;
+}
+body {
+  flex: 1;
+  display: flex;
+  background-color: rebeccapurple;
+  --in-content-item-selected: #0a84ff;
+}
+:focus {
+  outline: 3px solid red;
+}
+
+#booksOuter {
+  margin-inline-end: 2em;
+}
+#cardsOuter {
+  padding-inline: 8px;
+  width: 48ch;
+}
+#details {
+  margin-inline-start: 2em;
+}
+</style>
+</head>
+<body>
+<div id="booksOuter">
+  <input id="before" placeholder="something to focus on"/>
+</div>
+<card-list id="cardsOuter" tabindex="0" rows="test-card-row">
+</card-list>
+<div id="details">
+  <input id="after" placeholder="something to focus on"/>
+</div>
+<script src="list-elements.js"></script>
+<script src="list.js"></script>
+</body>
+</html>

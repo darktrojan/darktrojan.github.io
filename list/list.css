@@ -1,0 +1,31 @@
+card-list {
+  background-color: #fff;
+  font-size: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  -moz-user-select: none;
+}
+card-list > div {
+  flex: 1;
+  position: relative;
+  outline: none;
+}
+card-list > div > * {
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: default;
+}
+card-list > div > .selected {
+  background-color: -moz-cellhighlight;
+}
+card-list:focus > div > .current {
+  outline: 1px dotted black;
+  z-index: 1;
+}
+card-list:focus-within > div > .selected {
+  color: white;
+  background-color: var(--in-content-item-selected);
+}
