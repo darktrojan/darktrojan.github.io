@@ -310,7 +310,7 @@ let svgRect = svg.getBoundingClientRect();
 let graphRect = new DOMRect((svgRect.width - 1608) / 2, 8, 1608, 800);
 
 let legend = svg.querySelector("g");
-legend.style.translate = (svgRect.width - legend.getBoundingClientRect().width) / 2 + "px";
+legend.style.transform = "translateX(" + (svgRect.width - legend.getBoundingClientRect().width) / 2 + "px)";
 
 let maxValue = 40000000000;
 
