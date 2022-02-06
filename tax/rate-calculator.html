@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <title>Income tax bracket calculator</title>
+  <style>
+
+:root {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+header {
+  text-align: center;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.grid {
+  shape-rendering: crispEdges;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+
+.baseline {
+  fill: #999;
+}
+
+.less-tax {
+  fill: #81d41a;
+}
+
+.equal-tax {
+  fill: #ff860d;
+}
+
+.more-tax {
+  fill:  #a1467e;
+}
+
+.bracket-upper-bound {
+  stroke: #2a6099;
+  stroke-width: 4;
+}
+
+.bracket-rate {
+  stroke: #f00;
+  stroke-width: 4;
+}
+
+text {
+  stroke: white;
+  fill: black;
+  stroke-width: 6px;
+  paint-order: stroke fill;
+  /*font-weight: bold;*/
+  stroke-linejoin: round;
+}
+
+footer {
+  font-size: smaller;
+  text-align: right;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Income tax bracket calculator</h1>
+    <p>Drag the blue lines sideways to change the tax brackets. Drag the red lines up or down to change the marginal tax rates.</p>
+    <p>The last bar represents everybody who earns more than $200,000.</p>
+  </header>
+  <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900">
+    <g>
+      <rect x="0" y="850" width="24" height="24" class="baseline"/>
+      <text x="29" y="862" dominant-baseline="central">Baseline</text>
+      <rect x="150" y="850" width="24" height="24" class="less-tax"/>
+      <text x="179" y="862" dominant-baseline="central">Pays less tax</text>
+      <rect x="300" y="850" width="24" height="24" class="equal-tax"/>
+      <text x="329" y="862" dominant-baseline="central">No change</text>
+      <rect x="450" y="850" width="24" height="24" class="more-tax"/>
+      <text x="479" y="862" dominant-baseline="central">Pays more tax</text>
+    </g>
+  </svg>
+  <footer>
+    Income data from <a href="https://www.ird.govt.nz/about-us/tax-statistics/revenue-refunds/wage-salary-distributions">ird.govt.nz</a> (<a href="https://www.ird.govt.nz/-/media/project/ir/home/documents/files/statistics/revenue-and-refunds/wage-and-salary-distributions-for-individual-customers-2001-to-2021/wages-data-01-21.xlsx?modified=20211221010246&modified=20211221010246">direct link to data</a>)
+  <script>
+
+let bracketData = [
+  [14000, 0.105],
+  [48000, 0.175],
+  [70000, 0.30],
+  [180000, 0.33],
+  [Infinity, 0.39],
+];
+
+let incomeData = [
+  [84810, 37300000],
+  [50920, 75400000],
+  [40840, 101600000],
+  [36310, 127000000],
+  [33920, 152700000],
+  [31820, 175100000],
+  [29980, 194800000],
+  [30070, 225300000],
+  [28200, 239700000],
+  [28100, 267000000],
+  [26540, 278600000],
+  [26720, 307600000],
+  [25890, 323800000],
+  [25820, 348400000],
+  [24590, 356500000],
+  [24250, 375900000],
+  [23130, 381600000],
+  [22670, 396900000],
+  [22030, 407600000],
+  [22340, 435800000],
+  [21520, 441200000],
+  [21400, 460100000],
+  [20660, 464900000],
+  [21110, 496100000],
+  [21180, 519100000],
+  [21240, 541800000],
+  [20650, 547300000],
+  [20830, 572900000],
+  [21180, 603700000],
+  [22100, 652200000],
+  [21980, 670500000],
+  [22430, 706600000],
+  [22170, 720500000],
+  [22480, 753300000],
+  [22770, 785700000],
+  [23440, 832100000],
+  [23720, 865800000],
+  [24730, 927600000],
+  [25600, 985900000],
+  [27430, 1083800000],
+  [27860, 1128400000],
+  [28890, 1198900000],
+  [29080, 1235800000],
+  [29990, 1304900000],
+  [30870, 1373900000],
+  [31130, 1416400000],
+  [31480, 1463800000],
+  [32790, 1558200000],
+  [31650, 1534900000],
+  [32640, 1616000000],
+  [32020, 1616900000],
+  [32120, 1654400000],
+  [31180, 1636800000],
+  [31050, 1661000000],
+  [31220, 1701500000],
+  [30210, 1676400000],
+  [29850, 1686200000],
+  [29140, 1675700000],
+  [27940, 1634400000],
+  [28060, 1670300000],
+  [26990, 1632600000],
+  [26060, 1602200000],
+  [26170, 1635400000],
+  [24870, 1579400000],
+  [24390, 1573500000],
+  [23330, 1528100000],
+  [22770, 1514400000],
+  [22700, 1532200000],
+  [21880, 1498500000],
+  [22090, 1536000000],
+  [20450, 1441200000],
+  [20400, 1458300000],
+  [19400, 1406600000],
+  [18270, 1342800000],
+  [18450, 1374700000],
+  [17950, 1354900000],
+  [17300, 1323400000],
+  [16580, 1285100000],
+  [15870, 1245700000],
+  [16220, 1289600000],
+  [16110, 1296800000],
+  [14910, 1214800000],
+  [14080, 1161900000],
+  [14190, 1184700000],
+  [15740, 1331500000],
+  [14140, 1208500000],
+  [13320, 1152600000],
+  [12370, 1082000000],
+  [12950, 1146200000],
+  [12620, 1129800000],
+  [11270, 1020000000],
+  [11210, 1025900000],
+  [10670, 987300000],
+  [10340, 966300000],
+  [10060, 951300000],
+  [9530, 910100000],
+  [9680, 934700000],
+  [8950, 872500000],
+  [8710, 857500000],
+  [8990, 895300000],
+  [8280, 831800000],
+  [8010, 813100000],
+  [7140, 731700000],
+  [7430, 769200000],
+  [7130, 745500000],
+  [6610, 697100000],
+  [6420, 683900000],
+  [6170, 662800000],
+  [5860, 635400000],
+  [6100, 668200000],
+  [5570, 614800000],
+  [5170, 576300000],
+  [5240, 589100000],
+  [4960, 562400000],
+  [5270, 603100000],
+  [4850, 559900000],
+  [4780, 557300000],
+  [4710, 553900000],
+  [4250, 503600000],
+  [4980, 595000000],
+  [4280, 515500000],
+  [4010, 486900000],
+  [4150, 508700000],
+  [3680, 455000000],
+  [3970, 494900000],
+  [3600, 451900000],
+  [3400, 429600000],
+  [3310, 422400000],
+  [3100, 398200000],
+  [3460, 447800000],
+  [3130, 408300000],
+  [2950, 387500000],
+  [3040, 402600000],
+  [2750, 367600000],
+  [2910, 391600000],
+  [2680, 362600000],
+  [2600, 354500000],
+  [2610, 359000000],
+  [2350, 325900000],
+  [2620, 365100000],
+  [2500, 351300000],
+  [2290, 323500000],
+  [2260, 321400000],
+  [2120, 303500000],
+  [2220, 320700000],
+  [2060, 299300000],
+  [2070, 303000000],
+  [1950, 287300000],
+  [1760, 260800000],
+  [2300, 344400000],
+  [2040, 307600000],
+  [1740, 263200000],
+  [1800, 274700000],
+  [1600, 245700000],
+  [1660, 257000000],
+  [1650, 256900000],
+  [1560, 244300000],
+  [1520, 238900000],
+  [1410, 223100000],
+  [1580, 251600000],
+  [1490, 238800000],
+  [1430, 230100000],
+  [1350, 219700000],
+  [1290, 211200000],
+  [1350, 222400000],
+  [1250, 206200000],
+  [1210, 201600000],
+  [1120, 186800000],
+  [1100, 185500000],
+  [1230, 208700000],
+  [1080, 183600000],
+  [980, 167200000],
+  [1040, 179900000],
+  [1050, 181800000],
+  [1090, 190800000],
+  [950, 166900000],
+  [970, 171200000],
+  [870, 155000000],
+  [870, 154400000],
+  [1080, 194000000],
+  [910, 164100000],
+  [830, 151200000],
+  [830, 150700000],
+  [860, 157600000],
+  [790, 145600000],
+  [830, 154300000],
+  [780, 145500000],
+  [710, 132600000],
+  [740, 140200000],
+  [740, 140300000],
+  [760, 145500000],
+  [700, 134800000],
+  [710, 137100000],
+  [640, 122900000],
+  [700, 135800000],
+  [650, 126300000],
+  [620, 122000000],
+  [640, 127200000],
+  [550, 109600000],
+  [800, 158900000],
+  [44030, 14309900000],
+];
+
+let percentFormat = new Intl.NumberFormat(undefined, { style: "percent" });
+let dollarFormat = new Intl.NumberFormat(undefined, { style: "currency", currency: "NZD", currencyDisplay: "narrowSymbol", notation: "compact" });
+
+const SVGNS = "http://www.w3.org/2000/svg";
+let svg = document.querySelector("svg");
+let svgRect = svg.getBoundingClientRect();
+let graphRect = new DOMRect((svgRect.width - 1608) / 2, 8, 1608, 800);
+
+let legend = svg.querySelector("g");
+legend.style.translate = (svgRect.width - legend.getBoundingClientRect().width) / 2 + "px";
+
+let maxValue = 40000000000;
+
+window.addEventListener("resize", () => {
+  svgRect = svg.getBoundingClientRect();
+});
+window.addEventListener("scroll", () => {
+  svgRect = svg.getBoundingClientRect();
+});
+
+for (let i = 0; i <= 1; i += 0.1) {
+  let leftLabel = document.createElementNS(SVGNS, "text");
+  leftLabel.setAttribute("x", graphRect.left - 8);
+  leftLabel.setAttribute("y", percentageToY(i));
+  leftLabel.setAttribute("dominant-baseline", "central");
+  leftLabel.setAttribute("text-anchor", "end");
+  leftLabel.textContent = percentFormat.format(i);
+  svg.appendChild(leftLabel);
+
+  let rightLabel = document.createElementNS(SVGNS, "text");
+  rightLabel.setAttribute("x", graphRect.right + 8);
+  rightLabel.setAttribute("y", percentageToY(i));
+  rightLabel.setAttribute("dominant-baseline", "central");
+  rightLabel.setAttribute("text-anchor", "start");
+  rightLabel.textContent = dollarFormat.format(maxValue * i);
+  svg.appendChild(rightLabel);
+
+  let yBar = document.createElementNS(SVGNS, "line");
+  yBar.setAttribute("x1", graphRect.left);
+  yBar.setAttribute("x2", graphRect.right);
+  yBar.setAttribute("y1", percentageToY(i));
+  yBar.setAttribute("y2", percentageToY(i));
+  yBar.classList.add("grid");
+  svg.appendChild(yBar);
+}
+
+percentFormat = new Intl.NumberFormat(undefined, { style: "percent", minimumFractionDigits: 1 });
+dollarFormat = new Intl.NumberFormat(undefined, { style: "currency", currency: "NZD", currencyDisplay: "narrowSymbol", maximumFractionDigits: 0 });
+
+for (let i = 0; i < 201; i += 20) {
+  let bottomLabel = document.createElementNS(SVGNS, "text");
+  bottomLabel.setAttribute("x", intervalToX(i));
+  bottomLabel.setAttribute("y", graphRect.bottom + 8);
+  bottomLabel.setAttribute("dominant-baseline", "text-before-edge");
+  bottomLabel.setAttribute("text-anchor", "middle");
+  bottomLabel.textContent = dollarFormat.format(i * 1000);
+  svg.appendChild(bottomLabel);
+
+  let xBar = document.createElementNS(SVGNS, "line");
+  xBar.setAttribute("x1", intervalToX(i));
+  xBar.setAttribute("x2", intervalToX(i));
+  xBar.setAttribute("y1", graphRect.top);
+  xBar.setAttribute("y2", graphRect.bottom);
+  xBar.classList.add("grid");
+  svg.appendChild(xBar);
+}
+
+let baselineBars = [];
+let bars = [];
+for (let i = 0; i < 201; i++) {
+  let rect = document.createElementNS(SVGNS, "rect");
+  rect.setAttribute("x", graphRect.left + i * 8 + 1);
+  rect.setAttribute("width", 6);
+  rect.classList.add("baseline");
+  svg.appendChild(rect);
+  baselineBars.push(rect);
+
+  rect = document.createElementNS(SVGNS, "rect");
+  rect.setAttribute("x", graphRect.left + i * 8 + 1);
+  rect.setAttribute("width", 6);
+  rect.classList.add("tax");
+  svg.appendChild(rect);
+  bars.push(rect);
+}
+
+function valueToHeight(value) {
+  return value / maxValue * graphRect.height;
+}
+
+function setBarHeight(bar, value) {
+  let height = valueToHeight(value);
+  bar.setAttribute("height", height);
+  bar.setAttribute("y", graphRect.bottom - height);
+}
+
+class Bracket {
+  _lowerBound = 0;
+  _upperBound;
+  _rate;
+  _xBar;
+  _xText;
+  _yBar;
+  _yText;
+  previous;
+  next;
+
+  constructor(lowerBound, upperBound, rate) {
+    this._dragX = this._dragX.bind(this);
+    this._dragY = this._dragY.bind(this);
+
+    if (upperBound < Infinity) {
+      this._xBar = document.createElementNS(SVGNS, "line");
+      this._xBar.setAttribute("x1", intervalToX(valueToInterval(upperBound)));
+      this._xBar.setAttribute("x2", intervalToX(valueToInterval(upperBound)));
+      this._xBar.setAttribute("y1", graphRect.top);
+      this._xBar.setAttribute("y2", graphRect.bottom);
+      this._xBar.classList.add("bracket-upper-bound");
+      this._xBar.style.cursor = "ew-resize";
+      svg.appendChild(this._xBar);
+
+      this._xBar.addEventListener("mousedown", () => {
+        window.addEventListener("mousemove", this._dragX);
+        window.addEventListener("mouseup", (event) => {
+          window.removeEventListener("mousemove", this._dragX);
+        });
+      });
+
+      this._xText = document.createElementNS(SVGNS, "text");
+      this._xText.setAttribute("y", "10");
+      this._xText.setAttribute("dominant-baseline", "text-before-edge");
+      this._xText.setAttribute("text-anchor", "middle");
+      svg.appendChild(this._xText);
+    }
+
+    this._yBar = document.createElementNS(SVGNS, "line");
+    this._yBar.setAttribute("y1", percentageToY(rate));
+    this._yBar.setAttribute("y2", percentageToY(rate));
+    this._yBar.classList.add("bracket-rate");
+    this._yBar.style.cursor = "ns-resize";
+
+    this._yBar.addEventListener("mousedown", () => {
+      window.addEventListener("mousemove", this._dragY);
+      window.addEventListener("mouseup", (event) => {
+        window.removeEventListener("mousemove", this._dragY);
+      });
+    });
+
+    this._yText = document.createElementNS(SVGNS, "text");
+    this._yText.setAttribute("dominant-baseline", "text-after-edge");
+    this._yText.setAttribute("text-anchor", "middle");
+
+    this.lowerBound = lowerBound;
+    this.upperBound = upperBound;
+    this.rate = rate;
+    svg.appendChild(this._yBar);
+    svg.appendChild(this._yText);
+  }
+
+  _dragX(event) {
+    let interval = eventToInterval(event);
+
+    if (this.previous) {
+      interval = Math.max(valueToInterval(this.previous.upperBound) + 1, interval);
+    }
+    if (this.next) {
+      interval = Math.min(valueToInterval(this.next.upperBound) - 1, interval);
+    }
+
+    this._xBar.setAttribute("x1", intervalToX(interval));
+    this._xBar.setAttribute("x2", intervalToX(interval));
+    this.upperBound = intervalToValue(interval);
+    if (this.next) {
+      this.next.lowerBound = intervalToValue(interval);
+    }
+    recalculate();
+  }
+
+  _dragY(event) {
+    let percentage = eventToPercentage(event);
+    this._yBar.setAttribute("y1", percentageToY(percentage));
+    this._yBar.setAttribute("y2", percentageToY(percentage));
+    this.rate = percentage;
+    recalculate();
+  }
+
+  get lowerBound() {
+    return this._lowerBound;
+  }
+
+  set lowerBound(value) {
+    this._lowerBound = value;
+    let x = intervalToX(valueToInterval(value));
+    this._yBar.setAttribute("x1", x);
+    if (this._upperBound) {
+      this._yText.setAttribute("x", (x + intervalToX(valueToInterval(this._upperBound))) / 2);
+    }
+  }
+
+  get upperBound() {
+    return this._upperBound;
+  }
+
+  set upperBound(value) {
+    this._upperBound = value;
+    let x = intervalToX(valueToInterval(value));
+    if (this._xText) {
+      this._xText.setAttribute("x", x);
+      this._xText.textContent = dollarFormat.format(value);
+    }
+    this._yBar.setAttribute("x2", x);
+    this._yText.setAttribute("x", (x + intervalToX(valueToInterval(this._lowerBound))) / 2);
+  }
+
+  get rate() {
+    return this._rate;
+  }
+
+  set rate(rate) {
+    this._rate = rate;
+    this._yText.setAttribute("y", percentageToY(rate) - 5);
+    this._yText.textContent = percentFormat.format(rate);
+  }
+}
+
+let brackets = [];
+
+for (let i = 0; i < bracketData.length; i++) {
+  let [upperBound, rate] = bracketData[i];
+  let lowerBound = i == 0 ? 0 : bracketData[i - 1][0];
+  brackets.push(new Bracket(lowerBound, upperBound, rate));
+}
+for (let i = 1; i < brackets.length; i++) {
+  brackets[i].previous = brackets[i - 1];
+  brackets[i - 1].next = brackets[i];
+}
+
+let totalText = document.createElementNS(SVGNS, "text");
+totalText.setAttribute("x", intervalToX(200) - 5);
+totalText.setAttribute("dominant-baseline", "central");
+totalText.setAttribute("text-anchor", "end");
+svg.appendChild(totalText);
+
+function recalculate(barSet = bars) {
+  let totalTax = 0;
+  for (let i = 0; i < 201; i++) {
+    let maxIncome = (i + 1) * 1000;
+    let maxTax = 0;
+    let averageIncome = incomeData[i][1] / incomeData[i][0];
+    let averageTax = 0;
+
+    for (let b of brackets) {
+      if (maxIncome <= b.upperBound) {
+        maxTax += (maxIncome - b.lowerBound) * b.rate;
+        averageTax += (averageIncome - b.lowerBound) * b.rate;
+        break;
+      }
+      maxTax += (b.upperBound - b.lowerBound) * b.rate;
+      averageTax += (b.upperBound - b.lowerBound) * b.rate;
+    }
+    totalTax += averageTax * incomeData[i][0];
+    setBarHeight(barSet[i], totalTax);
+
+    if (barSet == baselineBars) {
+      barSet[i].dataset.tax = maxTax;
+    } else {
+      barSet[i].dataset.tax = maxTax;
+      let difference = maxTax - baselineBars[i].dataset.tax;
+      barSet[i].classList.toggle("less-tax", difference < 0);
+      barSet[i].classList.toggle("equal-tax", difference == 0);
+      barSet[i].classList.toggle("more-tax", difference > 0);
+    }
+  }
+  totalText.setAttribute("y", graphRect.bottom - valueToHeight(totalTax));
+  totalText.textContent = "Total: " + dollarFormat.format(totalTax);
+}
+recalculate(baselineBars);
+recalculate();
+
+function eventToInterval(event) {
+  return Math.max(0, Math.min(201, Math.round((event.clientX - graphRect.left - svgRect.x) / 8)));
+}
+
+function eventToPercentage(event) {
+  return Math.max(0, Math.min(100, Math.round((svgRect.top + graphRect.bottom - event.clientY) / 4) / 2)) / 100;
+}
+
+function valueToInterval(value) {
+  if (value == Infinity) {
+    return 201;
+  }
+  return value / 1000;
+}
+
+function intervalToValue(interval) {
+  if (interval == 201) {
+    return Infinity;
+  }
+  return interval * 1000;
+}
+
+function intervalToX(interval) {
+  return graphRect.left + interval * 8;
+}
+
+function percentageToY(percentage) {
+  return graphRect.bottom - percentage * graphRect.height;
+}
+
+  </script>
+</body>
+</html>
