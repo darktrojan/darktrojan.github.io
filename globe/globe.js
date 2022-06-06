@@ -17,7 +17,7 @@ let workersDone, nameIterator, defs, currentJob = 0;
 let lat0, lng0;
 let paths = new Map();
 
-fetch('test.json').then(function(response) {
+fetch('globe.json').then(function(response) {
   return response.json();
 }).then(function(j) {
   for (let k of Object.keys(j)) {
