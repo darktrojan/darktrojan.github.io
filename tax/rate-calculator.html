@@ -71,9 +71,9 @@ footer {
   <header>
     <h1>Income tax bracket calculator</h1>
     <p>Drag the blue lines sideways to change the tax brackets. Drag the red lines up or down to change the marginal tax rates.</p>
-    <p>The last bar represents everybody who earns more than $200,000.</p>
+    <p>The last bar represents everybody with a taxable income higher than $200,000.</p>
   </header>
-  <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900">
+  <svg xmlns="http://www.w3.org/2000/svg" width="1801" height="900">
     <g>
       <rect x="0" y="850" width="24" height="24" class="baseline"/>
       <text x="29" y="862" dominant-baseline="central">Baseline</text>
@@ -86,10 +86,10 @@ footer {
     </g>
   </svg>
   <footer>
-    Income data from <a href="https://www.ird.govt.nz/about-us/tax-statistics/revenue-refunds/wage-salary-distributions">ird.govt.nz</a> (<a href="https://www.ird.govt.nz/-/media/project/ir/home/documents/files/statistics/revenue-and-refunds/wage-and-salary-distributions-for-individual-customers-2001-to-2021/wages-data-01-21.xlsx?modified=20211221010246&modified=20211221010246">direct link to data</a>)
+    Income data from <a href="https://www.ird.govt.nz/about-us/tax-statistics/revenue-refunds/income-distribution">ird.govt.nz</a> (<a href="https://www.ird.govt.nz/-/media/project/ir/home/documents/about-us/tax-statistics---current/revenue-and-refunds/revenue-collected/taxable-income-distribution-of-individuals.xlsx">direct link to data</a>)
   <script>
 
-let bracketData = [
+let baselineBracketData = [
   [14000, 0.105],
   [48000, 0.175],
   [70000, 0.30],
@@ -97,212 +97,223 @@ let bracketData = [
   [Infinity, 0.39],
 ];
 
+let proposedBracketData = baselineBracketData.map(bd => bd.slice());
+let url = new URL(location.href);
+if (url.searchParams.has("brackets")) {
+  proposedBracketData = JSON.parse(url.searchParams.get("brackets"));
+}
+
 let incomeData = [
-  [84810, 37300000],
-  [50920, 75400000],
-  [40840, 101600000],
-  [36310, 127000000],
-  [33920, 152700000],
-  [31820, 175100000],
-  [29980, 194800000],
-  [30070, 225300000],
-  [28200, 239700000],
-  [28100, 267000000],
-  [26540, 278600000],
-  [26720, 307600000],
-  [25890, 323800000],
-  [25820, 348400000],
-  [24590, 356500000],
-  [24250, 375900000],
-  [23130, 381600000],
-  [22670, 396900000],
-  [22030, 407600000],
-  [22340, 435800000],
-  [21520, 441200000],
-  [21400, 460100000],
-  [20660, 464900000],
-  [21110, 496100000],
-  [21180, 519100000],
-  [21240, 541800000],
-  [20650, 547300000],
-  [20830, 572900000],
-  [21180, 603700000],
-  [22100, 652200000],
-  [21980, 670500000],
-  [22430, 706600000],
-  [22170, 720500000],
-  [22480, 753300000],
-  [22770, 785700000],
-  [23440, 832100000],
-  [23720, 865800000],
-  [24730, 927600000],
-  [25600, 985900000],
-  [27430, 1083800000],
-  [27860, 1128400000],
-  [28890, 1198900000],
-  [29080, 1235800000],
-  [29990, 1304900000],
-  [30870, 1373900000],
-  [31130, 1416400000],
-  [31480, 1463800000],
-  [32790, 1558200000],
-  [31650, 1534900000],
-  [32640, 1616000000],
-  [32020, 1616900000],
-  [32120, 1654400000],
-  [31180, 1636800000],
-  [31050, 1661000000],
-  [31220, 1701500000],
-  [30210, 1676400000],
-  [29850, 1686200000],
-  [29140, 1675700000],
-  [27940, 1634400000],
-  [28060, 1670300000],
-  [26990, 1632600000],
-  [26060, 1602200000],
-  [26170, 1635400000],
-  [24870, 1579400000],
-  [24390, 1573500000],
-  [23330, 1528100000],
-  [22770, 1514400000],
-  [22700, 1532200000],
-  [21880, 1498500000],
-  [22090, 1536000000],
-  [20450, 1441200000],
-  [20400, 1458300000],
-  [19400, 1406600000],
-  [18270, 1342800000],
-  [18450, 1374700000],
-  [17950, 1354900000],
-  [17300, 1323400000],
-  [16580, 1285100000],
-  [15870, 1245700000],
-  [16220, 1289600000],
-  [16110, 1296800000],
-  [14910, 1214800000],
-  [14080, 1161900000],
-  [14190, 1184700000],
-  [15740, 1331500000],
-  [14140, 1208500000],
-  [13320, 1152600000],
-  [12370, 1082000000],
-  [12950, 1146200000],
-  [12620, 1129800000],
-  [11270, 1020000000],
-  [11210, 1025900000],
-  [10670, 987300000],
-  [10340, 966300000],
-  [10060, 951300000],
-  [9530, 910100000],
-  [9680, 934700000],
-  [8950, 872500000],
-  [8710, 857500000],
-  [8990, 895300000],
-  [8280, 831800000],
-  [8010, 813100000],
-  [7140, 731700000],
-  [7430, 769200000],
-  [7130, 745500000],
-  [6610, 697100000],
-  [6420, 683900000],
-  [6170, 662800000],
-  [5860, 635400000],
-  [6100, 668200000],
-  [5570, 614800000],
-  [5170, 576300000],
-  [5240, 589100000],
-  [4960, 562400000],
-  [5270, 603100000],
-  [4850, 559900000],
-  [4780, 557300000],
-  [4710, 553900000],
-  [4250, 503600000],
-  [4980, 595000000],
-  [4280, 515500000],
-  [4010, 486900000],
-  [4150, 508700000],
-  [3680, 455000000],
-  [3970, 494900000],
-  [3600, 451900000],
-  [3400, 429600000],
-  [3310, 422400000],
-  [3100, 398200000],
-  [3460, 447800000],
-  [3130, 408300000],
-  [2950, 387500000],
-  [3040, 402600000],
-  [2750, 367600000],
-  [2910, 391600000],
-  [2680, 362600000],
-  [2600, 354500000],
-  [2610, 359000000],
-  [2350, 325900000],
-  [2620, 365100000],
-  [2500, 351300000],
-  [2290, 323500000],
-  [2260, 321400000],
-  [2120, 303500000],
-  [2220, 320700000],
-  [2060, 299300000],
-  [2070, 303000000],
-  [1950, 287300000],
-  [1760, 260800000],
-  [2300, 344400000],
-  [2040, 307600000],
-  [1740, 263200000],
-  [1800, 274700000],
-  [1600, 245700000],
-  [1660, 257000000],
-  [1650, 256900000],
-  [1560, 244300000],
-  [1520, 238900000],
-  [1410, 223100000],
-  [1580, 251600000],
-  [1490, 238800000],
-  [1430, 230100000],
-  [1350, 219700000],
-  [1290, 211200000],
-  [1350, 222400000],
-  [1250, 206200000],
-  [1210, 201600000],
-  [1120, 186800000],
-  [1100, 185500000],
-  [1230, 208700000],
-  [1080, 183600000],
-  [980, 167200000],
-  [1040, 179900000],
-  [1050, 181800000],
-  [1090, 190800000],
-  [950, 166900000],
-  [970, 171200000],
-  [870, 155000000],
-  [870, 154400000],
-  [1080, 194000000],
-  [910, 164100000],
-  [830, 151200000],
-  [830, 150700000],
-  [860, 157600000],
-  [790, 145600000],
-  [830, 154300000],
-  [780, 145500000],
-  [710, 132600000],
-  [740, 140200000],
-  [740, 140300000],
-  [760, 145500000],
-  [700, 134800000],
-  [710, 137100000],
-  [640, 122900000],
-  [700, 135800000],
-  [650, 126300000],
-  [620, 122000000],
-  [640, 127200000],
-  [550, 109600000],
-  [800, 158900000],
-  [44030, 14309900000],
+  [531350, 41380000, 4341340],
+  [43940, 64200000, 6739680],
+  [33540, 83420000, 8757193],
+  [30100, 105300000, 11052477],
+  [29090, 130850000, 13735889],
+  [27330, 150390000, 15788711],
+  [27460, 178530000, 18742671],
+  [29500, 220490000, 23145478],
+  [28370, 241190000, 25320107],
+  [29000, 275770000, 28951504],
+  [31010, 325430000, 34168449],
+  [38460, 444170000, 46630558],
+  [48500, 605980000, 63622069],
+  [35220, 475710000, 49938544],
+  [91450, 1334780000, 143954566],
+  [39290, 608170000, 67913385],
+  [34290, 565660000, 65378948],
+  [34020, 595420000, 70845008],
+  [107310, 1970820000, 239717829],
+  [161150, 3135240000, 390726797],
+  [61930, 1268110000, 161216641],
+  [49970, 1073880000, 138945792],
+  [86460, 1947930000, 256137228],
+  [85680, 2013520000, 268290919],
+  [48430, 1186050000, 152398509],
+  [127540, 3257630000, 437571845],
+  [54190, 1434960000, 190662100],
+  [44420, 1221080000, 162631395],
+  [40140, 1143740000, 153150351],
+  [37730, 1113090000, 150000268],
+  [37080, 1130830000, 153246443],
+  [36580, 1152010000, 157068035],
+  [34390, 1117680000, 153493483],
+  [34170, 1144610000, 158167436],
+  [33490, 1155380000, 160524392],
+  [33090, 1174490000, 164019737],
+  [33470, 1221740000, 171403623],
+  [33240, 1246330000, 175746259],
+  [33290, 1281550000, 181627640],
+  [34680, 1370200000, 195063335],
+  [35390, 1433220000, 204719746],
+  [35950, 1492180000, 214124815],
+  [36130, 1535600000, 221306337],
+  [37050, 1611950000, 233186613],
+  [37360, 1662570000, 243249511],
+  [37530, 1707710000, 254014581],
+  [37910, 1762870000, 266488345],
+  [44770, 2129110000, 326991327],
+  [40480, 1962300000, 306120144],
+  [38380, 1899920000, 302088264],
+  [37980, 1917540000, 310157548],
+  [36900, 1900240000, 312516341],
+  [36620, 1922350000, 321086305],
+  [35910, 1920870000, 325617537],
+  [35740, 1947610000, 334827383],
+  [35280, 1957820000, 341073961],
+  [34340, 1939920000, 342294008],
+  [33330, 1916610000, 342306737],
+  [32210, 1883910000, 340371053],
+  [32050, 1907150000, 348446947],
+  [31730, 1919140000, 354276363],
+  [30250, 1860300000, 346935801],
+  [29980, 1873410000, 352777759],
+  [28910, 1835660000, 348903971],
+  [28410, 1832500000, 351458448],
+  [27590, 1807140000, 349540638],
+  [26920, 1790020000, 349108604],
+  [26710, 1803200000, 354490468],
+  [26560, 1819430000, 360431067],
+  [37710, 2625870000, 524522336],
+  [31180, 2196410000, 441690299],
+  [24620, 1760560000, 357397986],
+  [23360, 1693560000, 346765335],
+  [22390, 1645680000, 339763389],
+  [21950, 1635540000, 340413106],
+  [21690, 1637640000, 343437782],
+  [20460, 1565050000, 330698757],
+  [19910, 1542660000, 328320970],
+  [18970, 1489290000, 319199277],
+  [18990, 1509850000, 325838192],
+  [19310, 1554450000, 337604925],
+  [17770, 1448180000, 316546918],
+  [17120, 1412490000, 310655047],
+  [16720, 1396260000, 308930685],
+  [17210, 1455020000, 323863567],
+  [16980, 1451260000, 324753404],
+  [15450, 1336710000, 300800919],
+  [14790, 1294210000, 292776611],
+  [14910, 1319730000, 300117355],
+  [14660, 1312610000, 299990191],
+  [13830, 1251310000, 287356012],
+  [13230, 1210780000, 279410679],
+  [12770, 1181020000, 273804466],
+  [12320, 1152140000, 268295377],
+  [11870, 1121900000, 262438428],
+  [11680, 1115220000, 261976578],
+  [11420, 1102370000, 260068399],
+  [10980, 1070260000, 253513888],
+  [10590, 1043260000, 248108337],
+  [10660, 1061130000, 253369736],
+  [10460, 1050430000, 251711479],
+  [9620, 976860000, 234977308],
+  [8930, 915240000, 220943711],
+  [8830, 913580000, 221340109],
+  [8660, 905190000, 220070110],
+  [8250, 869840000, 212173926],
+  [7730, 823660000, 201583686],
+  [7750, 832540000, 204412847],
+  [7440, 807190000, 198825867],
+  [7390, 809110000, 199923628],
+  [7350, 811640000, 201128376],
+  [6620, 737940000, 183428707],
+  [6620, 745040000, 185725075],
+  [6150, 697870000, 174464111],
+  [6270, 717490000, 179875214],
+  [6220, 718790000, 180686045],
+  [5930, 690400000, 174024001],
+  [5830, 685190000, 173157885],
+  [5450, 645680000, 163596976],
+  [5770, 689480000, 175153900],
+  [5650, 680410000, 173250201],
+  [5120, 621840000, 158734717],
+  [5030, 616290000, 157693333],
+  [4720, 583300000, 149603791],
+  [4940, 615430000, 158208928],
+  [4590, 575450000, 148256855],
+  [4360, 551390000, 142379497],
+  [4170, 531810000, 137623992],
+  [4010, 515270000, 133629681],
+  [4140, 536100000, 139330510],
+  [4210, 548910000, 142942145],
+  [3890, 511410000, 133454571],
+  [3810, 504550000, 131925193],
+  [3560, 475370000, 124537018],
+  [3660, 492600000, 129305402],
+  [3540, 480140000, 126265817],
+  [3400, 464520000, 122390937],
+  [3380, 464990000, 122738069],
+  [3160, 437910000, 115798204],
+  [3270, 456090000, 120828698],
+  [3440, 482550000, 128051238],
+  [2950, 417570000, 111003862],
+  [2840, 404830000, 107798191],
+  [2820, 403950000, 107743846],
+  [2910, 419820000, 112164018],
+  [2740, 398360000, 106596873],
+  [2740, 400820000, 107427920],
+  [2540, 374480000, 100524598],
+  [2480, 367970000, 98929207],
+  [2790, 417410000, 112403099],
+  [2830, 426350000, 114963757],
+  [2460, 373150000, 100774852],
+  [2390, 364500000, 98585174],
+  [2200, 337230000, 91337920],
+  [2170, 335290000, 90942930],
+  [2220, 345660000, 93882657],
+  [2130, 333680000, 90754329],
+  [2120, 333440000, 90811393],
+  [2010, 317920000, 86698716],
+  [2080, 331630000, 90560465],
+  [2110, 338940000, 92673985],
+  [2000, 323000000, 88428372],
+  [1860, 302440000, 82906649],
+  [1810, 296250000, 81307992],
+  [1810, 297280000, 81694880],
+  [1780, 293720000, 80812116],
+  [1680, 279050000, 76869892],
+  [1650, 275690000, 76030412],
+  [1630, 274660000, 75837019],
+  [1710, 289700000, 80084614],
+  [1610, 274800000, 76046151],
+  [1520, 260170000, 72081981],
+  [1590, 273590000, 75883561],
+  [1510, 261970000, 72740921],
+  [1520, 264580000, 73545367],
+  [1500, 263750000, 73389995],
+  [1480, 260870000, 72665950],
+  [1420, 252590000, 70433513],
+  [1370, 244530000, 68256407],
+  [1680, 300970000, 84103454],
+  [1550, 279340000, 78127867],
+  [1290, 233770000, 65448837],
+  [1210, 220990000, 61931638],
+  [1190, 218910000, 61407160],
+  [1180, 218290000, 61293456],
+  [1140, 211830000, 59533366],
+  [1140, 211690000, 59552752],
+  [1120, 210380000, 59236921],
+  [1110, 209790000, 59123689],
+  [1020, 192550000, 54315049],
+  [1080, 206290000, 58241033],
+  [1010, 193040000, 54550964],
+  [1060, 203470000, 57547684],
+  [960, 186540000, 52805638],
+  [990, 192960000, 54669712],
+  [1000, 194510000, 55153357],
+  [920, 180170000, 51130080],
+  [850, 166880000, 47399239],
+  [930, 184590000, 52471931],
+  [1030, 204750000, 58250587],
+  [82670, 36234470000, 11207028208]
 ];
 
 let percentFormat = new Intl.NumberFormat(undefined, { style: "percent" });
-let dollarFormat = new Intl.NumberFormat(undefined, { style: "currency", currency: "NZD", currencyDisplay: "narrowSymbol", notation: "compact" });
+let dollarFormat = new Intl.NumberFormat(undefined, {
+  style: "currency",
+  currency: "NZD",
+  currencyDisplay: "narrowSymbol",
+  notation: "compact",
+});
 
 const SVGNS = "http://www.w3.org/2000/svg";
 let svg = document.querySelector("svg");
@@ -312,7 +323,7 @@ let graphRect = new DOMRect((svgRect.width - 1608) / 2, 8, 1608, 800);
 let legend = svg.querySelector("g");
 legend.style.transform = "translateX(" + (svgRect.width - legend.getBoundingClientRect().width) / 2 + "px)";
 
-let maxValue = 40000000000;
+let maxValue = 50000000000;
 
 window.addEventListener("resize", () => {
   svgRect = svg.getBoundingClientRect();
@@ -347,10 +358,25 @@ for (let i = 0; i <= 1; i += 0.1) {
   svg.appendChild(yBar);
 }
 
-percentFormat = new Intl.NumberFormat(undefined, { style: "percent", minimumFractionDigits: 1 });
-dollarFormat = new Intl.NumberFormat(undefined, { style: "currency", currency: "NZD", currencyDisplay: "narrowSymbol", maximumFractionDigits: 0 });
+percentFormat = new Intl.NumberFormat(undefined, {
+  style: "percent",
+  minimumFractionDigits: 1,
+});
+dollarFormat = new Intl.NumberFormat(undefined, {
+  style: "currency",
+  currency: "NZD",
+  currencyDisplay: "narrowSymbol",
+  maximumFractionDigits: 0,
+});
+let dollarDifferenceFormat = new Intl.NumberFormat(undefined, {
+  style: "currency",
+  currency: "NZD",
+  currencyDisplay: "narrowSymbol",
+  maximumFractionDigits: 0,
+  signDisplay: "exceptZero",
+});
 
-for (let i = 0; i < 201; i += 20) {
+for (let i = 0; i < incomeData.length; i += 20) {
   let bottomLabel = document.createElementNS(SVGNS, "text");
   bottomLabel.setAttribute("x", intervalToX(i));
   bottomLabel.setAttribute("y", graphRect.bottom + 8);
@@ -369,21 +395,26 @@ for (let i = 0; i < 201; i += 20) {
 }
 
 let baselineBars = [];
-let bars = [];
-for (let i = 0; i < 201; i++) {
+let proposedBars = [];
+for (let i = 0; i < incomeData.length; i++) {
   let rect = document.createElementNS(SVGNS, "rect");
-  rect.setAttribute("x", graphRect.left + i * 8 + 1);
-  rect.setAttribute("width", 6);
+  rect.setAttribute("x", intervalToX(i) + 0.5);
+  rect.setAttribute("width", 7);
   rect.classList.add("baseline");
   svg.appendChild(rect);
   baselineBars.push(rect);
 
   rect = document.createElementNS(SVGNS, "rect");
-  rect.setAttribute("x", graphRect.left + i * 8 + 1);
-  rect.setAttribute("width", 6);
+  rect.setAttribute("x", intervalToX(i) + 0.5);
+  rect.setAttribute("width", 7);
   rect.classList.add("tax");
+  let title = document.createElementNS(SVGNS, "title");
+  if (i == incomeData.length - 1) {
+    title.textContent = `Income: ${dollarFormat.format(i * 1000 + 1)} upwards`;
+  }
+  rect.appendChild(title);
   svg.appendChild(rect);
-  bars.push(rect);
+  proposedBars.push(rect);
 }
 
 function valueToHeight(value) {
@@ -410,30 +441,6 @@ class Bracket {
   constructor(lowerBound, upperBound, rate) {
     this._dragX = this._dragX.bind(this);
     this._dragY = this._dragY.bind(this);
-
-    if (upperBound < Infinity) {
-      this._xBar = document.createElementNS(SVGNS, "line");
-      this._xBar.setAttribute("x1", intervalToX(valueToInterval(upperBound)));
-      this._xBar.setAttribute("x2", intervalToX(valueToInterval(upperBound)));
-      this._xBar.setAttribute("y1", graphRect.top);
-      this._xBar.setAttribute("y2", graphRect.bottom);
-      this._xBar.classList.add("bracket-upper-bound");
-      this._xBar.style.cursor = "ew-resize";
-      svg.appendChild(this._xBar);
-
-      this._xBar.addEventListener("mousedown", () => {
-        window.addEventListener("mousemove", this._dragX);
-        window.addEventListener("mouseup", (event) => {
-          window.removeEventListener("mousemove", this._dragX);
-        });
-      });
-
-      this._xText = document.createElementNS(SVGNS, "text");
-      this._xText.setAttribute("y", "10");
-      this._xText.setAttribute("dominant-baseline", "text-before-edge");
-      this._xText.setAttribute("text-anchor", "middle");
-      svg.appendChild(this._xText);
-    }
 
     this._yBar = document.createElementNS(SVGNS, "line");
     this._yBar.setAttribute("y1", percentageToY(rate));
@@ -504,6 +511,35 @@ class Bracket {
   }
 
   set upperBound(value) {
+    if (value < Infinity && !this._xBar) {
+      this._xBar = document.createElementNS(SVGNS, "line");
+      this._xBar.setAttribute("x1", intervalToX(valueToInterval(value)));
+      this._xBar.setAttribute("x2", intervalToX(valueToInterval(value)));
+      this._xBar.setAttribute("y1", graphRect.top);
+      this._xBar.setAttribute("y2", graphRect.bottom);
+      this._xBar.classList.add("bracket-upper-bound");
+      this._xBar.style.cursor = "ew-resize";
+      svg.appendChild(this._xBar);
+
+      this._xBar.addEventListener("mousedown", () => {
+        window.addEventListener("mousemove", this._dragX);
+        window.addEventListener("mouseup", (event) => {
+          window.removeEventListener("mousemove", this._dragX);
+        });
+      });
+
+      this._xText = document.createElementNS(SVGNS, "text");
+      this._xText.setAttribute("y", "10");
+      this._xText.setAttribute("dominant-baseline", "text-before-edge");
+      this._xText.setAttribute("text-anchor", "middle");
+      svg.appendChild(this._xText);
+    } else if (value == Infinity) {
+      this._xBar?.remove();
+      this._xText?.remove();
+      delete this._xBar;
+      delete this._xText;
+    }
+
     this._upperBound = value;
     let x = intervalToX(valueToInterval(value));
     if (this._xText) {
@@ -523,18 +559,41 @@ class Bracket {
     this._yText.setAttribute("y", percentageToY(rate) - 5);
     this._yText.textContent = percentFormat.format(rate);
   }
+
+  get range() {
+    return this._upperBound - this._lowerBound;
+  }
+
+  get fullTaxAmount() {
+    return this.range * this._rate;
+  }
 }
 
-let brackets = [];
+let baselineBrackets = [];
 
-for (let i = 0; i < bracketData.length; i++) {
-  let [upperBound, rate] = bracketData[i];
-  let lowerBound = i == 0 ? 0 : bracketData[i - 1][0];
-  brackets.push(new Bracket(lowerBound, upperBound, rate));
+for (let i = 0; i < baselineBracketData.length; i++) {
+  let [upperBound, rate] = baselineBracketData[i];
+  let lowerBound = i == 0 ? 0 : baselineBracketData[i - 1][0];
+  baselineBrackets.push({ lowerBound, upperBound, rate, range: upperBound - lowerBound });
 }
-for (let i = 1; i < brackets.length; i++) {
-  brackets[i].previous = brackets[i - 1];
-  brackets[i - 1].next = brackets[i];
+for (let i = 1; i < baselineBrackets.length; i++) {
+  baselineBrackets[i].previous = baselineBrackets[i - 1];
+  baselineBrackets[i - 1].next = baselineBrackets[i];
+}
+
+let proposedBrackets = [];
+
+for (let i = 0; i < proposedBracketData.length; i++) {
+  let [upperBound, rate] = proposedBracketData[i];
+  if (upperBound === null) {
+    upperBound = Infinity;
+  }
+  let lowerBound = i == 0 ? 0 : proposedBracketData[i - 1][0];
+  proposedBrackets.push(new Bracket(lowerBound, upperBound, rate));
+}
+for (let i = 1; i < proposedBrackets.length; i++) {
+  proposedBrackets[i].previous = proposedBrackets[i - 1];
+  proposedBrackets[i - 1].next = proposedBrackets[i];
 }
 
 let totalText = document.createElementNS(SVGNS, "text");
@@ -543,9 +602,9 @@ totalText.setAttribute("dominant-baseline", "central");
 totalText.setAttribute("text-anchor", "end");
 svg.appendChild(totalText);
 
-function recalculate(barSet = bars) {
+function recalculate(bars = proposedBars, brackets = proposedBrackets) {
   let totalTax = 0;
-  for (let i = 0; i < 201; i++) {
+  for (let i = 0; i < incomeData.length; i++) {
     let maxIncome = (i + 1) * 1000;
     let maxTax = 0;
     let averageIncome = incomeData[i][1] / incomeData[i][0];
@@ -557,30 +616,40 @@ function recalculate(barSet = bars) {
         averageTax += (averageIncome - b.lowerBound) * b.rate;
         break;
       }
-      maxTax += (b.upperBound - b.lowerBound) * b.rate;
-      averageTax += (b.upperBound - b.lowerBound) * b.rate;
+      maxTax += b.range * b.rate;
+      averageTax += b.range * b.rate;
     }
     totalTax += averageTax * incomeData[i][0];
-    setBarHeight(barSet[i], totalTax);
-
-    if (barSet == baselineBars) {
-      barSet[i].dataset.tax = maxTax;
+    setBarHeight(bars[i], totalTax);
+ 
+    if (bars == baselineBars) {
+      bars[i].dataset.tax = maxTax;
     } else {
-      barSet[i].dataset.tax = maxTax;
-      let difference = maxTax - baselineBars[i].dataset.tax;
-      barSet[i].classList.toggle("less-tax", difference < 0);
-      barSet[i].classList.toggle("equal-tax", difference == 0);
-      barSet[i].classList.toggle("more-tax", difference > 0);
+      let baselineTax = baselineBars[i].dataset.tax
+      bars[i].dataset.tax = maxTax;
+      let difference = maxTax - baselineTax;
+      bars[i].classList.remove("less-tax", "equal-tax", "more-tax");
+      bars[i].classList.toggle("less-tax", difference < 0);
+      bars[i].classList.toggle("equal-tax", difference == 0);
+      bars[i].classList.toggle("more-tax", difference > 0);
+      if (i < incomeData.length - 1) {
+        bars[i].firstElementChild.textContent =
+`For an income of ${dollarFormat.format(maxIncome)}:
+
+Current tax: ${dollarFormat.format(baselineTax)}
+Proposed tax: ${dollarFormat.format(maxTax)}
+Difference: ${dollarDifferenceFormat.format(maxTax - baselineTax)}`;
+      }
     }
   }
   totalText.setAttribute("y", graphRect.bottom - valueToHeight(totalTax));
   totalText.textContent = "Total: " + dollarFormat.format(totalTax);
 }
-recalculate(baselineBars);
+recalculate(baselineBars, baselineBrackets);
 recalculate();
 
 function eventToInterval(event) {
-  return Math.max(0, Math.min(201, Math.round((event.clientX - graphRect.left - svgRect.x) / 8)));
+  return Math.max(0, Math.min(incomeData.length, Math.round((event.clientX - graphRect.left - svgRect.x) / 8)));
 }
 
 function eventToPercentage(event) {
@@ -589,13 +658,13 @@ function eventToPercentage(event) {
 
 function valueToInterval(value) {
   if (value == Infinity) {
-    return 201;
+    return incomeData.length;
   }
   return value / 1000;
 }
 
 function intervalToValue(interval) {
-  if (interval == 201) {
+  if (interval == incomeData.length) {
     return Infinity;
   }
   return interval * 1000;
