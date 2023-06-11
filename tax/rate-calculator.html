@@ -335,7 +335,7 @@ let incomeData = [
 ];
 
 let percentFormat = new Intl.NumberFormat(undefined, { style: "percent" });
-let dollarFormat = new Intl.NumberFormat(undefined, {
+let labelDollarFormat = new Intl.NumberFormat(undefined, {
   style: "currency",
   currency: "NZD",
   currencyDisplay: "narrowSymbol",
@@ -374,7 +374,8 @@ for (let i = 0; i <= 1; i += 0.1) {
   rightLabel.setAttribute("y", percentageToY(i));
   rightLabel.setAttribute("dominant-baseline", "central");
   rightLabel.setAttribute("text-anchor", "start");
-  rightLabel.textContent = dollarFormat.format(maxValue * i);
+  rightLabel.textContent = labelDollarFormat.format(maxValue * i);
+  rightLabel.classList.add("r-label");
   svg.appendChild(rightLabel);
 
   let yBar = document.createElementNS(SVGNS, "line");
@@ -382,7 +383,7 @@ for (let i = 0; i <= 1; i += 0.1) {
   yBar.setAttribute("x2", graphRect.right);
   yBar.setAttribute("y1", percentageToY(i));
   yBar.setAttribute("y2", percentageToY(i));
-  yBar.classList.add("grid");
+  yBar.classList.add("y-grid", "grid");
   svg.appendChild(yBar);
 }
 
@@ -390,7 +391,7 @@ percentFormat = new Intl.NumberFormat(undefined, {
   style: "percent",
   minimumFractionDigits: 1,
 });
-dollarFormat = new Intl.NumberFormat(undefined, {
+let dollarFormat = new Intl.NumberFormat(undefined, {
   style: "currency",
   currency: "NZD",
   currencyDisplay: "narrowSymbol",
@@ -418,7 +419,7 @@ for (let i = 0; i < incomeData.length; i += 20) {
   xBar.setAttribute("x2", intervalToX(i));
   xBar.setAttribute("y1", graphRect.top);
   xBar.setAttribute("y2", graphRect.bottom);
-  xBar.classList.add("grid");
+  xBar.classList.add("x-grid", "grid");
   svg.appendChild(xBar);
 }
 
@@ -686,6 +687,12 @@ recalculate();
 function setFormat(shouldShowTotal) {
   showTotal = shouldShowTotal;
   maxValue = shouldShowTotal ? 50000000000 : 75000;
+
+  let rightLabels = document.querySelectorAll(".r-label");
+  for (let i = 0; i <= 10; i++) {
+    rightLabels[i].textContent = labelDollarFormat.format(maxValue * i / 10);
+  }
+
   recalculate(baselineBars, baselineBrackets);
   recalculate();
 }
