@@ -14,6 +14,13 @@ header {
   text-align: center;
 }
 
+fieldset {
+  display: inline-block;
+  margin: 1em;
+  border: 1px #ccc solid;
+  padding: 0 2em;
+}
+
 svg {
   display: block;
   margin: 0 auto;
@@ -72,6 +79,26 @@ footer {
     <h1>Income tax bracket calculator</h1>
     <p>Drag the blue lines sideways to change the tax brackets. Drag the red lines up or down to change the marginal tax rates.</p>
     <p>The last bar represents everybody with a taxable income higher than $200,000.</p>
+    <fieldset>
+      <p>
+        Show income tax:
+        <label>
+          <input id="formatPerPerson" type="radio" name="showTotal" onchange="setFormat(false);" checked="checked" />
+          Per person
+        </label>
+        <label>
+          <input id="formatTotal" type="radio" name="showTotal" onclick="setFormat(true);" />
+          Total
+        </label>
+      </p>
+      <p>
+        <button id="addBracketButton" onclick="addBracket();">Add bracket</button>
+        <button id="removeBracketButton" onclick="removeBracket();">Remove bracket</button>
+      </p>
+      <p>
+        <a id="shareLink" href="">Copy this link to share your proposal</a>
+      </p>
+    </fieldset>
   </header>
   <svg xmlns="http://www.w3.org/2000/svg" width="1801" height="900">
     <g>
@@ -323,6 +350,7 @@ let graphRect = new DOMRect((svgRect.width - 1608) / 2, 8, 1608, 800);
 let legend = svg.querySelector("g");
 legend.style.transform = "translateX(" + (svgRect.width - legend.getBoundingClientRect().width) / 2 + "px)";
 
+let showTotal = true;
 let maxValue = 50000000000;
 
 window.addEventListener("resize", () => {
@@ -620,8 +648,8 @@ function recalculate(bars = proposedBars, brackets = proposedBrackets) {
       averageTax += b.range * b.rate;
     }
     totalTax += averageTax * incomeData[i][0];
-    setBarHeight(bars[i], totalTax);
- 
+    setBarHeight(bars[i], showTotal ? totalTax : maxTax);
+
     if (bars == baselineBars) {
       bars[i].dataset.tax = maxTax;
     } else {
@@ -644,9 +672,44 @@ Difference: ${dollarDifferenceFormat.format(maxTax - baselineTax)}`;
   }
   totalText.setAttribute("y", graphRect.bottom - valueToHeight(totalTax));
   totalText.textContent = "Total: " + dollarFormat.format(totalTax);
+
+  document.getElementById("addBracketButton").disabled = proposedBrackets.at(-1).lowerBound >= 200000;
+  document.getElementById("removeBracketButton").disabled = proposedBrackets.length < 2;
+
+  document.getElementById("shareLink").href = "?brackets=" + JSON.stringify(proposedBrackets.map(b => [b.upperBound, b.rate]));
 }
+
+setFormat(document.getElementById("formatTotal").checked);
 recalculate(baselineBars, baselineBrackets);
 recalculate();
+
+function setFormat(shouldShowTotal) {
+  showTotal = shouldShowTotal;
+  maxValue = shouldShowTotal ? 50000000000 : 75000;
+  recalculate(baselineBars, baselineBrackets);
+  recalculate();
+}
+
+function addBracket() {
+  let lastBracket = proposedBrackets.at(-1);
+  let newBound = Math.round((200 + lastBracket.lowerBound / 1000) / 2) * 1000;
+  let newBracket = new Bracket(newBound, Infinity, lastBracket.rate);
+  proposedBrackets.push(newBracket);
+  lastBracket.next = newBracket;
+  lastBracket.upperBound = newBound;
+  newBracket.previous = lastBracket;
+  recalculate();
+}
+
+function removeBracket() {
+  let removedBracket = proposedBrackets.pop();
+  removedBracket._yBar.remove();
+  removedBracket._yText.remove();
+  let lastBracket = proposedBrackets.at(-1);
+  delete lastBracket.next;
+  lastBracket.upperBound = Infinity;
+  recalculate();
+}
 
 function eventToInterval(event) {
   return Math.max(0, Math.min(incomeData.length, Math.round((event.clientX - graphRect.left - svgRect.x) / 8)));
