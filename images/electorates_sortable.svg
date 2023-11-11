@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 2540 2480" font-family="Open Sans, Arial, sans-serif" font-size="16">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 2790 2480" font-family="Open Sans, Arial, sans-serif" font-size="16">
 	<title>How safe is that seat?</title>
 	<style type="text/css"><![CDATA[
 		.act { fill: #ffff00 }
@@ -21,7 +21,8 @@
 		.year2014 { transform: translatex(1500px); }
 		.year2017 { transform: translatex(1750px); }
 		.year2020 { transform: translatex(2000px); }
-		.label2 { transform: translatex(2258px); }
+		.year2023 { transform: translatex(2250px); }
+		.label2 { transform: translatex(2508px); }
 	]]></style>
 	<g transform="translate(375)">
 		<text x="894.029" y="41.173" font-size="28" font-weight="600" text-anchor="middle">How safe is that seat?</text>
@@ -58,55 +59,56 @@
 		<text x="1520" y="177" onclick="sort(2014);">2014</text>
 		<text x="1770" y="177" onclick="sort(2017);">2017</text>
 		<text x="2020" y="177" onclick="sort(2020);">2020</text>
-		<text x="2278" y="177" onclick="sort();">Electorate</text>
+		<text x="2270" y="177" onclick="sort(2023);">2023</text>
+		<text x="2528" y="177" onclick="sort();">Electorate</text>
 	</g>
 	<g fill="#eee">
-		<rect x="20" y="210" width="2500" height="24"/>
-		<rect x="20" y="258" width="2500" height="24"/>
-		<rect x="20" y="306" width="2500" height="24"/>
-		<rect x="20" y="354" width="2500" height="24"/>
-		<rect x="20" y="402" width="2500" height="24"/>
-		<rect x="20" y="450" width="2500" height="24"/>
-		<rect x="20" y="498" width="2500" height="24"/>
-		<rect x="20" y="546" width="2500" height="24"/>
-		<rect x="20" y="594" width="2500" height="24"/>
-		<rect x="20" y="642" width="2500" height="24"/>
-		<rect x="20" y="690" width="2500" height="24"/>
-		<rect x="20" y="738" width="2500" height="24"/>
-		<rect x="20" y="786" width="2500" height="24"/>
-		<rect x="20" y="834" width="2500" height="24"/>
-		<rect x="20" y="882" width="2500" height="24"/>
-		<rect x="20" y="930" width="2500" height="24"/>
-		<rect x="20" y="978" width="2500" height="24"/>
-		<rect x="20" y="1026" width="2500" height="24"/>
-		<rect x="20" y="1074" width="2500" height="24"/>
-		<rect x="20" y="1122" width="2500" height="24"/>
-		<rect x="20" y="1170" width="2500" height="24"/>
-		<rect x="20" y="1218" width="2500" height="24"/>
-		<rect x="20" y="1266" width="2500" height="24"/>
-		<rect x="20" y="1314" width="2500" height="24"/>
-		<rect x="20" y="1362" width="2500" height="24"/>
-		<rect x="20" y="1410" width="2500" height="24"/>
-		<rect x="20" y="1458" width="2500" height="24"/>
-		<rect x="20" y="1506" width="2500" height="24"/>
-		<rect x="20" y="1554" width="2500" height="24"/>
-		<rect x="20" y="1602" width="2500" height="24"/>
-		<rect x="20" y="1650" width="2500" height="24"/>
-		<rect x="20" y="1698" width="2500" height="24"/>
-		<rect x="20" y="1746" width="2500" height="24"/>
-		<rect x="20" y="1794" width="2500" height="24"/>
-		<rect x="20" y="1842" width="2500" height="24"/>
-		<rect x="20" y="1890" width="2500" height="24"/>
-		<rect x="20" y="1938" width="2500" height="24"/>
-		<rect x="20" y="1986" width="2500" height="24"/>
-		<rect x="20" y="2034" width="2500" height="24"/>
-		<rect x="20" y="2082" width="2500" height="24"/>
-		<rect x="20" y="2130" width="2500" height="24"/>
-		<rect x="20" y="2178" width="2500" height="24"/>
-		<rect x="20" y="2226" width="2500" height="24"/>
-		<rect x="20" y="2274" width="2500" height="24"/>
-		<rect x="20" y="2322" width="2500" height="24"/>
-		<rect x="20" y="2370" width="2500" height="24"/>
+		<rect x="20" y="210" width="2750" height="24"/>
+		<rect x="20" y="258" width="2750" height="24"/>
+		<rect x="20" y="306" width="2750" height="24"/>
+		<rect x="20" y="354" width="2750" height="24"/>
+		<rect x="20" y="402" width="2750" height="24"/>
+		<rect x="20" y="450" width="2750" height="24"/>
+		<rect x="20" y="498" width="2750" height="24"/>
+		<rect x="20" y="546" width="2750" height="24"/>
+		<rect x="20" y="594" width="2750" height="24"/>
+		<rect x="20" y="642" width="2750" height="24"/>
+		<rect x="20" y="690" width="2750" height="24"/>
+		<rect x="20" y="738" width="2750" height="24"/>
+		<rect x="20" y="786" width="2750" height="24"/>
+		<rect x="20" y="834" width="2750" height="24"/>
+		<rect x="20" y="882" width="2750" height="24"/>
+		<rect x="20" y="930" width="2750" height="24"/>
+		<rect x="20" y="978" width="2750" height="24"/>
+		<rect x="20" y="1026" width="2750" height="24"/>
+		<rect x="20" y="1074" width="2750" height="24"/>
+		<rect x="20" y="1122" width="2750" height="24"/>
+		<rect x="20" y="1170" width="2750" height="24"/>
+		<rect x="20" y="1218" width="2750" height="24"/>
+		<rect x="20" y="1266" width="2750" height="24"/>
+		<rect x="20" y="1314" width="2750" height="24"/>
+		<rect x="20" y="1362" width="2750" height="24"/>
+		<rect x="20" y="1410" width="2750" height="24"/>
+		<rect x="20" y="1458" width="2750" height="24"/>
+		<rect x="20" y="1506" width="2750" height="24"/>
+		<rect x="20" y="1554" width="2750" height="24"/>
+		<rect x="20" y="1602" width="2750" height="24"/>
+		<rect x="20" y="1650" width="2750" height="24"/>
+		<rect x="20" y="1698" width="2750" height="24"/>
+		<rect x="20" y="1746" width="2750" height="24"/>
+		<rect x="20" y="1794" width="2750" height="24"/>
+		<rect x="20" y="1842" width="2750" height="24"/>
+		<rect x="20" y="1890" width="2750" height="24"/>
+		<rect x="20" y="1938" width="2750" height="24"/>
+		<rect x="20" y="1986" width="2750" height="24"/>
+		<rect x="20" y="2034" width="2750" height="24"/>
+		<rect x="20" y="2082" width="2750" height="24"/>
+		<rect x="20" y="2130" width="2750" height="24"/>
+		<rect x="20" y="2178" width="2750" height="24"/>
+		<rect x="20" y="2226" width="2750" height="24"/>
+		<rect x="20" y="2274" width="2750" height="24"/>
+		<rect x="20" y="2322" width="2750" height="24"/>
+		<rect x="20" y="2370" width="2750" height="24"/>
 	</g>
 	<g stroke-dasharray="2 2" font-size="10">
 		<g id="grid">
@@ -129,9 +131,9 @@
 		<use xlink:href="#grid" transform="translate(1250,0)" />
 		<use xlink:href="#grid" transform="translate(1500,0)" />
 		<use xlink:href="#grid" transform="translate(1750,0)" />
+		<use xlink:href="#grid" transform="translate(2000,0)" />
 	</g>
 	<g id="data" transform="translate(20,210)"></g>
-	<script	type="text/javascript" src="data.js"></script>
 	<script type="text/javascript"><![CDATA[
 		let parties = {
 			"act": "ACT",
@@ -145,7 +147,7 @@
 			"progressive": "Progressive",
 			"unitedfuture": "United Future",
 		};
-		let data = {
+		var data = {
 			"Albany": {
 				"1999": {
 					"winner": "national",
@@ -198,6 +200,10 @@
 				"2020": {
 					"winner": "green",
 					"majority": 1068
+				},
+				"2023": {
+					"winner": "green",
+					"majority": 3896
 				}
 			},
 			"Banks Peninsula": {
@@ -216,6 +222,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 13156
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 396
 				}
 			},
 			"Bay of Plenty": {
@@ -250,6 +260,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 3415
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 15405
 				}
 			},
 			"Botany": {
@@ -272,6 +286,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 3999
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 16323
 				}
 			},
 			"Christchurch Central": {
@@ -306,6 +324,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 14098
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 1841
 				}
 			},
 			"Christchurch East": {
@@ -340,6 +362,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 17336
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 2397
 				}
 			},
 			"Clevedon": {
@@ -414,12 +440,20 @@
 				"2020": {
 					"winner": "national",
 					"majority": 3505
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 17349
 				}
 			},
 			"Dunedin": {
 				"2020": {
 					"winner": "labour",
 					"majority": 15521
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 7980
 				}
 			},
 			"Dunedin North": {
@@ -514,6 +548,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 6331
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 3199
 				}
 			},
 			"East Coast Bays": {
@@ -544,6 +582,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 8764
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 20353
 				}
 			},
 			"Epsom": {
@@ -578,6 +620,10 @@
 				"2020": {
 					"winner": "act",
 					"majority": 9224
+				},
+				"2023": {
+					"winner": "act",
+					"majority": 8142
 				}
 			},
 			"Hamilton East": {
@@ -612,6 +658,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 2973
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 5060
 				}
 			},
 			"Hamilton West": {
@@ -646,6 +696,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 6267
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 6488
 				}
 			},
 			"Hauraki": {
@@ -674,6 +728,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 9660
+				},
+				"2023": {
+					"winner": "maori",
+					"majority": 2911
 				}
 			},
 			"Helensville": {
@@ -756,6 +814,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 3777
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 1332
 				}
 			},
 			"Ikaroa-Rāwhiti": {
@@ -790,6 +852,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 6045
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 2874
 				}
 			},
 			"Ilam": {
@@ -824,6 +890,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 3463
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 7830
 				}
 			},
 			"Invercargill": {
@@ -858,6 +928,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 224
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 9874
 				}
 			},
 			"Kaikōura": {
@@ -892,12 +966,20 @@
 				"2020": {
 					"winner": "national",
 					"majority": 2295
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 11412
 				}
 			},
 			"Kaipara ki Mahurangi": {
 				"2020": {
 					"winner": "national",
 					"majority": 4435
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 19459
 				}
 			},
 			"Karapiro": {
@@ -918,6 +1000,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 15660
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 4396
 				}
 			},
 			"Mana": {
@@ -952,6 +1038,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 16244
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 7324
 				}
 			},
 			"Māngere": {
@@ -986,6 +1076,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 19396
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 11712
 				}
 			},
 			"Manukau East": {
@@ -1050,6 +1144,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 17179
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 7113
 				}
 			},
 			"Maungakiekie": {
@@ -1084,6 +1182,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 635
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 4617
 				}
 			},
 			"Mt Albert": {
@@ -1118,6 +1220,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 21246
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 20
 				}
 			},
 			"Mt Roskill": {
@@ -1152,6 +1258,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 13853
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 1564
 				}
 			},
 			"Napier": {
@@ -1186,6 +1296,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 5856
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 8909
 				}
 			},
 			"Nelson": {
@@ -1220,6 +1334,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 4525
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 29
 				}
 			},
 			"New Lynn": {
@@ -1250,6 +1368,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 13134
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 1013
 				}
 			},
 			"New Plymouth": {
@@ -1284,6 +1406,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 2555
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 6991
 				}
 			},
 			"North Shore": {
@@ -1318,6 +1444,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 3734
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 16330
 				}
 			},
 			"Northcote": {
@@ -1352,6 +1482,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 2534
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 9270
 				}
 			},
 			"Northland": {
@@ -1386,6 +1520,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 163
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 6087
 				}
 			},
 			"Ōhāriu": {
@@ -1408,6 +1546,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 11961
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 1260
 				}
 			},
 			"Ohariu-Belmont": {
@@ -1470,6 +1612,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 2988
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 6271
 				}
 			},
 			"Pakuranga": {
@@ -1504,6 +1650,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 10050
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 18710
 				}
 			},
 			"Palmerston North": {
@@ -1538,12 +1688,20 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 12508
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 3087
 				}
 			},
 			"Panmure-Ōtāhuhu": {
 				"2020": {
 					"winner": "labour",
 					"majority": 18626
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 7970
 				}
 			},
 			"Papakura": {
@@ -1566,6 +1724,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 5583
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 13519
 				}
 			},
 			"Piako": {
@@ -1648,6 +1810,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 4408
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 10846
 				}
 			},
 			"Rangitīkei": {
@@ -1682,6 +1848,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 2961
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 9785
 				}
 			},
 			"Remutaka": {
@@ -1716,6 +1886,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 20497
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 8859
 				}
 			},
 			"Rodney": {
@@ -1780,6 +1954,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 19207
+				},
+				"2023": {
+					"winner": "green",
+					"majority": 2717
 				}
 			},
 			"Rotorua": {
@@ -1814,6 +1992,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 825
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 8923
 				}
 			},
 			"Selwyn": {
@@ -1836,18 +2018,30 @@
 				"2020": {
 					"winner": "national",
 					"majority": 4968
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 19782
 				}
 			},
 			"Southland": {
 				"2020": {
 					"winner": "national",
 					"majority": 5645
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 17211
 				}
 			},
 			"Taieri": {
 				"2020": {
 					"winner": "labour",
 					"majority": 12398
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 1443
 				}
 			},
 			"Tainui": {
@@ -1864,6 +2058,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 7724
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 8775
 				}
 			},
 			"Tāmaki": {
@@ -1898,6 +2096,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 8068
+				},
+				"2023": {
+					"winner": "act",
+					"majority": 4158
 				}
 			},
 			"Tāmaki Makaurau": {
@@ -1928,6 +2130,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 956
+				},
+				"2023": {
+					"winner": "maori",
+					"majority": 4
 				}
 			},
 			"Taranaki-King Country": {
@@ -1962,6 +2168,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 3134
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 14355
 				}
 			},
 			"Taupō": {
@@ -1996,6 +2206,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 5119
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 16505
 				}
 			},
 			"Tauranga": {
@@ -2030,6 +2244,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 1856
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 9370
 				}
 			},
 			"Te Atatū": {
@@ -2064,6 +2282,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 10508
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 131
 				}
 			},
 			"Te Tai Hauāuru": {
@@ -2098,6 +2320,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 1035
+				},
+				"2023": {
+					"winner": "maori",
+					"majority": 9162
 				}
 			},
 			"Te Tai Tokerau": {
@@ -2132,6 +2358,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 8164
+				},
+				"2023": {
+					"winner": "maori",
+					"majority": 517
 				}
 			},
 			"Te Tai Tonga": {
@@ -2166,6 +2396,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 6855
+				},
+				"2023": {
+					"winner": "maori",
+					"majority": 2824
 				}
 			},
 			"Titirangi": {
@@ -2206,6 +2440,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 1590
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 10118
 				}
 			},
 			"Upper Harbour": {
@@ -2220,6 +2458,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 2392
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 11192
 				}
 			},
 			"Waiariki": {
@@ -2254,6 +2496,10 @@
 				"2020": {
 					"winner": "maori",
 					"majority": 836
+				},
+				"2023": {
+					"winner": "maori",
+					"majority": 15891
 				}
 			},
 			"Waikato": {
@@ -2276,6 +2522,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 5216
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 18548
 				}
 			},
 			"Waimakariri": {
@@ -2310,6 +2560,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 1507
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 13010
 				}
 			},
 			"Wairarapa": {
@@ -2344,6 +2598,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 6545
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 2816
 				}
 			},
 			"Waitakere": {
@@ -2388,6 +2646,10 @@
 				"2020": {
 					"winner": "national",
 					"majority": 3281
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 12151
 				}
 			},
 			"Wellington Central": {
@@ -2422,6 +2684,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 18878
+				},
+				"2023": {
+					"winner": "green",
+					"majority": 6066
 				}
 			},
 			"West Coast-Tasman": {
@@ -2456,6 +2722,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 6208
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 1017
 				}
 			},
 			"Whanganui": {
@@ -2490,12 +2760,20 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 8191
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 5512
 				}
 			},
 			"Whangaparāoa": {
 				"2020": {
 					"winner": "national",
 					"majority": 7823
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 23376
 				}
 			},
 			"Whangārei": {
@@ -2530,6 +2808,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 431
+				},
+				"2023": {
+					"winner": "national",
+					"majority": 11424
 				}
 			},
 			"Wigram": {
@@ -2564,6 +2846,10 @@
 				"2020": {
 					"winner": "labour",
 					"majority": 14770
+				},
+				"2023": {
+					"winner": "labour",
+					"majority": 1179
 				}
 			}
 		};
@@ -2596,7 +2882,7 @@
 			dataEl.appendChild(group);
 		}
 
-		sort(2020);
+		sort(2023);
 
 		function sort(year) {
 			let y = 0;
@@ -2621,17 +2907,6 @@
 			})) {
 				row.setAttribute('transform', 'translate(0, ' + y + ')');
 				y += 24;
-			}
-		}
-
-		function update(data) {
-			let rows = [...document.querySelectorAll('#data > g')];
-			for (let a of data) {
-				let row = rows.find(r => r.firstElementChild.textContent == a[0]);
-				let latest = row.querySelector('rect:last-of-type');
-				latest.setAttribute('width', a[2] / 100);
-				latest.setAttribute('fill', colours[a[1]]);
-				latest.setAttributeNS('http://www.w3.org/1999/xlink', 'title', a[2]);
 			}
 		}
 	]]></script>
